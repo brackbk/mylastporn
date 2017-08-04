@@ -1,0 +1,29 @@
+{
+    "mylastpornApp": {
+        "denuncias" : {
+            "home": {
+                "title": "Denuncias",
+                "createLabel": "Lisa uus Denuncias",
+                "createOrEditLabel": "Lisa või muuda Denuncias",
+                "search": "Otsi Denuncias"
+            },
+            "created": "Uus Denuncias on loodud identifikaatoriga {{ param }}",
+            "updated": "Denuncias identifikaatoriga {{ param }} on muudetud",
+            "deleted": "Denuncias identifikaatoriga {{ param }} on kustutatud",
+            "delete": {
+                "question": "Kas olete kindel, et soovite kustutada Denuncias {{ id }}?"
+            },
+            "detail": {
+                "title": "Denuncias"
+            },
+            "idconteudo": "Idconteudo",
+            "titulo": "Titulo",
+            "descricao": "Descricao",
+            "status": "Status",
+            "email": "Email",
+            "user": "User",
+            "tipoDenuncia": "Tipo Denuncia",
+            "modulos": "Modulos"
+        }
+    }
+}

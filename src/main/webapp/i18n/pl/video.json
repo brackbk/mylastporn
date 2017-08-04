@@ -1,0 +1,34 @@
+{
+    "mylastpornApp": {
+        "video" : {
+            "home": {
+                "title": "Videos",
+                "createLabel": "Dodaj Video",
+                "createOrEditLabel": "Dodaj lub edytuj: Video",
+                "search": "Szukaj Video"
+            },
+            "created": "Utworzono nowy Video z identyfikatorem {{ param }}",
+            "updated": "Uaktualniono Video z identyfikatorem {{ param }}",
+            "deleted": "Usunięto Video z identyfikatorem {{ param }}",
+            "delete": {
+                "question": "Czy na pewno chcesz usunąć Video {{ id }}?"
+            },
+            "detail": {
+                "title": "Video"
+            },
+            "titulo": "Titulo",
+            "descricao": "Descricao",
+            "gay": "Gay",
+            "video": "Video",
+            "imagem": "Imagem",
+            "status": "Status",
+            "visitado": "Visitado",
+            "datacriado": "Datacriado",
+            "user": "User",
+            "tipo": "Tipo",
+            "visibilidade": "Visibilidade",
+            "tags": "Tags",
+            "pagina": "Pagina"
+        }
+    }
+}

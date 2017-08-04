@@ -1,0 +1,29 @@
+{
+    "mylastpornApp": {
+        "denuncias" : {
+            "home": {
+                "title": "Denuncias",
+                "createLabel": "Maak een nieuwe Denuncias",
+                "createOrEditLabel": "Maak of wijzig een Denuncias",
+                "search": "Search for Denuncias"
+            },
+            "created": "A new Denuncias is created with identifier {{ param }}",
+            "updated": "A Denuncias is updated with identifier {{ param }}",
+            "deleted": "A Denuncias is deleted with identifier {{ param }}",
+            "delete": {
+                "question": "Bent u zeker dat u Denuncias {{ id }} wilt verwijderen?"
+            },
+            "detail": {
+                "title": "Denuncias"
+            },
+            "idconteudo": "Idconteudo",
+            "titulo": "Titulo",
+            "descricao": "Descricao",
+            "status": "Status",
+            "email": "Email",
+            "user": "User",
+            "tipoDenuncia": "Tipo Denuncia",
+            "modulos": "Modulos"
+        }
+    }
+}

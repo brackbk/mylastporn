@@ -1,0 +1,29 @@
+{
+    "mylastpornApp": {
+        "comentarios" : {
+            "home": {
+                "title": "Comentarios",
+                "createLabel": "नया Comentarios बनाएँ",
+                "createOrEditLabel": "Comentarios बनाएँ या संपादित करें",
+                "search": "Comentarios खोजें"
+            },
+            "created": "एक नया Comentarios [identifier: {{ param }}] तैयार है",
+            "updated": "एक Comentarios [identifier: {{ param }}] का अद्यतन हुआ है",
+            "deleted": "Comentarios [identifier: {{ param }}] हटा दिया है",
+            "delete": {
+                "question": "Comentarios [id: {{ id }}] हटाने की पुष्टि करें"
+            },
+            "detail": {
+                "title": "Comentarios"
+            },
+            "idconteudo": "Idconteudo",
+            "titulo": "Titulo",
+            "comentario": "Comentario",
+            "datacriado": "Datacriado",
+            "status": "Status",
+            "user": "User",
+            "visibilidade": "Visibilidade",
+            "modulos": "Modulos"
+        }
+    }
+}

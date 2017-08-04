@@ -1,0 +1,27 @@
+{
+    "mylastpornApp": {
+        "likes" : {
+            "home": {
+                "title": "Likes",
+                "createLabel": "Pridať Likes",
+                "createOrEditLabel": "Pridať alebo upraviť Likes",
+                "search": "Vyhľadať Likes"
+            },
+            "created": "Bol vytvorený potomok entity Likes s identifikátorom {{ param }}",
+            "updated": "Potomok entity Likes s identifikátorom {{ param }} bol upravený.",
+            "deleted": "Potomok entity Likes s identifikátorom {{ param }} bol vymazaný.",
+            "delete": {
+                "question": "Ste si istý, že chcete vymazať Likes {{ id }}?"
+            },
+            "detail": {
+                "title": "Likes"
+            },
+            "idconteudo": "Idconteudo",
+            "like": "Like",
+            "dislike": "Dislike",
+            "datacriado": "Datacriado",
+            "user": "User",
+            "modulos": "Modulos"
+        }
+    }
+}

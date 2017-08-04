@@ -1,0 +1,25 @@
+{
+    "mylastpornApp": {
+        "modulos" : {
+            "home": {
+                "title": "Modulos",
+                "createLabel": "Kreiraj novi Modulos",
+                "createOrEditLabel": "Kreirajte ili izmenite Modulos",
+                "search": "Potražite Modulos"
+            },
+            "created": "Kreiran je novi Modulos pod nazivom {{ param }}",
+            "updated": "Modulos pod nazivom {{ param }} je ažuriran",
+            "deleted": "Modulos pod nazivom {{ param }} je obrisan",
+            "delete": {
+                "question": "Da li ste sigurni da želite da obrišete Modulos pod nazivom {{ id }}?"
+            },
+            "detail": {
+                "title": "Modulos"
+            },
+            "nome": "Nome",
+            "caminho": "Caminho",
+            "status": "Status",
+            "datacriado": "Datacriado"
+        }
+    }
+}

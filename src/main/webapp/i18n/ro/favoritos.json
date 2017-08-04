@@ -1,0 +1,26 @@
+{
+    "mylastpornApp": {
+        "favoritos" : {
+            "home": {
+                "title": "Favoritos",
+                "createLabel": "Creeare o nouă entitate Favoritos",
+                "createOrEditLabel": "Creeare sau editare Favoritos",
+                "search": "Căutare după Favoritos"
+            },
+            "created": "A fost creată o nouă entitate Favoritos cu identificatorul {{ param }}",
+            "updated": "Favoritos cu identificatorul {{ param }} a fost actualizată",
+            "deleted": "Favoritos cu identificatorul {{ param }} a fost ștearsă",
+            "delete": {
+                "question": "Sunteți sigur că doriți să ștergeți Favoritos {{ id }}?"
+            },
+            "detail": {
+                "title": "Favoritos"
+            },
+            "idconteudo": "Idconteudo",
+            "datacriado": "Datacriado",
+            "user": "User",
+            "visibilidade": "Visibilidade",
+            "modulos": "Modulos"
+        }
+    }
+}

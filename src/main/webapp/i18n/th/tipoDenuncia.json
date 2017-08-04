@@ -1,0 +1,22 @@
+{
+    "mylastpornApp": {
+        "tipoDenuncia" : {
+            "home": {
+                "title": "Tipo Denuncias",
+                "createLabel": "สร้าง Tipo Denuncia",
+                "createOrEditLabel": "สร้างหรือแก้ไข Tipo Denuncia",
+                "search": "ค้นหา Tipo Denuncia"
+            },
+            "created": "Tipo Denuncia ถูกสร้างด้วย {{ param }}",
+            "updated": "Tipo Denuncia ถูกแก้ไขด้วย {{ param }}",
+            "deleted": "Tipo Denuncia ถูกลบด้วย {{ param }}",
+            "delete": {
+                "question": "คุณต้องการที่จะลบ Tipo Denuncia {{ id }}?"
+            },
+            "detail": {
+                "title": "Tipo Denuncia"
+            },
+            "tipo": "Tipo"
+        }
+    }
+}

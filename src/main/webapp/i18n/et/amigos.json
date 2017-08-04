@@ -1,0 +1,23 @@
+{
+    "mylastpornApp": {
+        "amigos" : {
+            "home": {
+                "title": "Amigos",
+                "createLabel": "Lisa uus Amigos",
+                "createOrEditLabel": "Lisa või muuda Amigos",
+                "search": "Otsi Amigos"
+            },
+            "created": "Uus Amigos on loodud identifikaatoriga {{ param }}",
+            "updated": "Amigos identifikaatoriga {{ param }} on muudetud",
+            "deleted": "Amigos identifikaatoriga {{ param }} on kustutatud",
+            "delete": {
+                "question": "Kas olete kindel, et soovite kustutada Amigos {{ id }}?"
+            },
+            "detail": {
+                "title": "Amigos"
+            },
+            "status": "Status",
+            "user": "User"
+        }
+    }
+}

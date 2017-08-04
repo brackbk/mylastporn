@@ -1,0 +1,33 @@
+{
+    "mylastpornApp": {
+        "historia" : {
+            "home": {
+                "title": "Historias",
+                "createLabel": "Kreiraj novi Historia",
+                "createOrEditLabel": "Kreirajte ili izmenite Historia",
+                "search": "Potražite Historia"
+            },
+            "created": "Kreiran je novi Historia pod nazivom {{ param }}",
+            "updated": "Historia pod nazivom {{ param }} je ažuriran",
+            "deleted": "Historia pod nazivom {{ param }} je obrisan",
+            "delete": {
+                "question": "Da li ste sigurni da želite da obrišete Historia pod nazivom {{ id }}?"
+            },
+            "detail": {
+                "title": "Historia"
+            },
+            "titulo": "Titulo",
+            "descricao": "Descricao",
+            "gay": "Gay",
+            "imagem": "Imagem",
+            "status": "Status",
+            "visitado": "Visitado",
+            "datacriado": "Datacriado",
+            "user": "User",
+            "visibilidade": "Visibilidade",
+            "tipo": "Tipo",
+            "tags": "Tags",
+            "pagina": "Pagina"
+        }
+    }
+}

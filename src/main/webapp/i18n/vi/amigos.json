@@ -1,0 +1,23 @@
+{
+    "mylastpornApp": {
+        "amigos" : {
+            "home": {
+                "title": "Amigos",
+                "createLabel": "Thêm mới một Amigos",
+                "createOrEditLabel": "Thêm mới hoặc cập nhật Amigos",
+                "search": "Tìm Amigos"
+            },
+            "created": "Một Amigos mới được tạo với định danh {{ param }}",
+            "updated": "Một Amigos cập nhật với định danh {{ param }}",
+            "deleted": "Một Amigos đã xóa với định danh {{ param }}",
+            "delete": {
+                "question": "Bạn có chắc là muốn xóa Amigos {{ id }}?"
+            },
+            "detail": {
+                "title": "Amigos"
+            },
+            "status": "Status",
+            "user": "User"
+        }
+    }
+}

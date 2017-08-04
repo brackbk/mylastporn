@@ -1,0 +1,22 @@
+{
+    "mylastpornApp": {
+        "tipoDenuncia" : {
+            "home": {
+                "title": "Tipo Denuncias",
+                "createLabel": "Создать новый Tipo Denuncia",
+                "createOrEditLabel": "Создать или отредактировать Tipo Denuncia",
+                "search": "Найти Tipo Denuncia"
+            },
+            "created": "Новый Tipo Denuncia создан с идентификатором {{ param }}",
+            "updated": "Tipo Denuncia обновлен с идентификатором {{ param }}",
+            "deleted": "Tipo Denuncia удален с идентификатором {{ param }}",
+            "delete": {
+                "question": "Вы уверены что хотите удалить Tipo Denuncia {{ id }}?"
+            },
+            "detail": {
+                "title": "Tipo Denuncia"
+            },
+            "tipo": "Tipo"
+        }
+    }
+}

@@ -1,0 +1,22 @@
+{
+    "mylastpornApp": {
+        "tipoDenuncia" : {
+            "home": {
+                "title": "TipoDenuncias",
+                "createLabel": "Crear novo Tipo Denuncia",
+                "createOrEditLabel": "Crear ou editar Tipo Denuncia",
+                "search": "Search for Tipo Denuncia"
+            },
+            "created": "Un novo Tipo Denuncia foi creado co identificador {{ param }}",
+            "updated": "Un Tipo Denuncia foi actualizado co identificador {{ param }}",
+            "deleted": "Un Tipo Denuncia foi eliminado co identificador {{ param }}",
+            "delete": {
+                "question": "Seguro que desexa eliminar Tipo Denuncia {{ id }}?"
+            },
+            "detail": {
+                "title": "Tipo Denuncia"
+            },
+            "tipo": "Tipo"
+        }
+    }
+}

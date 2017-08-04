@@ -1,0 +1,22 @@
+{
+    "mylastpornApp": {
+        "visibilidade" : {
+            "home": {
+                "title": "Visibilidades",
+                "createLabel": "Створити новий Visibilidade",
+                "createOrEditLabel": "Створити чи редагувати Visibilidade",
+                "search": "Знайти Visibilidade"
+            },
+            "created": "Новий Visibilidade створений з ідентифікатором {{ param }}",
+            "updated": "Visibilidade оновлений з ідентифікатором {{ param }}",
+            "deleted": "Visibilidade видалений з ідентифікатором {{ param }}",
+            "delete": {
+                "question": "Ви впевнені, що хочете видалити Visibilidade {{ id }}?"
+            },
+            "detail": {
+                "title": "Visibilidade"
+            },
+            "nome": "Nome"
+        }
+    }
+}

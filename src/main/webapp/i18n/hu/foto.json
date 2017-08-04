@@ -1,0 +1,33 @@
+{
+    "mylastpornApp": {
+        "foto" : {
+            "home": {
+                "title": "Fotos",
+                "createLabel": "Egy új Foto létrehozása",
+                "createOrEditLabel": "Hozzon létre, vagy módosítson Fotot",
+                "search": "Foto keresése"
+            },
+            "created": "Egy új Foto lett létrehozva {{ param }} azonosítóval",
+            "updated": "A Foto módosítva lett {{ param }} azonosítóval",
+            "deleted": "A Foto törölve lett {{ param }} azonosítóval",
+            "delete": {
+                "question": "Biztos benne, hogy törölni szeretné az Fotot {{ id }} azonosítóval?"
+            },
+            "detail": {
+                "title": "Foto"
+            },
+            "titulo": "Titulo",
+            "descricao": "Descricao",
+            "gay": "Gay",
+            "imagem": "Imagem",
+            "status": "Status",
+            "visitado": "Visitado",
+            "datacriado": "Datacriado",
+            "user": "User",
+            "tipo": "Tipo",
+            "visibilidade": "Visibilidade",
+            "tags": "Tags",
+            "pagina": "Pagina"
+        }
+    }
+}

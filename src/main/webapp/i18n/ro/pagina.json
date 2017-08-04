@@ -1,0 +1,33 @@
+{
+    "mylastpornApp": {
+        "pagina" : {
+            "home": {
+                "title": "Paginas",
+                "createLabel": "Creeare o nouă entitate Pagina",
+                "createOrEditLabel": "Creeare sau editare Pagina",
+                "search": "Căutare după Pagina"
+            },
+            "created": "A fost creată o nouă entitate Pagina cu identificatorul {{ param }}",
+            "updated": "Pagina cu identificatorul {{ param }} a fost actualizată",
+            "deleted": "Pagina cu identificatorul {{ param }} a fost ștearsă",
+            "delete": {
+                "question": "Sunteți sigur că doriți să ștergeți Pagina {{ id }}?"
+            },
+            "detail": {
+                "title": "Pagina"
+            },
+            "titulo": "Titulo",
+            "descricao": "Descricao",
+            "gay": "Gay",
+            "capa": "Capa",
+            "status": "Status",
+            "official": "Official",
+            "visitado": "Visitado",
+            "datacriado": "Datacriado",
+            "user": "User",
+            "visibilidade": "Visibilidade",
+            "tipo": "Tipo",
+            "tags": "Tags"
+        }
+    }
+}

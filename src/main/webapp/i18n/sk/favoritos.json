@@ -1,0 +1,26 @@
+{
+    "mylastpornApp": {
+        "favoritos" : {
+            "home": {
+                "title": "Favoritos",
+                "createLabel": "Pridať Favoritos",
+                "createOrEditLabel": "Pridať alebo upraviť Favoritos",
+                "search": "Vyhľadať Favoritos"
+            },
+            "created": "Bol vytvorený potomok entity Favoritos s identifikátorom {{ param }}",
+            "updated": "Potomok entity Favoritos s identifikátorom {{ param }} bol upravený.",
+            "deleted": "Potomok entity Favoritos s identifikátorom {{ param }} bol vymazaný.",
+            "delete": {
+                "question": "Ste si istý, že chcete vymazať Favoritos {{ id }}?"
+            },
+            "detail": {
+                "title": "Favoritos"
+            },
+            "idconteudo": "Idconteudo",
+            "datacriado": "Datacriado",
+            "user": "User",
+            "visibilidade": "Visibilidade",
+            "modulos": "Modulos"
+        }
+    }
+}

@@ -1,0 +1,27 @@
+{
+    "mylastpornApp": {
+        "likes" : {
+            "home": {
+                "title": "Likes",
+                "createLabel": "Creeare o nouă entitate Likes",
+                "createOrEditLabel": "Creeare sau editare Likes",
+                "search": "Căutare după Likes"
+            },
+            "created": "A fost creată o nouă entitate Likes cu identificatorul {{ param }}",
+            "updated": "Likes cu identificatorul {{ param }} a fost actualizată",
+            "deleted": "Likes cu identificatorul {{ param }} a fost ștearsă",
+            "delete": {
+                "question": "Sunteți sigur că doriți să ștergeți Likes {{ id }}?"
+            },
+            "detail": {
+                "title": "Likes"
+            },
+            "idconteudo": "Idconteudo",
+            "like": "Like",
+            "dislike": "Dislike",
+            "datacriado": "Datacriado",
+            "user": "User",
+            "modulos": "Modulos"
+        }
+    }
+}

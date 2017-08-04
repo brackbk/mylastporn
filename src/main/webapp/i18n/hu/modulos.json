@@ -1,0 +1,25 @@
+{
+    "mylastpornApp": {
+        "modulos" : {
+            "home": {
+                "title": "Modulos",
+                "createLabel": "Egy új Modulos létrehozása",
+                "createOrEditLabel": "Hozzon létre, vagy módosítson Modulost",
+                "search": "Modulos keresése"
+            },
+            "created": "Egy új Modulos lett létrehozva {{ param }} azonosítóval",
+            "updated": "A Modulos módosítva lett {{ param }} azonosítóval",
+            "deleted": "A Modulos törölve lett {{ param }} azonosítóval",
+            "delete": {
+                "question": "Biztos benne, hogy törölni szeretné az Modulost {{ id }} azonosítóval?"
+            },
+            "detail": {
+                "title": "Modulos"
+            },
+            "nome": "Nome",
+            "caminho": "Caminho",
+            "status": "Status",
+            "datacriado": "Datacriado"
+        }
+    }
+}

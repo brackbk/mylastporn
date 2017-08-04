@@ -1,0 +1,75 @@
+
+<div *ngIf="pagina">
+    <h2><span jhiTranslate="mylastpornApp.pagina.detail.title">Pagina</span> {{pagina.id}}</h2>
+    <hr>
+    <jhi-alert-error></jhi-alert-error>
+    <dl class="row-md jh-entity-details">
+        <dt><span jhiTranslate="mylastpornApp.pagina.titulo">Titulo</span></dt>
+        <dd>
+            <span>{{pagina.titulo}}</span>
+        </dd>
+        <dt><span jhiTranslate="mylastpornApp.pagina.descricao">Descricao</span></dt>
+        <dd>
+            <span>{{pagina.descricao}}</span>
+        </dd>
+        <dt><span jhiTranslate="mylastpornApp.pagina.gay">Gay</span></dt>
+        <dd>
+            <span>{{pagina.gay}}</span>
+        </dd>
+        <dt><span jhiTranslate="mylastpornApp.pagina.capa">Capa</span></dt>
+        <dd>
+            <span>{{pagina.capa}}</span>
+        </dd>
+        <dt><span jhiTranslate="mylastpornApp.pagina.status">Status</span></dt>
+        <dd>
+            <span jhiTranslate="{{'mylastpornApp.Status.' + pagina.status}}">{{pagina.status}}</span>
+        </dd>
+        <dt><span jhiTranslate="mylastpornApp.pagina.official">Official</span></dt>
+        <dd>
+            <span>{{pagina.official}}</span>
+        </dd>
+        <dt><span jhiTranslate="mylastpornApp.pagina.visitado">Visitado</span></dt>
+        <dd>
+            <span>{{pagina.visitado}}</span>
+        </dd>
+        <dt><span jhiTranslate="mylastpornApp.pagina.datacriado">Datacriado</span></dt>
+        <dd>
+            <span>{{pagina.datacriado | date:'medium'}}</span>
+        </dd>
+        <dt><span jhiTranslate="mylastpornApp.pagina.user">User</span></dt>
+        <dd>
+            {{pagina.userId}}
+        </dd>
+        <dt><span jhiTranslate="mylastpornApp.pagina.visibilidade">Visibilidade</span></dt>
+        <dd>
+            <div *ngIf="pagina.visibilidadeId">
+                <a [routerLink]="['/visibilidade', pagina.visibilidadeId]">{{pagina.visibilidadeId}}</a>
+            </div>
+        </dd>
+        <dt><span jhiTranslate="mylastpornApp.pagina.tipo">Tipo</span></dt>
+        <dd>
+            <div *ngIf="pagina.tipoId">
+                <a [routerLink]="['/tipo', pagina.tipoId]">{{pagina.tipoNome}}</a>
+            </div>
+        </dd>
+        <dt><span jhiTranslate="mylastpornApp.pagina.tags">Tags</span></dt>
+        <dd>
+            <span *ngFor="let tags of pagina.tags; let last = last">
+                <a [routerLink]="['/tags', tags?.id ]">{{tags.nome}}</a>{{last ? '' : ', '}}
+            </span>
+        </dd>
+    </dl>
+
+    <button type="submit"
+            (click)="previousState()"
+            class="btn btn-info">
+        <span class="fa fa-arrow-left"></span>&nbsp;<span jhiTranslate="entity.action.back"> Back</span>
+    </button>
+
+    <button type="button"
+            [routerLink]="['/', { outlets: { popup: 'pagina/'+ pagina.id + '/edit'} }]"
+            replaceUrl="true"
+            class="btn btn-primary">
+        <span class="fa fa-pencil"></span>&nbsp;<span jhiTranslate="entity.action.edit"> Edit</span>
+    </button>
+</div>

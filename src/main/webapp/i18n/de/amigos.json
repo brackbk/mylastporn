@@ -1,0 +1,23 @@
+{
+    "mylastpornApp": {
+        "amigos" : {
+            "home": {
+                "title": "Amigos",
+                "createLabel": "Amigos erstellen",
+                "createOrEditLabel": "Amigos erstellen oder bearbeiten",
+                "search": "Suche nach Amigos"
+            },
+            "created": "Amigos erstellt mit ID {{ param }}",
+            "updated": "Amigos aktualisiert mit ID {{ param }}",
+            "deleted": "Amigos gelöscht mit ID {{ param }}",
+            "delete": {
+                "question": "Soll Amigos {{ id }} wirklich dauerhaft gelöscht werden?"
+            },
+            "detail": {
+                "title": "Amigos"
+            },
+            "status": "Status",
+            "user": "User"
+        }
+    }
+}

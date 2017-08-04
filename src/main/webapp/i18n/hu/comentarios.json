@@ -1,0 +1,29 @@
+{
+    "mylastpornApp": {
+        "comentarios" : {
+            "home": {
+                "title": "Comentarios",
+                "createLabel": "Egy új Comentarios létrehozása",
+                "createOrEditLabel": "Hozzon létre, vagy módosítson Comentariost",
+                "search": "Comentarios keresése"
+            },
+            "created": "Egy új Comentarios lett létrehozva {{ param }} azonosítóval",
+            "updated": "A Comentarios módosítva lett {{ param }} azonosítóval",
+            "deleted": "A Comentarios törölve lett {{ param }} azonosítóval",
+            "delete": {
+                "question": "Biztos benne, hogy törölni szeretné az Comentariost {{ id }} azonosítóval?"
+            },
+            "detail": {
+                "title": "Comentarios"
+            },
+            "idconteudo": "Idconteudo",
+            "titulo": "Titulo",
+            "comentario": "Comentario",
+            "datacriado": "Datacriado",
+            "status": "Status",
+            "user": "User",
+            "visibilidade": "Visibilidade",
+            "modulos": "Modulos"
+        }
+    }
+}

@@ -1,0 +1,34 @@
+{
+    "mylastpornApp": {
+        "video" : {
+            "home": {
+                "title": "Videos",
+                "createLabel": "Video-ஐ உருவாக்கு",
+                "createOrEditLabel": "Video -ஐ மாற்று (அ) உருவாக்கு",
+                "search": "Search for Video"
+            },
+            "created": "Video புதிதாக உருவாக்கப்பட்டது, அடையாளம் {{ param }}",
+            "updated": "Video மாற்றப்பட்டது, அடையாளம்  {{ param }}",
+            "deleted": "A Video நீக்கப்பட்டது, அடையாளம {{ param }}",
+            "delete": {
+                "question": "நீக்குவதற்கு உறுதி செய் Video {{ id }}?"
+            },
+            "detail": {
+                "title": "Video"
+            },
+            "titulo": "Titulo",
+            "descricao": "Descricao",
+            "gay": "Gay",
+            "video": "Video",
+            "imagem": "Imagem",
+            "status": "Status",
+            "visitado": "Visitado",
+            "datacriado": "Datacriado",
+            "user": "User",
+            "tipo": "Tipo",
+            "visibilidade": "Visibilidade",
+            "tags": "Tags",
+            "pagina": "Pagina"
+        }
+    }
+}

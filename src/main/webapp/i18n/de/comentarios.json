@@ -1,0 +1,29 @@
+{
+    "mylastpornApp": {
+        "comentarios" : {
+            "home": {
+                "title": "Comentarios",
+                "createLabel": "Comentarios erstellen",
+                "createOrEditLabel": "Comentarios erstellen oder bearbeiten",
+                "search": "Suche nach Comentarios"
+            },
+            "created": "Comentarios erstellt mit ID {{ param }}",
+            "updated": "Comentarios aktualisiert mit ID {{ param }}",
+            "deleted": "Comentarios gelöscht mit ID {{ param }}",
+            "delete": {
+                "question": "Soll Comentarios {{ id }} wirklich dauerhaft gelöscht werden?"
+            },
+            "detail": {
+                "title": "Comentarios"
+            },
+            "idconteudo": "Idconteudo",
+            "titulo": "Titulo",
+            "comentario": "Comentario",
+            "datacriado": "Datacriado",
+            "status": "Status",
+            "user": "User",
+            "visibilidade": "Visibilidade",
+            "modulos": "Modulos"
+        }
+    }
+}

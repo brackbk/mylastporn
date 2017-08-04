@@ -1,0 +1,34 @@
+{
+    "mylastpornApp": {
+        "video" : {
+            "home": {
+                "title": "Videos",
+                "createLabel": "Lisa uus Video",
+                "createOrEditLabel": "Lisa või muuda Video",
+                "search": "Otsi Video"
+            },
+            "created": "Uus Video on loodud identifikaatoriga {{ param }}",
+            "updated": "Video identifikaatoriga {{ param }} on muudetud",
+            "deleted": "Video identifikaatoriga {{ param }} on kustutatud",
+            "delete": {
+                "question": "Kas olete kindel, et soovite kustutada Video {{ id }}?"
+            },
+            "detail": {
+                "title": "Video"
+            },
+            "titulo": "Titulo",
+            "descricao": "Descricao",
+            "gay": "Gay",
+            "video": "Video",
+            "imagem": "Imagem",
+            "status": "Status",
+            "visitado": "Visitado",
+            "datacriado": "Datacriado",
+            "user": "User",
+            "tipo": "Tipo",
+            "visibilidade": "Visibilidade",
+            "tags": "Tags",
+            "pagina": "Pagina"
+        }
+    }
+}

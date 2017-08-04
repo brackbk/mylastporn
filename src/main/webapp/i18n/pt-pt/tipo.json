@@ -1,0 +1,25 @@
+{
+    "mylastpornApp": {
+        "tipo" : {
+            "home": {
+                "title": "Tipos",
+                "createLabel": "Criar um(a) novo(a) Tipo",
+                "createOrEditLabel": "Criar ou editar um(a) Tipo",
+                "search": "Search for Tipo"
+            },
+            "created": "A new Tipo is created with identifier {{ param }}",
+            "updated": "A Tipo is updated with identifier {{ param }}",
+            "deleted": "A Tipo is deleted with identifier {{ param }}",
+            "delete": {
+                "question": "Tem a certeza que pretende eliminar o(a) Tipo {{ id }}?"
+            },
+            "detail": {
+                "title": "Tipo"
+            },
+            "nome": "Nome",
+            "status": "Status",
+            "datacriado": "Datacriado",
+            "modulos": "Modulos"
+        }
+    }
+}

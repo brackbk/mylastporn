@@ -1,0 +1,33 @@
+{
+    "mylastpornApp": {
+        "historia" : {
+            "home": {
+                "title": "Historias",
+                "createLabel": "नया Historia बनाएँ",
+                "createOrEditLabel": "Historia बनाएँ या संपादित करें",
+                "search": "Historia खोजें"
+            },
+            "created": "एक नया Historia [identifier: {{ param }}] तैयार है",
+            "updated": "एक Historia [identifier: {{ param }}] का अद्यतन हुआ है",
+            "deleted": "Historia [identifier: {{ param }}] हटा दिया है",
+            "delete": {
+                "question": "Historia [id: {{ id }}] हटाने की पुष्टि करें"
+            },
+            "detail": {
+                "title": "Historia"
+            },
+            "titulo": "Titulo",
+            "descricao": "Descricao",
+            "gay": "Gay",
+            "imagem": "Imagem",
+            "status": "Status",
+            "visitado": "Visitado",
+            "datacriado": "Datacriado",
+            "user": "User",
+            "visibilidade": "Visibilidade",
+            "tipo": "Tipo",
+            "tags": "Tags",
+            "pagina": "Pagina"
+        }
+    }
+}

@@ -1,0 +1,26 @@
+{
+    "mylastpornApp": {
+        "tags" : {
+            "home": {
+                "title": "Tags",
+                "createLabel": "Lisa uus Tags",
+                "createOrEditLabel": "Lisa või muuda Tags",
+                "search": "Otsi Tags"
+            },
+            "created": "Uus Tags on loodud identifikaatoriga {{ param }}",
+            "updated": "Tags identifikaatoriga {{ param }} on muudetud",
+            "deleted": "Tags identifikaatoriga {{ param }} on kustutatud",
+            "delete": {
+                "question": "Kas olete kindel, et soovite kustutada Tags {{ id }}?"
+            },
+            "detail": {
+                "title": "Tags"
+            },
+            "nome": "Nome",
+            "imagem": "Imagem",
+            "status": "Status",
+            "visitado": "Visitado",
+            "datacriado": "Datacriado"
+        }
+    }
+}

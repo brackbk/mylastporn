@@ -1,0 +1,23 @@
+{
+    "mylastpornApp": {
+        "amigos" : {
+            "home": {
+                "title": "Amigos",
+                "createLabel": "Egy új Amigos létrehozása",
+                "createOrEditLabel": "Hozzon létre, vagy módosítson Amigost",
+                "search": "Amigos keresése"
+            },
+            "created": "Egy új Amigos lett létrehozva {{ param }} azonosítóval",
+            "updated": "A Amigos módosítva lett {{ param }} azonosítóval",
+            "deleted": "A Amigos törölve lett {{ param }} azonosítóval",
+            "delete": {
+                "question": "Biztos benne, hogy törölni szeretné az Amigost {{ id }} azonosítóval?"
+            },
+            "detail": {
+                "title": "Amigos"
+            },
+            "status": "Status",
+            "user": "User"
+        }
+    }
+}

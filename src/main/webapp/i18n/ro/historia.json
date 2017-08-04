@@ -1,0 +1,33 @@
+{
+    "mylastpornApp": {
+        "historia" : {
+            "home": {
+                "title": "Historias",
+                "createLabel": "Creeare o nouă entitate Historia",
+                "createOrEditLabel": "Creeare sau editare Historia",
+                "search": "Căutare după Historia"
+            },
+            "created": "A fost creată o nouă entitate Historia cu identificatorul {{ param }}",
+            "updated": "Historia cu identificatorul {{ param }} a fost actualizată",
+            "deleted": "Historia cu identificatorul {{ param }} a fost ștearsă",
+            "delete": {
+                "question": "Sunteți sigur că doriți să ștergeți Historia {{ id }}?"
+            },
+            "detail": {
+                "title": "Historia"
+            },
+            "titulo": "Titulo",
+            "descricao": "Descricao",
+            "gay": "Gay",
+            "imagem": "Imagem",
+            "status": "Status",
+            "visitado": "Visitado",
+            "datacriado": "Datacriado",
+            "user": "User",
+            "visibilidade": "Visibilidade",
+            "tipo": "Tipo",
+            "tags": "Tags",
+            "pagina": "Pagina"
+        }
+    }
+}

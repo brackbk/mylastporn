@@ -1,0 +1,22 @@
+{
+    "mylastpornApp": {
+        "tipoDenuncia" : {
+            "home": {
+                "title": "Tipo Denuncias",
+                "createLabel": "Skapa en ny Tipo Denuncia",
+                "createOrEditLabel": "Skapa eller ändra en Tipo Denuncia",
+                "search": "Sök efter Tipo Denuncia"
+            },
+            "created": "En ny Tipo Denuncia är skapad med id {{ param }}",
+            "updated": "En Tipo Denuncia är uppdaterad med id  {{ param }}",
+            "deleted": "En Tipo Denuncia är borttagen med id  {{ param }}",
+            "delete": {
+                "question": "Är du säker på att du vill ta bort Tipo Denuncia {{ id }}?"
+            },
+            "detail": {
+                "title": "Tipo Denuncia"
+            },
+            "tipo": "Tipo"
+        }
+    }
+}

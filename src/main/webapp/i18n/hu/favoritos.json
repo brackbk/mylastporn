@@ -1,0 +1,26 @@
+{
+    "mylastpornApp": {
+        "favoritos" : {
+            "home": {
+                "title": "Favoritos",
+                "createLabel": "Egy új Favoritos létrehozása",
+                "createOrEditLabel": "Hozzon létre, vagy módosítson Favoritost",
+                "search": "Favoritos keresése"
+            },
+            "created": "Egy új Favoritos lett létrehozva {{ param }} azonosítóval",
+            "updated": "A Favoritos módosítva lett {{ param }} azonosítóval",
+            "deleted": "A Favoritos törölve lett {{ param }} azonosítóval",
+            "delete": {
+                "question": "Biztos benne, hogy törölni szeretné az Favoritost {{ id }} azonosítóval?"
+            },
+            "detail": {
+                "title": "Favoritos"
+            },
+            "idconteudo": "Idconteudo",
+            "datacriado": "Datacriado",
+            "user": "User",
+            "visibilidade": "Visibilidade",
+            "modulos": "Modulos"
+        }
+    }
+}

@@ -1,0 +1,26 @@
+{
+    "mylastpornApp": {
+        "favoritos" : {
+            "home": {
+                "title": "Favoritos",
+                "createLabel": "Favoritos-ஐ உருவாக்கு",
+                "createOrEditLabel": "Favoritos -ஐ மாற்று (அ) உருவாக்கு",
+                "search": "Search for Favoritos"
+            },
+            "created": "Favoritos புதிதாக உருவாக்கப்பட்டது, அடையாளம் {{ param }}",
+            "updated": "Favoritos மாற்றப்பட்டது, அடையாளம்  {{ param }}",
+            "deleted": "A Favoritos நீக்கப்பட்டது, அடையாளம {{ param }}",
+            "delete": {
+                "question": "நீக்குவதற்கு உறுதி செய் Favoritos {{ id }}?"
+            },
+            "detail": {
+                "title": "Favoritos"
+            },
+            "idconteudo": "Idconteudo",
+            "datacriado": "Datacriado",
+            "user": "User",
+            "visibilidade": "Visibilidade",
+            "modulos": "Modulos"
+        }
+    }
+}

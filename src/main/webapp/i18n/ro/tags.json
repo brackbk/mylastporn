@@ -1,0 +1,26 @@
+{
+    "mylastpornApp": {
+        "tags" : {
+            "home": {
+                "title": "Tags",
+                "createLabel": "Creeare o nouă entitate Tags",
+                "createOrEditLabel": "Creeare sau editare Tags",
+                "search": "Căutare după Tags"
+            },
+            "created": "A fost creată o nouă entitate Tags cu identificatorul {{ param }}",
+            "updated": "Tags cu identificatorul {{ param }} a fost actualizată",
+            "deleted": "Tags cu identificatorul {{ param }} a fost ștearsă",
+            "delete": {
+                "question": "Sunteți sigur că doriți să ștergeți Tags {{ id }}?"
+            },
+            "detail": {
+                "title": "Tags"
+            },
+            "nome": "Nome",
+            "imagem": "Imagem",
+            "status": "Status",
+            "visitado": "Visitado",
+            "datacriado": "Datacriado"
+        }
+    }
+}

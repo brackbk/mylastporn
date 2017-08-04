@@ -1,0 +1,25 @@
+{
+    "mylastpornApp": {
+        "modulos" : {
+            "home": {
+                "title": "Modulos",
+                "createLabel": "建立一筆新的 Modulos",
+                "createOrEditLabel": "建立或編輯 Modulos",
+                "search": "搜尋 Modulos"
+            },
+            "created": "新的 Modulos 建立成功，識別碼為 {{ param }}",
+            "updated": "識別碼為 {{ param }} 的 Modulos 更新成功",
+            "deleted": "識別碼為 {{ param }} 的 Modulos 刪除成功",
+            "delete": {
+                "question": "您確定要刪除 Modulos {{ id }} 嗎?"
+            },
+            "detail": {
+                "title": "Modulos"
+            },
+            "nome": "Nome",
+            "caminho": "Caminho",
+            "status": "Status",
+            "datacriado": "Datacriado"
+        }
+    }
+}

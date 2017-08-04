@@ -1,0 +1,25 @@
+{
+    "mylastpornApp": {
+        "tipo" : {
+            "home": {
+                "title": "Tipos",
+                "createLabel": "สร้าง Tipo",
+                "createOrEditLabel": "สร้างหรือแก้ไข Tipo",
+                "search": "ค้นหา Tipo"
+            },
+            "created": "Tipo ถูกสร้างด้วย {{ param }}",
+            "updated": "Tipo ถูกแก้ไขด้วย {{ param }}",
+            "deleted": "Tipo ถูกลบด้วย {{ param }}",
+            "delete": {
+                "question": "คุณต้องการที่จะลบ Tipo {{ id }}?"
+            },
+            "detail": {
+                "title": "Tipo"
+            },
+            "nome": "Nome",
+            "status": "Status",
+            "datacriado": "Datacriado",
+            "modulos": "Modulos"
+        }
+    }
+}

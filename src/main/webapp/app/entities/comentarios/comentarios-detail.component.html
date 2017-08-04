@@ -1,0 +1,57 @@
+
+<div *ngIf="comentarios">
+    <h2><span jhiTranslate="mylastpornApp.comentarios.detail.title">Comentarios</span> {{comentarios.id}}</h2>
+    <hr>
+    <jhi-alert-error></jhi-alert-error>
+    <dl class="row-md jh-entity-details">
+        <dt><span jhiTranslate="mylastpornApp.comentarios.idconteudo">Idconteudo</span></dt>
+        <dd>
+            <span>{{comentarios.idconteudo}}</span>
+        </dd>
+        <dt><span jhiTranslate="mylastpornApp.comentarios.titulo">Titulo</span></dt>
+        <dd>
+            <span>{{comentarios.titulo}}</span>
+        </dd>
+        <dt><span jhiTranslate="mylastpornApp.comentarios.comentario">Comentario</span></dt>
+        <dd>
+            <span>{{comentarios.comentario}}</span>
+        </dd>
+        <dt><span jhiTranslate="mylastpornApp.comentarios.datacriado">Datacriado</span></dt>
+        <dd>
+            <span>{{comentarios.datacriado | date:'medium'}}</span>
+        </dd>
+        <dt><span jhiTranslate="mylastpornApp.comentarios.status">Status</span></dt>
+        <dd>
+            <span jhiTranslate="{{'mylastpornApp.Status.' + comentarios.status}}">{{comentarios.status}}</span>
+        </dd>
+        <dt><span jhiTranslate="mylastpornApp.comentarios.user">User</span></dt>
+        <dd>
+            {{comentarios.userId}}
+        </dd>
+        <dt><span jhiTranslate="mylastpornApp.comentarios.visibilidade">Visibilidade</span></dt>
+        <dd>
+            <div *ngIf="comentarios.visibilidadeId">
+                <a [routerLink]="['/visibilidade', comentarios.visibilidadeId]">{{comentarios.visibilidadeId}}</a>
+            </div>
+        </dd>
+        <dt><span jhiTranslate="mylastpornApp.comentarios.modulos">Modulos</span></dt>
+        <dd>
+            <div *ngIf="comentarios.modulosId">
+                <a [routerLink]="['/modulos', comentarios.modulosId]">{{comentarios.modulosNome}}</a>
+            </div>
+        </dd>
+    </dl>
+
+    <button type="submit"
+            (click)="previousState()"
+            class="btn btn-info">
+        <span class="fa fa-arrow-left"></span>&nbsp;<span jhiTranslate="entity.action.back"> Back</span>
+    </button>
+
+    <button type="button"
+            [routerLink]="['/', { outlets: { popup: 'comentarios/'+ comentarios.id + '/edit'} }]"
+            replaceUrl="true"
+            class="btn btn-primary">
+        <span class="fa fa-pencil"></span>&nbsp;<span jhiTranslate="entity.action.edit"> Edit</span>
+    </button>
+</div>

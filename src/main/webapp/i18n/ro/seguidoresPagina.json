@@ -1,0 +1,24 @@
+{
+    "mylastpornApp": {
+        "seguidoresPagina" : {
+            "home": {
+                "title": "Seguidores Paginas",
+                "createLabel": "Creeare o nouă entitate Seguidores Pagina",
+                "createOrEditLabel": "Creeare sau editare Seguidores Pagina",
+                "search": "Căutare după Seguidores Pagina"
+            },
+            "created": "A fost creată o nouă entitate Seguidores Pagina cu identificatorul {{ param }}",
+            "updated": "Seguidores Pagina cu identificatorul {{ param }} a fost actualizată",
+            "deleted": "Seguidores Pagina cu identificatorul {{ param }} a fost ștearsă",
+            "delete": {
+                "question": "Sunteți sigur că doriți să ștergeți Seguidores Pagina {{ id }}?"
+            },
+            "detail": {
+                "title": "Seguidores Pagina"
+            },
+            "status": "Status",
+            "pagina": "Pagina",
+            "user": "User"
+        }
+    }
+}

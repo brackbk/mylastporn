@@ -1,0 +1,22 @@
+{
+    "mylastpornApp": {
+        "visibilidade" : {
+            "home": {
+                "title": "Visibilidades",
+                "createLabel": "建立一筆新的 Visibilidade",
+                "createOrEditLabel": "建立或編輯 Visibilidade",
+                "search": "搜尋 Visibilidade"
+            },
+            "created": "新的 Visibilidade 建立成功，識別碼為 {{ param }}",
+            "updated": "識別碼為 {{ param }} 的 Visibilidade 更新成功",
+            "deleted": "識別碼為 {{ param }} 的 Visibilidade 刪除成功",
+            "delete": {
+                "question": "您確定要刪除 Visibilidade {{ id }} 嗎?"
+            },
+            "detail": {
+                "title": "Visibilidade"
+            },
+            "nome": "Nome"
+        }
+    }
+}

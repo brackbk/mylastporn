@@ -1,0 +1,57 @@
+
+<div *ngIf="denuncias">
+    <h2><span jhiTranslate="mylastpornApp.denuncias.detail.title">Denuncias</span> {{denuncias.id}}</h2>
+    <hr>
+    <jhi-alert-error></jhi-alert-error>
+    <dl class="row-md jh-entity-details">
+        <dt><span jhiTranslate="mylastpornApp.denuncias.idconteudo">Idconteudo</span></dt>
+        <dd>
+            <span>{{denuncias.idconteudo}}</span>
+        </dd>
+        <dt><span jhiTranslate="mylastpornApp.denuncias.titulo">Titulo</span></dt>
+        <dd>
+            <span>{{denuncias.titulo}}</span>
+        </dd>
+        <dt><span jhiTranslate="mylastpornApp.denuncias.descricao">Descricao</span></dt>
+        <dd>
+            <span>{{denuncias.descricao}}</span>
+        </dd>
+        <dt><span jhiTranslate="mylastpornApp.denuncias.status">Status</span></dt>
+        <dd>
+            <span jhiTranslate="{{'mylastpornApp.Status.' + denuncias.status}}">{{denuncias.status}}</span>
+        </dd>
+        <dt><span jhiTranslate="mylastpornApp.denuncias.email">Email</span></dt>
+        <dd>
+            <span>{{denuncias.email}}</span>
+        </dd>
+        <dt><span jhiTranslate="mylastpornApp.denuncias.user">User</span></dt>
+        <dd>
+            {{denuncias.userId}}
+        </dd>
+        <dt><span jhiTranslate="mylastpornApp.denuncias.tipoDenuncia">Tipo Denuncia</span></dt>
+        <dd>
+            <div *ngIf="denuncias.tipoDenunciaId">
+                <a [routerLink]="['/tipo-denuncia', denuncias.tipoDenunciaId]">{{denuncias.tipoDenunciaTipo}}</a>
+            </div>
+        </dd>
+        <dt><span jhiTranslate="mylastpornApp.denuncias.modulos">Modulos</span></dt>
+        <dd>
+            <div *ngIf="denuncias.modulosId">
+                <a [routerLink]="['/modulos', denuncias.modulosId]">{{denuncias.modulosNome}}</a>
+            </div>
+        </dd>
+    </dl>
+
+    <button type="submit"
+            (click)="previousState()"
+            class="btn btn-info">
+        <span class="fa fa-arrow-left"></span>&nbsp;<span jhiTranslate="entity.action.back"> Back</span>
+    </button>
+
+    <button type="button"
+            [routerLink]="['/', { outlets: { popup: 'denuncias/'+ denuncias.id + '/edit'} }]"
+            replaceUrl="true"
+            class="btn btn-primary">
+        <span class="fa fa-pencil"></span>&nbsp;<span jhiTranslate="entity.action.edit"> Edit</span>
+    </button>
+</div>

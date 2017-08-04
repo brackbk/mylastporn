@@ -1,0 +1,25 @@
+{
+    "mylastpornApp": {
+        "modulos" : {
+            "home": {
+                "title": "Modulos",
+                "createLabel": "Create a new Modulos",
+                "createOrEditLabel": "Create or edit a Modulos",
+                "search": "Search for Modulos"
+            },
+            "created": "A new Modulos is created with identifier {{ param }}",
+            "updated": "A Modulos is updated with identifier {{ param }}",
+            "deleted": "A Modulos is deleted with identifier {{ param }}",
+            "delete": {
+                "question": "Are you sure you want to delete Modulos {{ id }}?"
+            },
+            "detail": {
+                "title": "Modulos"
+            },
+            "nome": "Nome",
+            "caminho": "Caminho",
+            "status": "Status",
+            "datacriado": "Datacriado"
+        }
+    }
+}

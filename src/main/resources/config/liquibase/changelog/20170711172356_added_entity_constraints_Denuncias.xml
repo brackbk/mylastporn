@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<databaseChangeLog
+    xmlns="http://www.liquibase.org/xml/ns/dbchangelog"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xsi:schemaLocation="http://www.liquibase.org/xml/ns/dbchangelog http://www.liquibase.org/xml/ns/dbchangelog/dbchangelog-3.5.xsd">
+    <!--
+        Added the constraints for entity Denuncias.
+    -->
+    <changeSet id="20170711172356-2" author="jhipster">
+        
+        <addForeignKeyConstraint baseColumnNames="user_id"
+                                 baseTableName="denuncias"
+                                 constraintName="fk_denuncias_user_id"
+                                 referencedColumnNames="id"
+                                 referencedTableName="jhi_user"/>
+
+        <addForeignKeyConstraint baseColumnNames="tipo_denuncia_id"
+                                 baseTableName="denuncias"
+                                 constraintName="fk_denuncias_tipo_denuncia_id"
+                                 referencedColumnNames="id"
+                                 referencedTableName="tipo_denuncia"/>
+
+        <addForeignKeyConstraint baseColumnNames="modulos_id"
+                                 baseTableName="denuncias"
+                                 constraintName="fk_denuncias_modulos_id"
+                                 referencedColumnNames="id"
+                                 referencedTableName="modulos"/>
+
+    </changeSet>
+</databaseChangeLog>

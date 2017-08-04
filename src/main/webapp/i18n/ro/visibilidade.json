@@ -1,0 +1,22 @@
+{
+    "mylastpornApp": {
+        "visibilidade" : {
+            "home": {
+                "title": "Visibilidades",
+                "createLabel": "Creeare o nouă entitate Visibilidade",
+                "createOrEditLabel": "Creeare sau editare Visibilidade",
+                "search": "Căutare după Visibilidade"
+            },
+            "created": "A fost creată o nouă entitate Visibilidade cu identificatorul {{ param }}",
+            "updated": "Visibilidade cu identificatorul {{ param }} a fost actualizată",
+            "deleted": "Visibilidade cu identificatorul {{ param }} a fost ștearsă",
+            "delete": {
+                "question": "Sunteți sigur că doriți să ștergeți Visibilidade {{ id }}?"
+            },
+            "detail": {
+                "title": "Visibilidade"
+            },
+            "nome": "Nome"
+        }
+    }
+}

@@ -1,0 +1,25 @@
+{
+    "mylastpornApp": {
+        "tipo" : {
+            "home": {
+                "title": "Tipos",
+                "createLabel": "Egy új Tipo létrehozása",
+                "createOrEditLabel": "Hozzon létre, vagy módosítson Tipot",
+                "search": "Tipo keresése"
+            },
+            "created": "Egy új Tipo lett létrehozva {{ param }} azonosítóval",
+            "updated": "A Tipo módosítva lett {{ param }} azonosítóval",
+            "deleted": "A Tipo törölve lett {{ param }} azonosítóval",
+            "delete": {
+                "question": "Biztos benne, hogy törölni szeretné az Tipot {{ id }} azonosítóval?"
+            },
+            "detail": {
+                "title": "Tipo"
+            },
+            "nome": "Nome",
+            "status": "Status",
+            "datacriado": "Datacriado",
+            "modulos": "Modulos"
+        }
+    }
+}

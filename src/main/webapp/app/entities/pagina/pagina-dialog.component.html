@@ -1,0 +1,119 @@
+<form name="editForm" role="form" novalidate (ngSubmit)="save()" #editForm="ngForm">
+
+    <div class="modal-header">
+        <h4 class="modal-title" id="myPaginaLabel" jhiTranslate="mylastpornApp.pagina.home.createOrEditLabel">Create or edit a Pagina</h4>
+        <button type="button" class="close" data-dismiss="modal" aria-hidden="true"
+                (click)="clear()">&times;</button>
+    </div>
+    <div class="modal-body">
+        <jhi-alert-error></jhi-alert-error>
+        <div class="form-group" [hidden]="!pagina.id">
+            <label for="id" jhiTranslate="global.field.id">ID</label>
+            <input type="text" class="form-control" id="id" name="id"
+                   [(ngModel)]="pagina.id" readonly />
+        </div>
+        <div class="form-group">
+            <label class="form-control-label" jhiTranslate="mylastpornApp.pagina.titulo" for="field_titulo">Titulo</label>
+            <input type="text" class="form-control" name="titulo" id="field_titulo"
+                [(ngModel)]="pagina.titulo" required />
+            <div [hidden]="!(editForm.controls.titulo?.dirty && editForm.controls.titulo?.invalid)">
+                <small class="form-text text-danger"
+                   [hidden]="!editForm.controls.titulo?.errors?.required" jhiTranslate="entity.validation.required">
+                   This field is required.
+                </small>
+            </div>
+        </div>
+        <div class="form-group">
+            <label class="form-control-label" jhiTranslate="mylastpornApp.pagina.descricao" for="field_descricao">Descricao</label>
+            <textarea class="form-control" name="descricao" id="field_descricao"
+                [(ngModel)]="pagina.descricao" required ></textarea>
+            <div [hidden]="!(editForm.controls.descricao?.dirty && editForm.controls.descricao?.invalid)">
+                <small class="form-text text-danger"
+                   [hidden]="!editForm.controls.descricao?.errors?.required" jhiTranslate="entity.validation.required">
+                   This field is required.
+                </small>
+            </div>
+        </div>
+        <div class="form-group">
+            <label class="form-control-label" jhiTranslate="mylastpornApp.pagina.gay" for="field_gay">Gay</label>
+            <input type="checkbox" class="form-control" name="gay" id="field_gay"
+                [(ngModel)]="pagina.gay"  />
+        </div>
+        <div class="form-group">
+            <label class="form-control-label" jhiTranslate="mylastpornApp.pagina.capa" for="field_capa">Capa</label>
+            <input type="text" class="form-control" name="capa" id="field_capa"
+                [(ngModel)]="pagina.capa"  />
+        </div>
+        <div class="form-group">
+            <label class="form-control-label" jhiTranslate="mylastpornApp.pagina.status" for="field_status">Status</label>
+            <select class="form-control" name="status" [(ngModel)]="pagina.status" id="field_status" >
+                <option value="ACTIVE" jhiTranslate="mylastpornApp.Status.ACTIVE">ACTIVE</option>
+                <option value="INATIVE" jhiTranslate="mylastpornApp.Status.INATIVE">INATIVE</option>
+                <option value="WHAIT" jhiTranslate="mylastpornApp.Status.WHAIT">WHAIT</option>
+            </select>
+        </div>
+        <div class="form-group">
+            <label class="form-control-label" jhiTranslate="mylastpornApp.pagina.official" for="field_official">Official</label>
+            <input type="checkbox" class="form-control" name="official" id="field_official"
+                [(ngModel)]="pagina.official"  />
+        </div>
+        <div class="form-group">
+            <label class="form-control-label" jhiTranslate="mylastpornApp.pagina.visitado" for="field_visitado">Visitado</label>
+            <input type="number" class="form-control" name="visitado" id="field_visitado"
+                [(ngModel)]="pagina.visitado"  />
+        </div>
+        <div class="form-group">
+            <label class="form-control-label" jhiTranslate="mylastpornApp.pagina.datacriado" for="field_datacriado">Datacriado</label>
+            <div class="d-flex">
+                <input id="field_datacriado" type="datetime-local" class="form-control" name="datacriado" [(ngModel)]="pagina.datacriado"
+                required  />
+            </div>
+            <div [hidden]="!(editForm.controls.datacriado?.dirty && editForm.controls.datacriado?.invalid)">
+                <small class="form-text text-danger"
+                   [hidden]="!editForm.controls.datacriado?.errors?.required" jhiTranslate="entity.validation.required">
+                   This field is required.
+                </small>
+                <small class="form-text text-danger"
+                    [hidden]="!editForm.controls.datacriado?.errors?.ZonedDateTimelocal" jhiTranslate="entity.validation.ZonedDateTimelocal">
+                    This field should be a date and time.
+                </small>
+            </div>
+        </div>
+
+        <div class="form-group">
+            <label jhiTranslate="mylastpornApp.pagina.user" for="field_user">User</label>
+            <select class="form-control" id="field_user" name="user" [(ngModel)]="pagina.userId" >
+                <option [ngValue]="null"></option>
+                <option [ngValue]="userOption.id" *ngFor="let userOption of users; trackBy: trackUserById">{{userOption.id}}</option>
+            </select>
+        </div>
+        <div class="form-group">
+            <label jhiTranslate="mylastpornApp.pagina.visibilidade" for="field_visibilidade">Visibilidade</label>
+            <select class="form-control" id="field_visibilidade" name="visibilidade" [(ngModel)]="pagina.visibilidadeId" >
+                <option [ngValue]="null"></option>
+                <option [ngValue]="visibilidadeOption.id" *ngFor="let visibilidadeOption of visibilidades; trackBy: trackVisibilidadeById">{{visibilidadeOption.id}}</option>
+            </select>
+        </div>
+        <div class="form-group">
+            <label jhiTranslate="mylastpornApp.pagina.tipo" for="field_tipo">Tipo</label>
+            <select class="form-control" id="field_tipo" name="tipo" [(ngModel)]="pagina.tipoId" >
+                <option [ngValue]="null"></option>
+                <option [ngValue]="tipoOption.id" *ngFor="let tipoOption of tipos; trackBy: trackTipoById">{{tipoOption.nome}}</option>
+            </select>
+        </div>
+        <div class="form-group">
+            <label jhiTranslate="mylastpornApp.pagina.tags" for="field_tags">Tags</label>
+            <select class="form-control" id="field_tags" multiple name="tags" [(ngModel)]="pagina.tags">
+                <option [ngValue]="getSelected(pagina.tags, tagsOption)" *ngFor="let tagsOption of tags; trackBy: trackTagsById">{{tagsOption.nome}}</option>
+            </select>
+        </div>
+    </div>
+    <div class="modal-footer">
+        <button type="button" class="btn btn-default" data-dismiss="modal" (click)="clear()">
+            <span class="fa fa-ban"></span>&nbsp;<span jhiTranslate="entity.action.cancel">Cancel</span>
+        </button>
+        <button type="submit" [disabled]="editForm.form.invalid || isSaving" class="btn btn-primary">
+            <span class="fa fa-save"></span>&nbsp;<span jhiTranslate="entity.action.save">Save</span>
+        </button>
+    </div>
+</form>

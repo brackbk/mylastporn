@@ -1,0 +1,29 @@
+{
+    "mylastpornApp": {
+        "denuncias" : {
+            "home": {
+                "title": "Denuncias",
+                "createLabel": "Denuncias-ஐ உருவாக்கு",
+                "createOrEditLabel": "Denuncias -ஐ மாற்று (அ) உருவாக்கு",
+                "search": "Search for Denuncias"
+            },
+            "created": "Denuncias புதிதாக உருவாக்கப்பட்டது, அடையாளம் {{ param }}",
+            "updated": "Denuncias மாற்றப்பட்டது, அடையாளம்  {{ param }}",
+            "deleted": "A Denuncias நீக்கப்பட்டது, அடையாளம {{ param }}",
+            "delete": {
+                "question": "நீக்குவதற்கு உறுதி செய் Denuncias {{ id }}?"
+            },
+            "detail": {
+                "title": "Denuncias"
+            },
+            "idconteudo": "Idconteudo",
+            "titulo": "Titulo",
+            "descricao": "Descricao",
+            "status": "Status",
+            "email": "Email",
+            "user": "User",
+            "tipoDenuncia": "Tipo Denuncia",
+            "modulos": "Modulos"
+        }
+    }
+}

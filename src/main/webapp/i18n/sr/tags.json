@@ -1,0 +1,26 @@
+{
+    "mylastpornApp": {
+        "tags" : {
+            "home": {
+                "title": "Tags",
+                "createLabel": "Kreiraj novi Tags",
+                "createOrEditLabel": "Kreirajte ili izmenite Tags",
+                "search": "Potražite Tags"
+            },
+            "created": "Kreiran je novi Tags pod nazivom {{ param }}",
+            "updated": "Tags pod nazivom {{ param }} je ažuriran",
+            "deleted": "Tags pod nazivom {{ param }} je obrisan",
+            "delete": {
+                "question": "Da li ste sigurni da želite da obrišete Tags pod nazivom {{ id }}?"
+            },
+            "detail": {
+                "title": "Tags"
+            },
+            "nome": "Nome",
+            "imagem": "Imagem",
+            "status": "Status",
+            "visitado": "Visitado",
+            "datacriado": "Datacriado"
+        }
+    }
+}

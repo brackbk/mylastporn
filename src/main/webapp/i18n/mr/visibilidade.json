@@ -1,0 +1,22 @@
+{
+    "mylastpornApp": {
+        "visibilidade" : {
+            "home": {
+                "title": "Visibilidades",
+                "createLabel": "नवीन Visibilidade तयार करा",
+                "createOrEditLabel": "Visibilidade तयार किंवा संपादित करा",
+                "search": "Visibilidade शोधा"
+            },
+            "created": "Visibilidade [identifier: {{ param }}] तयार आहे",
+            "updated": "Visibilidade [identifier: {{ param }}] सुधारित केले आहे",
+            "deleted": "Visibilidade [identifier: {{ param }}] हटविले आहे",
+            "delete": {
+                "question": "Visibilidade [id: {{ id }}] काढून टाकण्याबाबत पुष्टी?"
+            },
+            "detail": {
+                "title": "Visibilidade"
+            },
+            "nome": "Nome"
+        }
+    }
+}

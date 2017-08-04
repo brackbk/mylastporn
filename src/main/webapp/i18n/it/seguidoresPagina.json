@@ -1,0 +1,24 @@
+{
+    "mylastpornApp": {
+        "seguidoresPagina" : {
+            "home": {
+                "title": "SeguidoresPaginas",
+                "createLabel": "Genera un nuovo Seguidores Pagina",
+                "createOrEditLabel": "Genera o modifica un Seguidores Pagina",
+                "search": "Cerca Seguidores Pagina"
+            },
+            "created": "&Egrave; stato generato un nuovo Seguidores Pagina con identificatore {{ param }}",
+            "updated": "&Egrave; stato aggiornato Seguidores Pagina identificato da {{ param }}",
+            "deleted": "&Egrave; stato eliminato Seguidores Pagina con identificatore {{ param }}",
+            "delete": {
+                "question": "Sei sicuro di volere eliminare Seguidores Pagina {{ id }}?"
+            },
+            "detail": {
+                "title": "Seguidores Pagina"
+            },
+            "status": "Status",
+            "pagina": "Pagina",
+            "user": "User"
+        }
+    }
+}

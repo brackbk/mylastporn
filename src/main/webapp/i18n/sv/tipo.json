@@ -1,0 +1,25 @@
+{
+    "mylastpornApp": {
+        "tipo" : {
+            "home": {
+                "title": "Tipos",
+                "createLabel": "Skapa en ny Tipo",
+                "createOrEditLabel": "Skapa eller ändra en Tipo",
+                "search": "Sök efter Tipo"
+            },
+            "created": "En ny Tipo är skapad med id {{ param }}",
+            "updated": "En Tipo är uppdaterad med id  {{ param }}",
+            "deleted": "En Tipo är borttagen med id  {{ param }}",
+            "delete": {
+                "question": "Är du säker på att du vill ta bort Tipo {{ id }}?"
+            },
+            "detail": {
+                "title": "Tipo"
+            },
+            "nome": "Nome",
+            "status": "Status",
+            "datacriado": "Datacriado",
+            "modulos": "Modulos"
+        }
+    }
+}

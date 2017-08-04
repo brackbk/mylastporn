@@ -1,0 +1,25 @@
+{
+    "mylastpornApp": {
+        "tipo" : {
+            "home": {
+                "title": "Tipos",
+                "createLabel": "Tipo erstellen",
+                "createOrEditLabel": "Tipo erstellen oder bearbeiten",
+                "search": "Suche nach Tipo"
+            },
+            "created": "Tipo erstellt mit ID {{ param }}",
+            "updated": "Tipo aktualisiert mit ID {{ param }}",
+            "deleted": "Tipo gelöscht mit ID {{ param }}",
+            "delete": {
+                "question": "Soll Tipo {{ id }} wirklich dauerhaft gelöscht werden?"
+            },
+            "detail": {
+                "title": "Tipo"
+            },
+            "nome": "Nome",
+            "status": "Status",
+            "datacriado": "Datacriado",
+            "modulos": "Modulos"
+        }
+    }
+}

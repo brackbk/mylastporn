@@ -1,0 +1,33 @@
+{
+    "mylastpornApp": {
+        "foto" : {
+            "home": {
+                "title": "Fotos",
+                "createLabel": "Criar novo Foto",
+                "createOrEditLabel": "Criar ou editar Foto",
+                "search": "Pesquisar por Foto"
+            },
+            "created": "Um novo Foto foi criado com o identificador {{ param }}",
+            "updated": "Um Foto foi atualizado com o identificador {{ param }}",
+            "deleted": "Um Foto foi deletado com o identificador {{ param }}",
+            "delete": {
+                "question": "Tem certeza de que deseja excluir Foto {{ id }}?"
+            },
+            "detail": {
+                "title": "Foto"
+            },
+            "titulo": "Titulo",
+            "descricao": "Descricao",
+            "gay": "Gay",
+            "imagem": "Imagem",
+            "status": "Status",
+            "visitado": "Visitado",
+            "datacriado": "Datacriado",
+            "user": "User",
+            "tipo": "Tipo",
+            "visibilidade": "Visibilidade",
+            "tags": "Tags",
+            "pagina": "Pagina"
+        }
+    }
+}

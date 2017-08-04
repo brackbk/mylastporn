@@ -1,0 +1,29 @@
+{
+    "mylastpornApp": {
+        "denuncias" : {
+            "home": {
+                "title": "Denuncias",
+                "createLabel": "Egy új Denuncias létrehozása",
+                "createOrEditLabel": "Hozzon létre, vagy módosítson Denunciast",
+                "search": "Denuncias keresése"
+            },
+            "created": "Egy új Denuncias lett létrehozva {{ param }} azonosítóval",
+            "updated": "A Denuncias módosítva lett {{ param }} azonosítóval",
+            "deleted": "A Denuncias törölve lett {{ param }} azonosítóval",
+            "delete": {
+                "question": "Biztos benne, hogy törölni szeretné az Denunciast {{ id }} azonosítóval?"
+            },
+            "detail": {
+                "title": "Denuncias"
+            },
+            "idconteudo": "Idconteudo",
+            "titulo": "Titulo",
+            "descricao": "Descricao",
+            "status": "Status",
+            "email": "Email",
+            "user": "User",
+            "tipoDenuncia": "Tipo Denuncia",
+            "modulos": "Modulos"
+        }
+    }
+}

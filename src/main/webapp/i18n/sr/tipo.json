@@ -1,0 +1,25 @@
+{
+    "mylastpornApp": {
+        "tipo" : {
+            "home": {
+                "title": "Tipos",
+                "createLabel": "Kreiraj novi Tipo",
+                "createOrEditLabel": "Kreirajte ili izmenite Tipo",
+                "search": "Potražite Tipo"
+            },
+            "created": "Kreiran je novi Tipo pod nazivom {{ param }}",
+            "updated": "Tipo pod nazivom {{ param }} je ažuriran",
+            "deleted": "Tipo pod nazivom {{ param }} je obrisan",
+            "delete": {
+                "question": "Da li ste sigurni da želite da obrišete Tipo pod nazivom {{ id }}?"
+            },
+            "detail": {
+                "title": "Tipo"
+            },
+            "nome": "Nome",
+            "status": "Status",
+            "datacriado": "Datacriado",
+            "modulos": "Modulos"
+        }
+    }
+}

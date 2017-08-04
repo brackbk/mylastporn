@@ -1,0 +1,26 @@
+{
+    "mylastpornApp": {
+        "tags" : {
+            "home": {
+                "title": "Tags",
+                "createLabel": "Egy új Tags létrehozása",
+                "createOrEditLabel": "Hozzon létre, vagy módosítson Tagst",
+                "search": "Tags keresése"
+            },
+            "created": "Egy új Tags lett létrehozva {{ param }} azonosítóval",
+            "updated": "A Tags módosítva lett {{ param }} azonosítóval",
+            "deleted": "A Tags törölve lett {{ param }} azonosítóval",
+            "delete": {
+                "question": "Biztos benne, hogy törölni szeretné az Tagst {{ id }} azonosítóval?"
+            },
+            "detail": {
+                "title": "Tags"
+            },
+            "nome": "Nome",
+            "imagem": "Imagem",
+            "status": "Status",
+            "visitado": "Visitado",
+            "datacriado": "Datacriado"
+        }
+    }
+}

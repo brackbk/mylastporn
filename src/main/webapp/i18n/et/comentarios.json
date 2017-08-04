@@ -1,0 +1,29 @@
+{
+    "mylastpornApp": {
+        "comentarios" : {
+            "home": {
+                "title": "Comentarios",
+                "createLabel": "Lisa uus Comentarios",
+                "createOrEditLabel": "Lisa või muuda Comentarios",
+                "search": "Otsi Comentarios"
+            },
+            "created": "Uus Comentarios on loodud identifikaatoriga {{ param }}",
+            "updated": "Comentarios identifikaatoriga {{ param }} on muudetud",
+            "deleted": "Comentarios identifikaatoriga {{ param }} on kustutatud",
+            "delete": {
+                "question": "Kas olete kindel, et soovite kustutada Comentarios {{ id }}?"
+            },
+            "detail": {
+                "title": "Comentarios"
+            },
+            "idconteudo": "Idconteudo",
+            "titulo": "Titulo",
+            "comentario": "Comentario",
+            "datacriado": "Datacriado",
+            "status": "Status",
+            "user": "User",
+            "visibilidade": "Visibilidade",
+            "modulos": "Modulos"
+        }
+    }
+}

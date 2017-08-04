@@ -1,0 +1,26 @@
+{
+    "mylastpornApp": {
+        "tags" : {
+            "home": {
+                "title": "Tags",
+                "createLabel": "Genera un nuovo Tags",
+                "createOrEditLabel": "Genera o modifica un Tags",
+                "search": "Cerca Tags"
+            },
+            "created": "&Egrave; stato generato un nuovo Tags con identificatore {{ param }}",
+            "updated": "&Egrave; stato aggiornato Tags identificato da {{ param }}",
+            "deleted": "&Egrave; stato eliminato Tags con identificatore {{ param }}",
+            "delete": {
+                "question": "Sei sicuro di volere eliminare Tags {{ id }}?"
+            },
+            "detail": {
+                "title": "Tags"
+            },
+            "nome": "Nome",
+            "imagem": "Imagem",
+            "status": "Status",
+            "visitado": "Visitado",
+            "datacriado": "Datacriado"
+        }
+    }
+}

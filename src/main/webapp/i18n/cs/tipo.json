@@ -1,0 +1,25 @@
+{
+    "mylastpornApp": {
+        "tipo" : {
+            "home": {
+                "title": "Tipos",
+                "createLabel": "Vytvořit Tipo",
+                "createOrEditLabel": "Vytvořit nebo upravit Tipo",
+                "search": "Vyhledat Tipo"
+            },
+            "created": "Byl vytvořen potomek entity Tipo s identifikátorem {{ param }}",
+            "updated": "Potomek entity Tipo s identifikátorem {{ param }} byl upravený.",
+            "deleted": "Potomek entity Tipo s identifikátorem {{ param }} bol smazaný.",
+            "delete": {
+                "question": "Jste si jisti, že chcete smazat Tipo {{ id }}?"
+            },
+            "detail": {
+                "title": "Tipo"
+            },
+            "nome": "Nome",
+            "status": "Status",
+            "datacriado": "Datacriado",
+            "modulos": "Modulos"
+        }
+    }
+}

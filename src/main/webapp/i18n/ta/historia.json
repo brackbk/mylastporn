@@ -1,0 +1,33 @@
+{
+    "mylastpornApp": {
+        "historia" : {
+            "home": {
+                "title": "Historias",
+                "createLabel": "Historia-ஐ உருவாக்கு",
+                "createOrEditLabel": "Historia -ஐ மாற்று (அ) உருவாக்கு",
+                "search": "Search for Historia"
+            },
+            "created": "Historia புதிதாக உருவாக்கப்பட்டது, அடையாளம் {{ param }}",
+            "updated": "Historia மாற்றப்பட்டது, அடையாளம்  {{ param }}",
+            "deleted": "A Historia நீக்கப்பட்டது, அடையாளம {{ param }}",
+            "delete": {
+                "question": "நீக்குவதற்கு உறுதி செய் Historia {{ id }}?"
+            },
+            "detail": {
+                "title": "Historia"
+            },
+            "titulo": "Titulo",
+            "descricao": "Descricao",
+            "gay": "Gay",
+            "imagem": "Imagem",
+            "status": "Status",
+            "visitado": "Visitado",
+            "datacriado": "Datacriado",
+            "user": "User",
+            "visibilidade": "Visibilidade",
+            "tipo": "Tipo",
+            "tags": "Tags",
+            "pagina": "Pagina"
+        }
+    }
+}

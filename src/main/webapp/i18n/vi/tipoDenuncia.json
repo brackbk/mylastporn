@@ -1,0 +1,22 @@
+{
+    "mylastpornApp": {
+        "tipoDenuncia" : {
+            "home": {
+                "title": "Tipo Denuncias",
+                "createLabel": "Thêm mới một Tipo Denuncia",
+                "createOrEditLabel": "Thêm mới hoặc cập nhật Tipo Denuncia",
+                "search": "Tìm Tipo Denuncia"
+            },
+            "created": "Một Tipo Denuncia mới được tạo với định danh {{ param }}",
+            "updated": "Một Tipo Denuncia cập nhật với định danh {{ param }}",
+            "deleted": "Một Tipo Denuncia đã xóa với định danh {{ param }}",
+            "delete": {
+                "question": "Bạn có chắc là muốn xóa Tipo Denuncia {{ id }}?"
+            },
+            "detail": {
+                "title": "Tipo Denuncia"
+            },
+            "tipo": "Tipo"
+        }
+    }
+}

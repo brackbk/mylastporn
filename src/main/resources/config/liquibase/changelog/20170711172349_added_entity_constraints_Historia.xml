@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<databaseChangeLog
+    xmlns="http://www.liquibase.org/xml/ns/dbchangelog"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xsi:schemaLocation="http://www.liquibase.org/xml/ns/dbchangelog http://www.liquibase.org/xml/ns/dbchangelog/dbchangelog-3.5.xsd">
+    <!--
+        Added the constraints for entity Historia.
+    -->
+    <changeSet id="20170711172349-2" author="jhipster">
+        
+        <addForeignKeyConstraint baseColumnNames="user_id"
+                                 baseTableName="historia"
+                                 constraintName="fk_historia_user_id"
+                                 referencedColumnNames="id"
+                                 referencedTableName="jhi_user"/>
+
+        <addForeignKeyConstraint baseColumnNames="visibilidade_id"
+                                 baseTableName="historia"
+                                 constraintName="fk_historia_visibilidade_id"
+                                 referencedColumnNames="id"
+                                 referencedTableName="visibilidade"/>
+
+        <addForeignKeyConstraint baseColumnNames="tipo_id"
+                                 baseTableName="historia"
+                                 constraintName="fk_historia_tipo_id"
+                                 referencedColumnNames="id"
+                                 referencedTableName="tipo"/>
+
+        <addForeignKeyConstraint baseColumnNames="historias_id"
+                                 baseTableName="historia_tags"
+                                 constraintName="fk_historia_tags_historias_id"
+                                 referencedColumnNames="id"
+                                 referencedTableName="historia"/>
+        <addForeignKeyConstraint baseColumnNames="tags_id"
+                                 baseTableName="historia_tags"
+                                 constraintName="fk_historia_tags_tags_id"
+                                 referencedColumnNames="id"
+                                 referencedTableName="tags"/>
+        
+        <addForeignKeyConstraint baseColumnNames="historias_id"
+                                 baseTableName="historia_pagina"
+                                 constraintName="fk_historia_pagina_historias_id"
+                                 referencedColumnNames="id"
+                                 referencedTableName="historia"/>
+        <addForeignKeyConstraint baseColumnNames="paginas_id"
+                                 baseTableName="historia_pagina"
+                                 constraintName="fk_historia_pagina_paginas_id"
+                                 referencedColumnNames="id"
+                                 referencedTableName="pagina"/>
+        
+    </changeSet>
+</databaseChangeLog>

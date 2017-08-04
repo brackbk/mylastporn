@@ -1,0 +1,25 @@
+{
+    "mylastpornApp": {
+        "modulos" : {
+            "home": {
+                "title": "Modulos",
+                "createLabel": "Pridať Modulos",
+                "createOrEditLabel": "Pridať alebo upraviť Modulos",
+                "search": "Vyhľadať Modulos"
+            },
+            "created": "Bol vytvorený potomok entity Modulos s identifikátorom {{ param }}",
+            "updated": "Potomok entity Modulos s identifikátorom {{ param }} bol upravený.",
+            "deleted": "Potomok entity Modulos s identifikátorom {{ param }} bol vymazaný.",
+            "delete": {
+                "question": "Ste si istý, že chcete vymazať Modulos {{ id }}?"
+            },
+            "detail": {
+                "title": "Modulos"
+            },
+            "nome": "Nome",
+            "caminho": "Caminho",
+            "status": "Status",
+            "datacriado": "Datacriado"
+        }
+    }
+}

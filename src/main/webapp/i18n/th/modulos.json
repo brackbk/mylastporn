@@ -1,0 +1,25 @@
+{
+    "mylastpornApp": {
+        "modulos" : {
+            "home": {
+                "title": "Modulos",
+                "createLabel": "สร้าง Modulos",
+                "createOrEditLabel": "สร้างหรือแก้ไข Modulos",
+                "search": "ค้นหา Modulos"
+            },
+            "created": "Modulos ถูกสร้างด้วย {{ param }}",
+            "updated": "Modulos ถูกแก้ไขด้วย {{ param }}",
+            "deleted": "Modulos ถูกลบด้วย {{ param }}",
+            "delete": {
+                "question": "คุณต้องการที่จะลบ Modulos {{ id }}?"
+            },
+            "detail": {
+                "title": "Modulos"
+            },
+            "nome": "Nome",
+            "caminho": "Caminho",
+            "status": "Status",
+            "datacriado": "Datacriado"
+        }
+    }
+}

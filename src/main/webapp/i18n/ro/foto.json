@@ -1,0 +1,33 @@
+{
+    "mylastpornApp": {
+        "foto" : {
+            "home": {
+                "title": "Fotos",
+                "createLabel": "Creeare o nouă entitate Foto",
+                "createOrEditLabel": "Creeare sau editare Foto",
+                "search": "Căutare după Foto"
+            },
+            "created": "A fost creată o nouă entitate Foto cu identificatorul {{ param }}",
+            "updated": "Foto cu identificatorul {{ param }} a fost actualizată",
+            "deleted": "Foto cu identificatorul {{ param }} a fost ștearsă",
+            "delete": {
+                "question": "Sunteți sigur că doriți să ștergeți Foto {{ id }}?"
+            },
+            "detail": {
+                "title": "Foto"
+            },
+            "titulo": "Titulo",
+            "descricao": "Descricao",
+            "gay": "Gay",
+            "imagem": "Imagem",
+            "status": "Status",
+            "visitado": "Visitado",
+            "datacriado": "Datacriado",
+            "user": "User",
+            "tipo": "Tipo",
+            "visibilidade": "Visibilidade",
+            "tags": "Tags",
+            "pagina": "Pagina"
+        }
+    }
+}

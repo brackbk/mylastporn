@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<databaseChangeLog
+    xmlns="http://www.liquibase.org/xml/ns/dbchangelog"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xsi:schemaLocation="http://www.liquibase.org/xml/ns/dbchangelog http://www.liquibase.org/xml/ns/dbchangelog/dbchangelog-3.5.xsd">
+    <!--
+        Added the constraints for entity Foto.
+    -->
+    <changeSet id="20170711172350-2" author="jhipster">
+        
+        <addForeignKeyConstraint baseColumnNames="user_id"
+                                 baseTableName="foto"
+                                 constraintName="fk_foto_user_id"
+                                 referencedColumnNames="id"
+                                 referencedTableName="jhi_user"/>
+
+        <addForeignKeyConstraint baseColumnNames="tipo_id"
+                                 baseTableName="foto"
+                                 constraintName="fk_foto_tipo_id"
+                                 referencedColumnNames="id"
+                                 referencedTableName="tipo"/>
+
+        <addForeignKeyConstraint baseColumnNames="visibilidade_id"
+                                 baseTableName="foto"
+                                 constraintName="fk_foto_visibilidade_id"
+                                 referencedColumnNames="id"
+                                 referencedTableName="visibilidade"/>
+
+        <addForeignKeyConstraint baseColumnNames="fotos_id"
+                                 baseTableName="foto_tags"
+                                 constraintName="fk_foto_tags_fotos_id"
+                                 referencedColumnNames="id"
+                                 referencedTableName="foto"/>
+        <addForeignKeyConstraint baseColumnNames="tags_id"
+                                 baseTableName="foto_tags"
+                                 constraintName="fk_foto_tags_tags_id"
+                                 referencedColumnNames="id"
+                                 referencedTableName="tags"/>
+        
+        <addForeignKeyConstraint baseColumnNames="fotos_id"
+                                 baseTableName="foto_pagina"
+                                 constraintName="fk_foto_pagina_fotos_id"
+                                 referencedColumnNames="id"
+                                 referencedTableName="foto"/>
+        <addForeignKeyConstraint baseColumnNames="paginas_id"
+                                 baseTableName="foto_pagina"
+                                 constraintName="fk_foto_pagina_paginas_id"
+                                 referencedColumnNames="id"
+                                 referencedTableName="pagina"/>
+        
+    </changeSet>
+</databaseChangeLog>

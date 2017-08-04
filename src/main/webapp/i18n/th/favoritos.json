@@ -1,0 +1,26 @@
+{
+    "mylastpornApp": {
+        "favoritos" : {
+            "home": {
+                "title": "Favoritos",
+                "createLabel": "สร้าง Favoritos",
+                "createOrEditLabel": "สร้างหรือแก้ไข Favoritos",
+                "search": "ค้นหา Favoritos"
+            },
+            "created": "Favoritos ถูกสร้างด้วย {{ param }}",
+            "updated": "Favoritos ถูกแก้ไขด้วย {{ param }}",
+            "deleted": "Favoritos ถูกลบด้วย {{ param }}",
+            "delete": {
+                "question": "คุณต้องการที่จะลบ Favoritos {{ id }}?"
+            },
+            "detail": {
+                "title": "Favoritos"
+            },
+            "idconteudo": "Idconteudo",
+            "datacriado": "Datacriado",
+            "user": "User",
+            "visibilidade": "Visibilidade",
+            "modulos": "Modulos"
+        }
+    }
+}

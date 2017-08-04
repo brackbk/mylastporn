@@ -1,0 +1,27 @@
+{
+    "mylastpornApp": {
+        "likes" : {
+            "home": {
+                "title": "Likes",
+                "createLabel": "Kreiraj novi Likes",
+                "createOrEditLabel": "Kreirajte ili izmenite Likes",
+                "search": "Potražite Likes"
+            },
+            "created": "Kreiran je novi Likes pod nazivom {{ param }}",
+            "updated": "Likes pod nazivom {{ param }} je ažuriran",
+            "deleted": "Likes pod nazivom {{ param }} je obrisan",
+            "delete": {
+                "question": "Da li ste sigurni da želite da obrišete Likes pod nazivom {{ id }}?"
+            },
+            "detail": {
+                "title": "Likes"
+            },
+            "idconteudo": "Idconteudo",
+            "like": "Like",
+            "dislike": "Dislike",
+            "datacriado": "Datacriado",
+            "user": "User",
+            "modulos": "Modulos"
+        }
+    }
+}

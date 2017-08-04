@@ -1,0 +1,77 @@
+
+<div *ngIf="historia">
+    <h2><span jhiTranslate="mylastpornApp.historia.detail.title">Historia</span> {{historia.id}}</h2>
+    <hr>
+    <jhi-alert-error></jhi-alert-error>
+    <dl class="row-md jh-entity-details">
+        <dt><span jhiTranslate="mylastpornApp.historia.titulo">Titulo</span></dt>
+        <dd>
+            <span>{{historia.titulo}}</span>
+        </dd>
+        <dt><span jhiTranslate="mylastpornApp.historia.descricao">Descricao</span></dt>
+        <dd>
+            <span>{{historia.descricao}}</span>
+        </dd>
+        <dt><span jhiTranslate="mylastpornApp.historia.gay">Gay</span></dt>
+        <dd>
+            <span>{{historia.gay}}</span>
+        </dd>
+        <dt><span jhiTranslate="mylastpornApp.historia.imagem">Imagem</span></dt>
+        <dd>
+            <span>{{historia.imagem}}</span>
+        </dd>
+        <dt><span jhiTranslate="mylastpornApp.historia.status">Status</span></dt>
+        <dd>
+            <span jhiTranslate="{{'mylastpornApp.Status.' + historia.status}}">{{historia.status}}</span>
+        </dd>
+        <dt><span jhiTranslate="mylastpornApp.historia.visitado">Visitado</span></dt>
+        <dd>
+            <span>{{historia.visitado}}</span>
+        </dd>
+        <dt><span jhiTranslate="mylastpornApp.historia.datacriado">Datacriado</span></dt>
+        <dd>
+            <span>{{historia.datacriado | date:'medium'}}</span>
+        </dd>
+        <dt><span jhiTranslate="mylastpornApp.historia.user">User</span></dt>
+        <dd>
+            {{historia.userId}}
+        </dd>
+        <dt><span jhiTranslate="mylastpornApp.historia.visibilidade">Visibilidade</span></dt>
+        <dd>
+            <div *ngIf="historia.visibilidadeId">
+                <a [routerLink]="['/visibilidade', historia.visibilidadeId]">{{historia.visibilidadeId}}</a>
+            </div>
+        </dd>
+        <dt><span jhiTranslate="mylastpornApp.historia.tipo">Tipo</span></dt>
+        <dd>
+            <div *ngIf="historia.tipoId">
+                <a [routerLink]="['/tipo', historia.tipoId]">{{historia.tipoNome}}</a>
+            </div>
+        </dd>
+        <dt><span jhiTranslate="mylastpornApp.historia.tags">Tags</span></dt>
+        <dd>
+            <span *ngFor="let tags of historia.tags; let last = last">
+                <a [routerLink]="['/tags', tags?.id ]">{{tags.nome}}</a>{{last ? '' : ', '}}
+            </span>
+        </dd>
+        <dt><span jhiTranslate="mylastpornApp.historia.pagina">Pagina</span></dt>
+        <dd>
+            <span *ngFor="let pagina of historia.paginas; let last = last">
+                <a [routerLink]="['/pagina', pagina?.id ]">{{pagina.id}}</a>{{last ? '' : ', '}}
+            </span>
+        </dd>
+    </dl>
+
+    <button type="submit"
+            (click)="previousState()"
+            class="btn btn-info">
+        <span class="fa fa-arrow-left"></span>&nbsp;<span jhiTranslate="entity.action.back"> Back</span>
+    </button>
+
+    <button type="button"
+            [routerLink]="['/', { outlets: { popup: 'historia/'+ historia.id + '/edit'} }]"
+            replaceUrl="true"
+            class="btn btn-primary">
+        <span class="fa fa-pencil"></span>&nbsp;<span jhiTranslate="entity.action.edit"> Edit</span>
+    </button>
+</div>

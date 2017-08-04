@@ -1,0 +1,33 @@
+{
+    "mylastpornApp": {
+        "pagina" : {
+            "home": {
+                "title": "Paginas",
+                "createLabel": "Создать новый Pagina",
+                "createOrEditLabel": "Создать или отредактировать Pagina",
+                "search": "Найти Pagina"
+            },
+            "created": "Новый Pagina создан с идентификатором {{ param }}",
+            "updated": "Pagina обновлен с идентификатором {{ param }}",
+            "deleted": "Pagina удален с идентификатором {{ param }}",
+            "delete": {
+                "question": "Вы уверены что хотите удалить Pagina {{ id }}?"
+            },
+            "detail": {
+                "title": "Pagina"
+            },
+            "titulo": "Titulo",
+            "descricao": "Descricao",
+            "gay": "Gay",
+            "capa": "Capa",
+            "status": "Status",
+            "official": "Official",
+            "visitado": "Visitado",
+            "datacriado": "Datacriado",
+            "user": "User",
+            "visibilidade": "Visibilidade",
+            "tipo": "Tipo",
+            "tags": "Tags"
+        }
+    }
+}

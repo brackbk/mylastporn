@@ -1,0 +1,29 @@
+{
+    "mylastpornApp": {
+        "denuncias" : {
+            "home": {
+                "title": "Denuncias",
+                "createLabel": "Denuncias を追加",
+                "createOrEditLabel": "Denunciasを追加または編集",
+                "search": "Search for Denuncias"
+            },
+            "created": "A new Denuncias is created with identifier {{ param }}",
+            "updated": "A Denuncias is updated with identifier {{ param }}",
+            "deleted": "A Denuncias is deleted with identifier {{ param }}",
+            "delete": {
+                "question": "Denuncias {{ id }}を削除してもよろしいですか？"
+            },
+            "detail": {
+                "title": "Denuncias"
+            },
+            "idconteudo": "Idconteudo",
+            "titulo": "Titulo",
+            "descricao": "Descricao",
+            "status": "Status",
+            "email": "Email",
+            "user": "User",
+            "tipoDenuncia": "Tipo Denuncia",
+            "modulos": "Modulos"
+        }
+    }
+}

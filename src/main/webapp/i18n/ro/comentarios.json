@@ -1,0 +1,29 @@
+{
+    "mylastpornApp": {
+        "comentarios" : {
+            "home": {
+                "title": "Comentarios",
+                "createLabel": "Creeare o nouă entitate Comentarios",
+                "createOrEditLabel": "Creeare sau editare Comentarios",
+                "search": "Căutare după Comentarios"
+            },
+            "created": "A fost creată o nouă entitate Comentarios cu identificatorul {{ param }}",
+            "updated": "Comentarios cu identificatorul {{ param }} a fost actualizată",
+            "deleted": "Comentarios cu identificatorul {{ param }} a fost ștearsă",
+            "delete": {
+                "question": "Sunteți sigur că doriți să ștergeți Comentarios {{ id }}?"
+            },
+            "detail": {
+                "title": "Comentarios"
+            },
+            "idconteudo": "Idconteudo",
+            "titulo": "Titulo",
+            "comentario": "Comentario",
+            "datacriado": "Datacriado",
+            "status": "Status",
+            "user": "User",
+            "visibilidade": "Visibilidade",
+            "modulos": "Modulos"
+        }
+    }
+}

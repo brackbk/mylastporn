@@ -1,0 +1,26 @@
+{
+    "mylastpornApp": {
+        "tags" : {
+            "home": {
+                "title": "Tags",
+                "createLabel": "Maak een nieuwe Tags",
+                "createOrEditLabel": "Maak of wijzig een Tags",
+                "search": "Search for Tags"
+            },
+            "created": "A new Tags is created with identifier {{ param }}",
+            "updated": "A Tags is updated with identifier {{ param }}",
+            "deleted": "A Tags is deleted with identifier {{ param }}",
+            "delete": {
+                "question": "Bent u zeker dat u Tags {{ id }} wilt verwijderen?"
+            },
+            "detail": {
+                "title": "Tags"
+            },
+            "nome": "Nome",
+            "imagem": "Imagem",
+            "status": "Status",
+            "visitado": "Visitado",
+            "datacriado": "Datacriado"
+        }
+    }
+}

@@ -1,0 +1,29 @@
+{
+    "mylastpornApp": {
+        "denuncias" : {
+            "home": {
+                "title": "Denuncias",
+                "createLabel": "Створити новий Denuncias",
+                "createOrEditLabel": "Створити чи редагувати Denuncias",
+                "search": "Знайти Denuncias"
+            },
+            "created": "Новий Denuncias створений з ідентифікатором {{ param }}",
+            "updated": "Denuncias оновлений з ідентифікатором {{ param }}",
+            "deleted": "Denuncias видалений з ідентифікатором {{ param }}",
+            "delete": {
+                "question": "Ви впевнені, що хочете видалити Denuncias {{ id }}?"
+            },
+            "detail": {
+                "title": "Denuncias"
+            },
+            "idconteudo": "Idconteudo",
+            "titulo": "Titulo",
+            "descricao": "Descricao",
+            "status": "Status",
+            "email": "Email",
+            "user": "User",
+            "tipoDenuncia": "Tipo Denuncia",
+            "modulos": "Modulos"
+        }
+    }
+}

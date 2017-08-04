@@ -1,0 +1,22 @@
+{
+    "mylastpornApp": {
+        "visibilidade" : {
+            "home": {
+                "title": "Visibilidades",
+                "createLabel": "Kreiraj novi Visibilidade",
+                "createOrEditLabel": "Kreirajte ili izmenite Visibilidade",
+                "search": "Potražite Visibilidade"
+            },
+            "created": "Kreiran je novi Visibilidade pod nazivom {{ param }}",
+            "updated": "Visibilidade pod nazivom {{ param }} je ažuriran",
+            "deleted": "Visibilidade pod nazivom {{ param }} je obrisan",
+            "delete": {
+                "question": "Da li ste sigurni da želite da obrišete Visibilidade pod nazivom {{ id }}?"
+            },
+            "detail": {
+                "title": "Visibilidade"
+            },
+            "nome": "Nome"
+        }
+    }
+}

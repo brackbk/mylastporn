@@ -1,0 +1,29 @@
+{
+    "mylastpornApp": {
+        "comentarios" : {
+            "home": {
+                "title": "Comentarios",
+                "createLabel": "สร้าง Comentarios",
+                "createOrEditLabel": "สร้างหรือแก้ไข Comentarios",
+                "search": "ค้นหา Comentarios"
+            },
+            "created": "Comentarios ถูกสร้างด้วย {{ param }}",
+            "updated": "Comentarios ถูกแก้ไขด้วย {{ param }}",
+            "deleted": "Comentarios ถูกลบด้วย {{ param }}",
+            "delete": {
+                "question": "คุณต้องการที่จะลบ Comentarios {{ id }}?"
+            },
+            "detail": {
+                "title": "Comentarios"
+            },
+            "idconteudo": "Idconteudo",
+            "titulo": "Titulo",
+            "comentario": "Comentario",
+            "datacriado": "Datacriado",
+            "status": "Status",
+            "user": "User",
+            "visibilidade": "Visibilidade",
+            "modulos": "Modulos"
+        }
+    }
+}

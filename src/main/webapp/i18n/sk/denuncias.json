@@ -1,0 +1,29 @@
+{
+    "mylastpornApp": {
+        "denuncias" : {
+            "home": {
+                "title": "Denuncias",
+                "createLabel": "Pridať Denuncias",
+                "createOrEditLabel": "Pridať alebo upraviť Denuncias",
+                "search": "Vyhľadať Denuncias"
+            },
+            "created": "Bol vytvorený potomok entity Denuncias s identifikátorom {{ param }}",
+            "updated": "Potomok entity Denuncias s identifikátorom {{ param }} bol upravený.",
+            "deleted": "Potomok entity Denuncias s identifikátorom {{ param }} bol vymazaný.",
+            "delete": {
+                "question": "Ste si istý, že chcete vymazať Denuncias {{ id }}?"
+            },
+            "detail": {
+                "title": "Denuncias"
+            },
+            "idconteudo": "Idconteudo",
+            "titulo": "Titulo",
+            "descricao": "Descricao",
+            "status": "Status",
+            "email": "Email",
+            "user": "User",
+            "tipoDenuncia": "Tipo Denuncia",
+            "modulos": "Modulos"
+        }
+    }
+}

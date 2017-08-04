@@ -1,0 +1,24 @@
+{
+    "mylastpornApp": {
+        "seguidoresPagina" : {
+            "home": {
+                "title": "Seguidores Paginas",
+                "createLabel": "Seguidores Pagina-ஐ உருவாக்கு",
+                "createOrEditLabel": "Seguidores Pagina -ஐ மாற்று (அ) உருவாக்கு",
+                "search": "Search for Seguidores Pagina"
+            },
+            "created": "Seguidores Pagina புதிதாக உருவாக்கப்பட்டது, அடையாளம் {{ param }}",
+            "updated": "Seguidores Pagina மாற்றப்பட்டது, அடையாளம்  {{ param }}",
+            "deleted": "A Seguidores Pagina நீக்கப்பட்டது, அடையாளம {{ param }}",
+            "delete": {
+                "question": "நீக்குவதற்கு உறுதி செய் Seguidores Pagina {{ id }}?"
+            },
+            "detail": {
+                "title": "Seguidores Pagina"
+            },
+            "status": "Status",
+            "pagina": "Pagina",
+            "user": "User"
+        }
+    }
+}

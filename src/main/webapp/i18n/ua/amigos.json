@@ -1,0 +1,23 @@
+{
+    "mylastpornApp": {
+        "amigos" : {
+            "home": {
+                "title": "Amigos",
+                "createLabel": "Створити новий Amigos",
+                "createOrEditLabel": "Створити чи редагувати Amigos",
+                "search": "Знайти Amigos"
+            },
+            "created": "Новий Amigos створений з ідентифікатором {{ param }}",
+            "updated": "Amigos оновлений з ідентифікатором {{ param }}",
+            "deleted": "Amigos видалений з ідентифікатором {{ param }}",
+            "delete": {
+                "question": "Ви впевнені, що хочете видалити Amigos {{ id }}?"
+            },
+            "detail": {
+                "title": "Amigos"
+            },
+            "status": "Status",
+            "user": "User"
+        }
+    }
+}

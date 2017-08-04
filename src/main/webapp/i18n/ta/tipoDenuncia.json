@@ -1,0 +1,22 @@
+{
+    "mylastpornApp": {
+        "tipoDenuncia" : {
+            "home": {
+                "title": "Tipo Denuncias",
+                "createLabel": "Tipo Denuncia-ஐ உருவாக்கு",
+                "createOrEditLabel": "Tipo Denuncia -ஐ மாற்று (அ) உருவாக்கு",
+                "search": "Search for Tipo Denuncia"
+            },
+            "created": "Tipo Denuncia புதிதாக உருவாக்கப்பட்டது, அடையாளம் {{ param }}",
+            "updated": "Tipo Denuncia மாற்றப்பட்டது, அடையாளம்  {{ param }}",
+            "deleted": "A Tipo Denuncia நீக்கப்பட்டது, அடையாளம {{ param }}",
+            "delete": {
+                "question": "நீக்குவதற்கு உறுதி செய் Tipo Denuncia {{ id }}?"
+            },
+            "detail": {
+                "title": "Tipo Denuncia"
+            },
+            "tipo": "Tipo"
+        }
+    }
+}

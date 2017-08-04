@@ -1,0 +1,29 @@
+{
+    "mylastpornApp": {
+        "comentarios" : {
+            "home": {
+                "title": "Comentarios",
+                "createLabel": "Kreiraj novi Comentarios",
+                "createOrEditLabel": "Kreirajte ili izmenite Comentarios",
+                "search": "Potražite Comentarios"
+            },
+            "created": "Kreiran je novi Comentarios pod nazivom {{ param }}",
+            "updated": "Comentarios pod nazivom {{ param }} je ažuriran",
+            "deleted": "Comentarios pod nazivom {{ param }} je obrisan",
+            "delete": {
+                "question": "Da li ste sigurni da želite da obrišete Comentarios pod nazivom {{ id }}?"
+            },
+            "detail": {
+                "title": "Comentarios"
+            },
+            "idconteudo": "Idconteudo",
+            "titulo": "Titulo",
+            "comentario": "Comentario",
+            "datacriado": "Datacriado",
+            "status": "Status",
+            "user": "User",
+            "visibilidade": "Visibilidade",
+            "modulos": "Modulos"
+        }
+    }
+}

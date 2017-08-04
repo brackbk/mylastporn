@@ -1,0 +1,23 @@
+{
+    "mylastpornApp": {
+        "amigos" : {
+            "home": {
+                "title": "Amigos",
+                "createLabel": "Kreiraj novi Amigos",
+                "createOrEditLabel": "Kreirajte ili izmenite Amigos",
+                "search": "Potražite Amigos"
+            },
+            "created": "Kreiran je novi Amigos pod nazivom {{ param }}",
+            "updated": "Amigos pod nazivom {{ param }} je ažuriran",
+            "deleted": "Amigos pod nazivom {{ param }} je obrisan",
+            "delete": {
+                "question": "Da li ste sigurni da želite da obrišete Amigos pod nazivom {{ id }}?"
+            },
+            "detail": {
+                "title": "Amigos"
+            },
+            "status": "Status",
+            "user": "User"
+        }
+    }
+}

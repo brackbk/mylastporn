@@ -1,0 +1,22 @@
+{
+    "mylastpornApp": {
+        "visibilidade" : {
+            "home": {
+                "title": "Visibilidades",
+                "createLabel": "Egy új Visibilidade létrehozása",
+                "createOrEditLabel": "Hozzon létre, vagy módosítson Visibilidadet",
+                "search": "Visibilidade keresése"
+            },
+            "created": "Egy új Visibilidade lett létrehozva {{ param }} azonosítóval",
+            "updated": "A Visibilidade módosítva lett {{ param }} azonosítóval",
+            "deleted": "A Visibilidade törölve lett {{ param }} azonosítóval",
+            "delete": {
+                "question": "Biztos benne, hogy törölni szeretné az Visibilidadet {{ id }} azonosítóval?"
+            },
+            "detail": {
+                "title": "Visibilidade"
+            },
+            "nome": "Nome"
+        }
+    }
+}

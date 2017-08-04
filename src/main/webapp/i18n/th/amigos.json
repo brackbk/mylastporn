@@ -1,0 +1,23 @@
+{
+    "mylastpornApp": {
+        "amigos" : {
+            "home": {
+                "title": "Amigos",
+                "createLabel": "สร้าง Amigos",
+                "createOrEditLabel": "สร้างหรือแก้ไข Amigos",
+                "search": "ค้นหา Amigos"
+            },
+            "created": "Amigos ถูกสร้างด้วย {{ param }}",
+            "updated": "Amigos ถูกแก้ไขด้วย {{ param }}",
+            "deleted": "Amigos ถูกลบด้วย {{ param }}",
+            "delete": {
+                "question": "คุณต้องการที่จะลบ Amigos {{ id }}?"
+            },
+            "detail": {
+                "title": "Amigos"
+            },
+            "status": "Status",
+            "user": "User"
+        }
+    }
+}

@@ -1,0 +1,27 @@
+{
+    "mylastpornApp": {
+        "likes" : {
+            "home": {
+                "title": "Likes",
+                "createLabel": "Likes-ஐ உருவாக்கு",
+                "createOrEditLabel": "Likes -ஐ மாற்று (அ) உருவாக்கு",
+                "search": "Search for Likes"
+            },
+            "created": "Likes புதிதாக உருவாக்கப்பட்டது, அடையாளம் {{ param }}",
+            "updated": "Likes மாற்றப்பட்டது, அடையாளம்  {{ param }}",
+            "deleted": "A Likes நீக்கப்பட்டது, அடையாளம {{ param }}",
+            "delete": {
+                "question": "நீக்குவதற்கு உறுதி செய் Likes {{ id }}?"
+            },
+            "detail": {
+                "title": "Likes"
+            },
+            "idconteudo": "Idconteudo",
+            "like": "Like",
+            "dislike": "Dislike",
+            "datacriado": "Datacriado",
+            "user": "User",
+            "modulos": "Modulos"
+        }
+    }
+}

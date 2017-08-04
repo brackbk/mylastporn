@@ -1,0 +1,24 @@
+{
+    "mylastpornApp": {
+        "seguidoresPagina" : {
+            "home": {
+                "title": "Seguidores Paginas",
+                "createLabel": "Lisa uus Seguidores Pagina",
+                "createOrEditLabel": "Lisa või muuda Seguidores Pagina",
+                "search": "Otsi Seguidores Pagina"
+            },
+            "created": "Uus Seguidores Pagina on loodud identifikaatoriga {{ param }}",
+            "updated": "Seguidores Pagina identifikaatoriga {{ param }} on muudetud",
+            "deleted": "Seguidores Pagina identifikaatoriga {{ param }} on kustutatud",
+            "delete": {
+                "question": "Kas olete kindel, et soovite kustutada Seguidores Pagina {{ id }}?"
+            },
+            "detail": {
+                "title": "Seguidores Pagina"
+            },
+            "status": "Status",
+            "pagina": "Pagina",
+            "user": "User"
+        }
+    }
+}

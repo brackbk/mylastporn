@@ -1,0 +1,33 @@
+{
+    "mylastpornApp": {
+        "historia" : {
+            "home": {
+                "title": "Historias",
+                "createLabel": "Egy új Historia létrehozása",
+                "createOrEditLabel": "Hozzon létre, vagy módosítson Historiat",
+                "search": "Historia keresése"
+            },
+            "created": "Egy új Historia lett létrehozva {{ param }} azonosítóval",
+            "updated": "A Historia módosítva lett {{ param }} azonosítóval",
+            "deleted": "A Historia törölve lett {{ param }} azonosítóval",
+            "delete": {
+                "question": "Biztos benne, hogy törölni szeretné az Historiat {{ id }} azonosítóval?"
+            },
+            "detail": {
+                "title": "Historia"
+            },
+            "titulo": "Titulo",
+            "descricao": "Descricao",
+            "gay": "Gay",
+            "imagem": "Imagem",
+            "status": "Status",
+            "visitado": "Visitado",
+            "datacriado": "Datacriado",
+            "user": "User",
+            "visibilidade": "Visibilidade",
+            "tipo": "Tipo",
+            "tags": "Tags",
+            "pagina": "Pagina"
+        }
+    }
+}

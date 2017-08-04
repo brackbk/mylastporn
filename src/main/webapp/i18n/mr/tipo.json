@@ -1,0 +1,25 @@
+{
+    "mylastpornApp": {
+        "tipo" : {
+            "home": {
+                "title": "Tipos",
+                "createLabel": "नवीन Tipo तयार करा",
+                "createOrEditLabel": "Tipo तयार किंवा संपादित करा",
+                "search": "Tipo शोधा"
+            },
+            "created": "Tipo [identifier: {{ param }}] तयार आहे",
+            "updated": "Tipo [identifier: {{ param }}] सुधारित केले आहे",
+            "deleted": "Tipo [identifier: {{ param }}] हटविले आहे",
+            "delete": {
+                "question": "Tipo [id: {{ id }}] काढून टाकण्याबाबत पुष्टी?"
+            },
+            "detail": {
+                "title": "Tipo"
+            },
+            "nome": "Nome",
+            "status": "Status",
+            "datacriado": "Datacriado",
+            "modulos": "Modulos"
+        }
+    }
+}

@@ -1,0 +1,33 @@
+{
+    "mylastpornApp": {
+        "foto" : {
+            "home": {
+                "title": "Fotos",
+                "createLabel": "नया Foto बनाएँ",
+                "createOrEditLabel": "Foto बनाएँ या संपादित करें",
+                "search": "Foto खोजें"
+            },
+            "created": "एक नया Foto [identifier: {{ param }}] तैयार है",
+            "updated": "एक Foto [identifier: {{ param }}] का अद्यतन हुआ है",
+            "deleted": "Foto [identifier: {{ param }}] हटा दिया है",
+            "delete": {
+                "question": "Foto [id: {{ id }}] हटाने की पुष्टि करें"
+            },
+            "detail": {
+                "title": "Foto"
+            },
+            "titulo": "Titulo",
+            "descricao": "Descricao",
+            "gay": "Gay",
+            "imagem": "Imagem",
+            "status": "Status",
+            "visitado": "Visitado",
+            "datacriado": "Datacriado",
+            "user": "User",
+            "tipo": "Tipo",
+            "visibilidade": "Visibilidade",
+            "tags": "Tags",
+            "pagina": "Pagina"
+        }
+    }
+}

@@ -1,0 +1,33 @@
+{
+    "mylastpornApp": {
+        "pagina" : {
+            "home": {
+                "title": "Paginas",
+                "createLabel": "Pagina を追加",
+                "createOrEditLabel": "Paginaを追加または編集",
+                "search": "Search for Pagina"
+            },
+            "created": "A new Pagina is created with identifier {{ param }}",
+            "updated": "A Pagina is updated with identifier {{ param }}",
+            "deleted": "A Pagina is deleted with identifier {{ param }}",
+            "delete": {
+                "question": "Pagina {{ id }}を削除してもよろしいですか？"
+            },
+            "detail": {
+                "title": "Pagina"
+            },
+            "titulo": "Titulo",
+            "descricao": "Descricao",
+            "gay": "Gay",
+            "capa": "Capa",
+            "status": "Status",
+            "official": "Official",
+            "visitado": "Visitado",
+            "datacriado": "Datacriado",
+            "user": "User",
+            "visibilidade": "Visibilidade",
+            "tipo": "Tipo",
+            "tags": "Tags"
+        }
+    }
+}

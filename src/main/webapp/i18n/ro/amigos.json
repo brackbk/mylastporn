@@ -1,0 +1,23 @@
+{
+    "mylastpornApp": {
+        "amigos" : {
+            "home": {
+                "title": "Amigos",
+                "createLabel": "Creeare o nouă entitate Amigos",
+                "createOrEditLabel": "Creeare sau editare Amigos",
+                "search": "Căutare după Amigos"
+            },
+            "created": "A fost creată o nouă entitate Amigos cu identificatorul {{ param }}",
+            "updated": "Amigos cu identificatorul {{ param }} a fost actualizată",
+            "deleted": "Amigos cu identificatorul {{ param }} a fost ștearsă",
+            "delete": {
+                "question": "Sunteți sigur că doriți să ștergeți Amigos {{ id }}?"
+            },
+            "detail": {
+                "title": "Amigos"
+            },
+            "status": "Status",
+            "user": "User"
+        }
+    }
+}

@@ -1,0 +1,34 @@
+{
+    "mylastpornApp": {
+        "video" : {
+            "home": {
+                "title": "Videos",
+                "createLabel": "Egy új Video létrehozása",
+                "createOrEditLabel": "Hozzon létre, vagy módosítson Videot",
+                "search": "Video keresése"
+            },
+            "created": "Egy új Video lett létrehozva {{ param }} azonosítóval",
+            "updated": "A Video módosítva lett {{ param }} azonosítóval",
+            "deleted": "A Video törölve lett {{ param }} azonosítóval",
+            "delete": {
+                "question": "Biztos benne, hogy törölni szeretné az Videot {{ id }} azonosítóval?"
+            },
+            "detail": {
+                "title": "Video"
+            },
+            "titulo": "Titulo",
+            "descricao": "Descricao",
+            "gay": "Gay",
+            "video": "Video",
+            "imagem": "Imagem",
+            "status": "Status",
+            "visitado": "Visitado",
+            "datacriado": "Datacriado",
+            "user": "User",
+            "tipo": "Tipo",
+            "visibilidade": "Visibilidade",
+            "tags": "Tags",
+            "pagina": "Pagina"
+        }
+    }
+}

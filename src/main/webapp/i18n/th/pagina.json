@@ -1,0 +1,33 @@
+{
+    "mylastpornApp": {
+        "pagina" : {
+            "home": {
+                "title": "Paginas",
+                "createLabel": "สร้าง Pagina",
+                "createOrEditLabel": "สร้างหรือแก้ไข Pagina",
+                "search": "ค้นหา Pagina"
+            },
+            "created": "Pagina ถูกสร้างด้วย {{ param }}",
+            "updated": "Pagina ถูกแก้ไขด้วย {{ param }}",
+            "deleted": "Pagina ถูกลบด้วย {{ param }}",
+            "delete": {
+                "question": "คุณต้องการที่จะลบ Pagina {{ id }}?"
+            },
+            "detail": {
+                "title": "Pagina"
+            },
+            "titulo": "Titulo",
+            "descricao": "Descricao",
+            "gay": "Gay",
+            "capa": "Capa",
+            "status": "Status",
+            "official": "Official",
+            "visitado": "Visitado",
+            "datacriado": "Datacriado",
+            "user": "User",
+            "visibilidade": "Visibilidade",
+            "tipo": "Tipo",
+            "tags": "Tags"
+        }
+    }
+}

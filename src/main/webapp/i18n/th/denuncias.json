@@ -1,0 +1,29 @@
+{
+    "mylastpornApp": {
+        "denuncias" : {
+            "home": {
+                "title": "Denuncias",
+                "createLabel": "สร้าง Denuncias",
+                "createOrEditLabel": "สร้างหรือแก้ไข Denuncias",
+                "search": "ค้นหา Denuncias"
+            },
+            "created": "Denuncias ถูกสร้างด้วย {{ param }}",
+            "updated": "Denuncias ถูกแก้ไขด้วย {{ param }}",
+            "deleted": "Denuncias ถูกลบด้วย {{ param }}",
+            "delete": {
+                "question": "คุณต้องการที่จะลบ Denuncias {{ id }}?"
+            },
+            "detail": {
+                "title": "Denuncias"
+            },
+            "idconteudo": "Idconteudo",
+            "titulo": "Titulo",
+            "descricao": "Descricao",
+            "status": "Status",
+            "email": "Email",
+            "user": "User",
+            "tipoDenuncia": "Tipo Denuncia",
+            "modulos": "Modulos"
+        }
+    }
+}

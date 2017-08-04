@@ -1,0 +1,24 @@
+{
+    "mylastpornApp": {
+        "seguidoresPagina" : {
+            "home": {
+                "title": "Seguidores Paginas",
+                "createLabel": "สร้าง Seguidores Pagina",
+                "createOrEditLabel": "สร้างหรือแก้ไข Seguidores Pagina",
+                "search": "ค้นหา Seguidores Pagina"
+            },
+            "created": "Seguidores Pagina ถูกสร้างด้วย {{ param }}",
+            "updated": "Seguidores Pagina ถูกแก้ไขด้วย {{ param }}",
+            "deleted": "Seguidores Pagina ถูกลบด้วย {{ param }}",
+            "delete": {
+                "question": "คุณต้องการที่จะลบ Seguidores Pagina {{ id }}?"
+            },
+            "detail": {
+                "title": "Seguidores Pagina"
+            },
+            "status": "Status",
+            "pagina": "Pagina",
+            "user": "User"
+        }
+    }
+}

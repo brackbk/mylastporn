@@ -1,0 +1,29 @@
+{
+    "mylastpornApp": {
+        "comentarios" : {
+            "home": {
+                "title": "Comentarios",
+                "createLabel": "建立一筆新的 Comentarios",
+                "createOrEditLabel": "建立或編輯 Comentarios",
+                "search": "搜尋 Comentarios"
+            },
+            "created": "新的 Comentarios 建立成功，識別碼為 {{ param }}",
+            "updated": "識別碼為 {{ param }} 的 Comentarios 更新成功",
+            "deleted": "識別碼為 {{ param }} 的 Comentarios 刪除成功",
+            "delete": {
+                "question": "您確定要刪除 Comentarios {{ id }} 嗎?"
+            },
+            "detail": {
+                "title": "Comentarios"
+            },
+            "idconteudo": "Idconteudo",
+            "titulo": "Titulo",
+            "comentario": "Comentario",
+            "datacriado": "Datacriado",
+            "status": "Status",
+            "user": "User",
+            "visibilidade": "Visibilidade",
+            "modulos": "Modulos"
+        }
+    }
+}

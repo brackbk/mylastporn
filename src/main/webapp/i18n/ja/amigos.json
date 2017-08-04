@@ -1,0 +1,23 @@
+{
+    "mylastpornApp": {
+        "amigos" : {
+            "home": {
+                "title": "Amigos",
+                "createLabel": "Amigos を追加",
+                "createOrEditLabel": "Amigosを追加または編集",
+                "search": "Search for Amigos"
+            },
+            "created": "A new Amigos is created with identifier {{ param }}",
+            "updated": "A Amigos is updated with identifier {{ param }}",
+            "deleted": "A Amigos is deleted with identifier {{ param }}",
+            "delete": {
+                "question": "Amigos {{ id }}を削除してもよろしいですか？"
+            },
+            "detail": {
+                "title": "Amigos"
+            },
+            "status": "Status",
+            "user": "User"
+        }
+    }
+}

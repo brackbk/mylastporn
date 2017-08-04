@@ -1,0 +1,34 @@
+{
+    "mylastpornApp": {
+        "video" : {
+            "home": {
+                "title": "Videos",
+                "createLabel": "建立一筆新的 Video",
+                "createOrEditLabel": "建立或編輯 Video",
+                "search": "搜尋 Video"
+            },
+            "created": "新的 Video 建立成功，識別碼為 {{ param }}",
+            "updated": "識別碼為 {{ param }} 的 Video 更新成功",
+            "deleted": "識別碼為 {{ param }} 的 Video 刪除成功",
+            "delete": {
+                "question": "您確定要刪除 Video {{ id }} 嗎?"
+            },
+            "detail": {
+                "title": "Video"
+            },
+            "titulo": "Titulo",
+            "descricao": "Descricao",
+            "gay": "Gay",
+            "video": "Video",
+            "imagem": "Imagem",
+            "status": "Status",
+            "visitado": "Visitado",
+            "datacriado": "Datacriado",
+            "user": "User",
+            "tipo": "Tipo",
+            "visibilidade": "Visibilidade",
+            "tags": "Tags",
+            "pagina": "Pagina"
+        }
+    }
+}

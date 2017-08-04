@@ -1,0 +1,33 @@
+{
+    "mylastpornApp": {
+        "foto" : {
+            "home": {
+                "title": "Fotos",
+                "createLabel": "Vytvořit Foto",
+                "createOrEditLabel": "Vytvořit nebo upravit Foto",
+                "search": "Vyhledat Foto"
+            },
+            "created": "Byl vytvořen potomek entity Foto s identifikátorem {{ param }}",
+            "updated": "Potomek entity Foto s identifikátorem {{ param }} byl upravený.",
+            "deleted": "Potomek entity Foto s identifikátorem {{ param }} bol smazaný.",
+            "delete": {
+                "question": "Jste si jisti, že chcete smazat Foto {{ id }}?"
+            },
+            "detail": {
+                "title": "Foto"
+            },
+            "titulo": "Titulo",
+            "descricao": "Descricao",
+            "gay": "Gay",
+            "imagem": "Imagem",
+            "status": "Status",
+            "visitado": "Visitado",
+            "datacriado": "Datacriado",
+            "user": "User",
+            "tipo": "Tipo",
+            "visibilidade": "Visibilidade",
+            "tags": "Tags",
+            "pagina": "Pagina"
+        }
+    }
+}

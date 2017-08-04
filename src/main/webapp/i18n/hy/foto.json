@@ -1,0 +1,33 @@
+{
+    "mylastpornApp": {
+        "foto" : {
+            "home": {
+                "title": "Fotos",
+                "createLabel": "Ստեղծել նոր Foto",
+                "createOrEditLabel": "Ստեղծել կամ փոփոխել Foto",
+                "search": "Գտնել Foto"
+            },
+            "created": "Նոր Foto ստեղծված է {{ param }} նունացուցիչով",
+            "updated": "Foto թարմացվաց է {{ param }} նունացուցիչով",
+            "deleted": "Foto հեռացված է {{ param }}  նունացուցիչով",
+            "delete": {
+                "question": "Դուք վստահ ե՞ք, որ ցանկանում եք հեռացնել Foto {{ id }}?"
+            },
+            "detail": {
+                "title": "Foto"
+            },
+            "titulo": "Titulo",
+            "descricao": "Descricao",
+            "gay": "Gay",
+            "imagem": "Imagem",
+            "status": "Status",
+            "visitado": "Visitado",
+            "datacriado": "Datacriado",
+            "user": "User",
+            "tipo": "Tipo",
+            "visibilidade": "Visibilidade",
+            "tags": "Tags",
+            "pagina": "Pagina"
+        }
+    }
+}

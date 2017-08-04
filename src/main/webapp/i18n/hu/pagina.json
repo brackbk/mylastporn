@@ -1,0 +1,33 @@
+{
+    "mylastpornApp": {
+        "pagina" : {
+            "home": {
+                "title": "Paginas",
+                "createLabel": "Egy új Pagina létrehozása",
+                "createOrEditLabel": "Hozzon létre, vagy módosítson Paginat",
+                "search": "Pagina keresése"
+            },
+            "created": "Egy új Pagina lett létrehozva {{ param }} azonosítóval",
+            "updated": "A Pagina módosítva lett {{ param }} azonosítóval",
+            "deleted": "A Pagina törölve lett {{ param }} azonosítóval",
+            "delete": {
+                "question": "Biztos benne, hogy törölni szeretné az Paginat {{ id }} azonosítóval?"
+            },
+            "detail": {
+                "title": "Pagina"
+            },
+            "titulo": "Titulo",
+            "descricao": "Descricao",
+            "gay": "Gay",
+            "capa": "Capa",
+            "status": "Status",
+            "official": "Official",
+            "visitado": "Visitado",
+            "datacriado": "Datacriado",
+            "user": "User",
+            "visibilidade": "Visibilidade",
+            "tipo": "Tipo",
+            "tags": "Tags"
+        }
+    }
+}

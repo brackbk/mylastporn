@@ -1,0 +1,33 @@
+/* after changing this file run 'yarn run 'yarn run webpack:build' */
+$fa-font-path: '~font-awesome/fonts';
+
+/***************************
+put Sass variables here:
+eg $input-color: red;
+****************************/
+@import 'node_modules/bootstrap/scss/_variables.scss';
+@import 'node_modules/bootstrap/scss/_custom.scss';
+@import 'node_modules/bootstrap/scss/bootstrap';
+@import 'node_modules/bootstrap/scss/mixins/_breakpoints.scss';
+@import 'node_modules/font-awesome/scss/font-awesome';
+
+
+
+
+.card-columns {
+  @include media-breakpoint-only(xl) {
+    column-count: 5;
+  }
+  @include media-breakpoint-only(lg) {
+    column-count: 4;
+  }
+  @include media-breakpoint-only(md) {
+    column-count: 3;
+  }
+  @include media-breakpoint-only(sm) {
+    column-count: 2;
+  }
+}
+.card{
+    border-radius: none;
+}

@@ -1,0 +1,33 @@
+{
+    "mylastpornApp": {
+        "pagina" : {
+            "home": {
+                "title": "Paginas",
+                "createLabel": "Kreiraj novi Pagina",
+                "createOrEditLabel": "Kreirajte ili izmenite Pagina",
+                "search": "Potražite Pagina"
+            },
+            "created": "Kreiran je novi Pagina pod nazivom {{ param }}",
+            "updated": "Pagina pod nazivom {{ param }} je ažuriran",
+            "deleted": "Pagina pod nazivom {{ param }} je obrisan",
+            "delete": {
+                "question": "Da li ste sigurni da želite da obrišete Pagina pod nazivom {{ id }}?"
+            },
+            "detail": {
+                "title": "Pagina"
+            },
+            "titulo": "Titulo",
+            "descricao": "Descricao",
+            "gay": "Gay",
+            "capa": "Capa",
+            "status": "Status",
+            "official": "Official",
+            "visitado": "Visitado",
+            "datacriado": "Datacriado",
+            "user": "User",
+            "visibilidade": "Visibilidade",
+            "tipo": "Tipo",
+            "tags": "Tags"
+        }
+    }
+}

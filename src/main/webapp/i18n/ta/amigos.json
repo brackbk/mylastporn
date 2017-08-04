@@ -1,0 +1,23 @@
+{
+    "mylastpornApp": {
+        "amigos" : {
+            "home": {
+                "title": "Amigos",
+                "createLabel": "Amigos-ஐ உருவாக்கு",
+                "createOrEditLabel": "Amigos -ஐ மாற்று (அ) உருவாக்கு",
+                "search": "Search for Amigos"
+            },
+            "created": "Amigos புதிதாக உருவாக்கப்பட்டது, அடையாளம் {{ param }}",
+            "updated": "Amigos மாற்றப்பட்டது, அடையாளம்  {{ param }}",
+            "deleted": "A Amigos நீக்கப்பட்டது, அடையாளம {{ param }}",
+            "delete": {
+                "question": "நீக்குவதற்கு உறுதி செய் Amigos {{ id }}?"
+            },
+            "detail": {
+                "title": "Amigos"
+            },
+            "status": "Status",
+            "user": "User"
+        }
+    }
+}

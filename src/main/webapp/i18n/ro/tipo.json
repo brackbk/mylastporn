@@ -1,0 +1,25 @@
+{
+    "mylastpornApp": {
+        "tipo" : {
+            "home": {
+                "title": "Tipos",
+                "createLabel": "Creeare o nouă entitate Tipo",
+                "createOrEditLabel": "Creeare sau editare Tipo",
+                "search": "Căutare după Tipo"
+            },
+            "created": "A fost creată o nouă entitate Tipo cu identificatorul {{ param }}",
+            "updated": "Tipo cu identificatorul {{ param }} a fost actualizată",
+            "deleted": "Tipo cu identificatorul {{ param }} a fost ștearsă",
+            "delete": {
+                "question": "Sunteți sigur că doriți să ștergeți Tipo {{ id }}?"
+            },
+            "detail": {
+                "title": "Tipo"
+            },
+            "nome": "Nome",
+            "status": "Status",
+            "datacriado": "Datacriado",
+            "modulos": "Modulos"
+        }
+    }
+}

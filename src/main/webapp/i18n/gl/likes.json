@@ -1,0 +1,27 @@
+{
+    "mylastpornApp": {
+        "likes" : {
+            "home": {
+                "title": "Likes",
+                "createLabel": "Crear novo Likes",
+                "createOrEditLabel": "Crear ou editar Likes",
+                "search": "Search for Likes"
+            },
+            "created": "Un novo Likes foi creado co identificador {{ param }}",
+            "updated": "Un Likes foi actualizado co identificador {{ param }}",
+            "deleted": "Un Likes foi eliminado co identificador {{ param }}",
+            "delete": {
+                "question": "Seguro que desexa eliminar Likes {{ id }}?"
+            },
+            "detail": {
+                "title": "Likes"
+            },
+            "idconteudo": "Idconteudo",
+            "like": "Like",
+            "dislike": "Dislike",
+            "datacriado": "Datacriado",
+            "user": "User",
+            "modulos": "Modulos"
+        }
+    }
+}

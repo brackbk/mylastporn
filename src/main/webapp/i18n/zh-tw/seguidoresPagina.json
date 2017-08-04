@@ -1,0 +1,24 @@
+{
+    "mylastpornApp": {
+        "seguidoresPagina" : {
+            "home": {
+                "title": "Seguidores Paginas",
+                "createLabel": "建立一筆新的 Seguidores Pagina",
+                "createOrEditLabel": "建立或編輯 Seguidores Pagina",
+                "search": "搜尋 Seguidores Pagina"
+            },
+            "created": "新的 Seguidores Pagina 建立成功，識別碼為 {{ param }}",
+            "updated": "識別碼為 {{ param }} 的 Seguidores Pagina 更新成功",
+            "deleted": "識別碼為 {{ param }} 的 Seguidores Pagina 刪除成功",
+            "delete": {
+                "question": "您確定要刪除 Seguidores Pagina {{ id }} 嗎?"
+            },
+            "detail": {
+                "title": "Seguidores Pagina"
+            },
+            "status": "Status",
+            "pagina": "Pagina",
+            "user": "User"
+        }
+    }
+}

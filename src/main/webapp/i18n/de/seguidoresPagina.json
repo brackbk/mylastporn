@@ -1,0 +1,24 @@
+{
+    "mylastpornApp": {
+        "seguidoresPagina" : {
+            "home": {
+                "title": "Seguidores Paginas",
+                "createLabel": "Seguidores Pagina erstellen",
+                "createOrEditLabel": "Seguidores Pagina erstellen oder bearbeiten",
+                "search": "Suche nach Seguidores Pagina"
+            },
+            "created": "Seguidores Pagina erstellt mit ID {{ param }}",
+            "updated": "Seguidores Pagina aktualisiert mit ID {{ param }}",
+            "deleted": "Seguidores Pagina gelöscht mit ID {{ param }}",
+            "delete": {
+                "question": "Soll Seguidores Pagina {{ id }} wirklich dauerhaft gelöscht werden?"
+            },
+            "detail": {
+                "title": "Seguidores Pagina"
+            },
+            "status": "Status",
+            "pagina": "Pagina",
+            "user": "User"
+        }
+    }
+}

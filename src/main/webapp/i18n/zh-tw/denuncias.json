@@ -1,0 +1,29 @@
+{
+    "mylastpornApp": {
+        "denuncias" : {
+            "home": {
+                "title": "Denuncias",
+                "createLabel": "建立一筆新的 Denuncias",
+                "createOrEditLabel": "建立或編輯 Denuncias",
+                "search": "搜尋 Denuncias"
+            },
+            "created": "新的 Denuncias 建立成功，識別碼為 {{ param }}",
+            "updated": "識別碼為 {{ param }} 的 Denuncias 更新成功",
+            "deleted": "識別碼為 {{ param }} 的 Denuncias 刪除成功",
+            "delete": {
+                "question": "您確定要刪除 Denuncias {{ id }} 嗎?"
+            },
+            "detail": {
+                "title": "Denuncias"
+            },
+            "idconteudo": "Idconteudo",
+            "titulo": "Titulo",
+            "descricao": "Descricao",
+            "status": "Status",
+            "email": "Email",
+            "user": "User",
+            "tipoDenuncia": "Tipo Denuncia",
+            "modulos": "Modulos"
+        }
+    }
+}

@@ -1,0 +1,26 @@
+{
+    "mylastpornApp": {
+        "favoritos" : {
+            "home": {
+                "title": "Favoritos",
+                "createLabel": "Favoritos erstellen",
+                "createOrEditLabel": "Favoritos erstellen oder bearbeiten",
+                "search": "Suche nach Favoritos"
+            },
+            "created": "Favoritos erstellt mit ID {{ param }}",
+            "updated": "Favoritos aktualisiert mit ID {{ param }}",
+            "deleted": "Favoritos gelöscht mit ID {{ param }}",
+            "delete": {
+                "question": "Soll Favoritos {{ id }} wirklich dauerhaft gelöscht werden?"
+            },
+            "detail": {
+                "title": "Favoritos"
+            },
+            "idconteudo": "Idconteudo",
+            "datacriado": "Datacriado",
+            "user": "User",
+            "visibilidade": "Visibilidade",
+            "modulos": "Modulos"
+        }
+    }
+}

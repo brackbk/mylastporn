@@ -1,0 +1,25 @@
+{
+    "mylastpornApp": {
+        "modulos" : {
+            "home": {
+                "title": "Modulos",
+                "createLabel": "Modulos を追加",
+                "createOrEditLabel": "Modulosを追加または編集",
+                "search": "Search for Modulos"
+            },
+            "created": "A new Modulos is created with identifier {{ param }}",
+            "updated": "A Modulos is updated with identifier {{ param }}",
+            "deleted": "A Modulos is deleted with identifier {{ param }}",
+            "delete": {
+                "question": "Modulos {{ id }}を削除してもよろしいですか？"
+            },
+            "detail": {
+                "title": "Modulos"
+            },
+            "nome": "Nome",
+            "caminho": "Caminho",
+            "status": "Status",
+            "datacriado": "Datacriado"
+        }
+    }
+}

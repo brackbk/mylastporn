@@ -1,0 +1,22 @@
+{
+    "mylastpornApp": {
+        "visibilidade" : {
+            "home": {
+                "title": "Visibilidades",
+                "createLabel": "Skapa en ny Visibilidade",
+                "createOrEditLabel": "Skapa eller ändra en Visibilidade",
+                "search": "Sök efter Visibilidade"
+            },
+            "created": "En ny Visibilidade är skapad med id {{ param }}",
+            "updated": "En Visibilidade är uppdaterad med id  {{ param }}",
+            "deleted": "En Visibilidade är borttagen med id  {{ param }}",
+            "delete": {
+                "question": "Är du säker på att du vill ta bort Visibilidade {{ id }}?"
+            },
+            "detail": {
+                "title": "Visibilidade"
+            },
+            "nome": "Nome"
+        }
+    }
+}

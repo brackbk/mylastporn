@@ -1,0 +1,29 @@
+{
+    "mylastpornApp": {
+        "comentarios" : {
+            "home": {
+                "title": "Comentarios",
+                "createLabel": "Thêm mới một Comentarios",
+                "createOrEditLabel": "Thêm mới hoặc cập nhật Comentarios",
+                "search": "Tìm Comentarios"
+            },
+            "created": "Một Comentarios mới được tạo với định danh {{ param }}",
+            "updated": "Một Comentarios cập nhật với định danh {{ param }}",
+            "deleted": "Một Comentarios đã xóa với định danh {{ param }}",
+            "delete": {
+                "question": "Bạn có chắc là muốn xóa Comentarios {{ id }}?"
+            },
+            "detail": {
+                "title": "Comentarios"
+            },
+            "idconteudo": "Idconteudo",
+            "titulo": "Titulo",
+            "comentario": "Comentario",
+            "datacriado": "Datacriado",
+            "status": "Status",
+            "user": "User",
+            "visibilidade": "Visibilidade",
+            "modulos": "Modulos"
+        }
+    }
+}

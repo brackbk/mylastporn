@@ -1,0 +1,29 @@
+{
+    "mylastpornApp": {
+        "denuncias" : {
+            "home": {
+                "title": "Denuncias",
+                "createLabel": "Thêm mới một Denuncias",
+                "createOrEditLabel": "Thêm mới hoặc cập nhật Denuncias",
+                "search": "Tìm Denuncias"
+            },
+            "created": "Một Denuncias mới được tạo với định danh {{ param }}",
+            "updated": "Một Denuncias cập nhật với định danh {{ param }}",
+            "deleted": "Một Denuncias đã xóa với định danh {{ param }}",
+            "delete": {
+                "question": "Bạn có chắc là muốn xóa Denuncias {{ id }}?"
+            },
+            "detail": {
+                "title": "Denuncias"
+            },
+            "idconteudo": "Idconteudo",
+            "titulo": "Titulo",
+            "descricao": "Descricao",
+            "status": "Status",
+            "email": "Email",
+            "user": "User",
+            "tipoDenuncia": "Tipo Denuncia",
+            "modulos": "Modulos"
+        }
+    }
+}

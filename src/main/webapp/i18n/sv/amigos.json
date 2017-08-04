@@ -1,0 +1,23 @@
+{
+    "mylastpornApp": {
+        "amigos" : {
+            "home": {
+                "title": "Amigos",
+                "createLabel": "Skapa en ny Amigos",
+                "createOrEditLabel": "Skapa eller ändra en Amigos",
+                "search": "Sök efter Amigos"
+            },
+            "created": "En ny Amigos är skapad med id {{ param }}",
+            "updated": "En Amigos är uppdaterad med id  {{ param }}",
+            "deleted": "En Amigos är borttagen med id  {{ param }}",
+            "delete": {
+                "question": "Är du säker på att du vill ta bort Amigos {{ id }}?"
+            },
+            "detail": {
+                "title": "Amigos"
+            },
+            "status": "Status",
+            "user": "User"
+        }
+    }
+}

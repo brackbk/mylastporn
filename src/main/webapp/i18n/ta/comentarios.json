@@ -1,0 +1,29 @@
+{
+    "mylastpornApp": {
+        "comentarios" : {
+            "home": {
+                "title": "Comentarios",
+                "createLabel": "Comentarios-ஐ உருவாக்கு",
+                "createOrEditLabel": "Comentarios -ஐ மாற்று (அ) உருவாக்கு",
+                "search": "Search for Comentarios"
+            },
+            "created": "Comentarios புதிதாக உருவாக்கப்பட்டது, அடையாளம் {{ param }}",
+            "updated": "Comentarios மாற்றப்பட்டது, அடையாளம்  {{ param }}",
+            "deleted": "A Comentarios நீக்கப்பட்டது, அடையாளம {{ param }}",
+            "delete": {
+                "question": "நீக்குவதற்கு உறுதி செய் Comentarios {{ id }}?"
+            },
+            "detail": {
+                "title": "Comentarios"
+            },
+            "idconteudo": "Idconteudo",
+            "titulo": "Titulo",
+            "comentario": "Comentario",
+            "datacriado": "Datacriado",
+            "status": "Status",
+            "user": "User",
+            "visibilidade": "Visibilidade",
+            "modulos": "Modulos"
+        }
+    }
+}

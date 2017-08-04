@@ -1,0 +1,29 @@
+{
+    "mylastpornApp": {
+        "denuncias" : {
+            "home": {
+                "title": "Denuncias",
+                "createLabel": "Skapa en ny Denuncias",
+                "createOrEditLabel": "Skapa eller ändra en Denuncias",
+                "search": "Sök efter Denuncias"
+            },
+            "created": "En ny Denuncias är skapad med id {{ param }}",
+            "updated": "En Denuncias är uppdaterad med id  {{ param }}",
+            "deleted": "En Denuncias är borttagen med id  {{ param }}",
+            "delete": {
+                "question": "Är du säker på att du vill ta bort Denuncias {{ id }}?"
+            },
+            "detail": {
+                "title": "Denuncias"
+            },
+            "idconteudo": "Idconteudo",
+            "titulo": "Titulo",
+            "descricao": "Descricao",
+            "status": "Status",
+            "email": "Email",
+            "user": "User",
+            "tipoDenuncia": "Tipo Denuncia",
+            "modulos": "Modulos"
+        }
+    }
+}

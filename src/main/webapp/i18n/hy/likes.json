@@ -1,0 +1,27 @@
+{
+    "mylastpornApp": {
+        "likes" : {
+            "home": {
+                "title": "Likes",
+                "createLabel": "Ստեղծել նոր Likes",
+                "createOrEditLabel": "Ստեղծել կամ փոփոխել Likes",
+                "search": "Գտնել Likes"
+            },
+            "created": "Նոր Likes ստեղծված է {{ param }} նունացուցիչով",
+            "updated": "Likes թարմացվաց է {{ param }} նունացուցիչով",
+            "deleted": "Likes հեռացված է {{ param }}  նունացուցիչով",
+            "delete": {
+                "question": "Դուք վստահ ե՞ք, որ ցանկանում եք հեռացնել Likes {{ id }}?"
+            },
+            "detail": {
+                "title": "Likes"
+            },
+            "idconteudo": "Idconteudo",
+            "like": "Like",
+            "dislike": "Dislike",
+            "datacriado": "Datacriado",
+            "user": "User",
+            "modulos": "Modulos"
+        }
+    }
+}

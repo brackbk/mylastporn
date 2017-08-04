@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<databaseChangeLog
+    xmlns="http://www.liquibase.org/xml/ns/dbchangelog"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xsi:schemaLocation="http://www.liquibase.org/xml/ns/dbchangelog http://www.liquibase.org/xml/ns/dbchangelog/dbchangelog-3.5.xsd">
+    <!--
+        Added the constraints for entity SeguidoresPagina.
+    -->
+    <changeSet id="20170711172352-2" author="jhipster">
+        
+        <addForeignKeyConstraint baseColumnNames="pagina_id"
+                                 baseTableName="seguidores_pagina"
+                                 constraintName="fk_seguidores_pagina_pagina_id"
+                                 referencedColumnNames="id"
+                                 referencedTableName="pagina"/>
+
+        <addForeignKeyConstraint baseColumnNames="user_id"
+                                 baseTableName="seguidores_pagina"
+                                 constraintName="fk_seguidores_pagina_user_id"
+                                 referencedColumnNames="id"
+                                 referencedTableName="jhi_user"/>
+
+    </changeSet>
+</databaseChangeLog>

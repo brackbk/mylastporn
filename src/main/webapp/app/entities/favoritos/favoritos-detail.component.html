@@ -1,0 +1,45 @@
+
+<div *ngIf="favoritos">
+    <h2><span jhiTranslate="mylastpornApp.favoritos.detail.title">Favoritos</span> {{favoritos.id}}</h2>
+    <hr>
+    <jhi-alert-error></jhi-alert-error>
+    <dl class="row-md jh-entity-details">
+        <dt><span jhiTranslate="mylastpornApp.favoritos.idconteudo">Idconteudo</span></dt>
+        <dd>
+            <span>{{favoritos.idconteudo}}</span>
+        </dd>
+        <dt><span jhiTranslate="mylastpornApp.favoritos.datacriado">Datacriado</span></dt>
+        <dd>
+            <span>{{favoritos.datacriado | date:'medium'}}</span>
+        </dd>
+        <dt><span jhiTranslate="mylastpornApp.favoritos.user">User</span></dt>
+        <dd>
+            {{favoritos.userId}}
+        </dd>
+        <dt><span jhiTranslate="mylastpornApp.favoritos.visibilidade">Visibilidade</span></dt>
+        <dd>
+            <div *ngIf="favoritos.visibilidadeId">
+                <a [routerLink]="['/visibilidade', favoritos.visibilidadeId]">{{favoritos.visibilidadeId}}</a>
+            </div>
+        </dd>
+        <dt><span jhiTranslate="mylastpornApp.favoritos.modulos">Modulos</span></dt>
+        <dd>
+            <div *ngIf="favoritos.modulosId">
+                <a [routerLink]="['/modulos', favoritos.modulosId]">{{favoritos.modulosNome}}</a>
+            </div>
+        </dd>
+    </dl>
+
+    <button type="submit"
+            (click)="previousState()"
+            class="btn btn-info">
+        <span class="fa fa-arrow-left"></span>&nbsp;<span jhiTranslate="entity.action.back"> Back</span>
+    </button>
+
+    <button type="button"
+            [routerLink]="['/', { outlets: { popup: 'favoritos/'+ favoritos.id + '/edit'} }]"
+            replaceUrl="true"
+            class="btn btn-primary">
+        <span class="fa fa-pencil"></span>&nbsp;<span jhiTranslate="entity.action.edit"> Edit</span>
+    </button>
+</div>

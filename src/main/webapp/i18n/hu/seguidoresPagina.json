@@ -1,0 +1,24 @@
+{
+    "mylastpornApp": {
+        "seguidoresPagina" : {
+            "home": {
+                "title": "SeguidoresPaginas",
+                "createLabel": "Egy új Seguidores Pagina létrehozása",
+                "createOrEditLabel": "Hozzon létre, vagy módosítson Seguidores Paginat",
+                "search": "Seguidores Pagina keresése"
+            },
+            "created": "Egy új Seguidores Pagina lett létrehozva {{ param }} azonosítóval",
+            "updated": "A Seguidores Pagina módosítva lett {{ param }} azonosítóval",
+            "deleted": "A Seguidores Pagina törölve lett {{ param }} azonosítóval",
+            "delete": {
+                "question": "Biztos benne, hogy törölni szeretné az Seguidores Paginat {{ id }} azonosítóval?"
+            },
+            "detail": {
+                "title": "Seguidores Pagina"
+            },
+            "status": "Status",
+            "pagina": "Pagina",
+            "user": "User"
+        }
+    }
+}

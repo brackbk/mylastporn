@@ -1,0 +1,26 @@
+{
+    "mylastpornApp": {
+        "tags" : {
+            "home": {
+                "title": "Tags",
+                "createLabel": "Thêm mới một Tags",
+                "createOrEditLabel": "Thêm mới hoặc cập nhật Tags",
+                "search": "Tìm Tags"
+            },
+            "created": "Một Tags mới được tạo với định danh {{ param }}",
+            "updated": "Một Tags cập nhật với định danh {{ param }}",
+            "deleted": "Một Tags đã xóa với định danh {{ param }}",
+            "delete": {
+                "question": "Bạn có chắc là muốn xóa Tags {{ id }}?"
+            },
+            "detail": {
+                "title": "Tags"
+            },
+            "nome": "Nome",
+            "imagem": "Imagem",
+            "status": "Status",
+            "visitado": "Visitado",
+            "datacriado": "Datacriado"
+        }
+    }
+}

@@ -1,0 +1,122 @@
+<div class="row" [ngSwitch]="isAuthenticated()">
+    <div class="col-sm-12">
+        <div class="alert alert-success" *ngSwitchCase="true">
+            <span *ngIf="account" jhiTranslate="home.logged.message" translateValues="{username: '{{account.login}}'}"> You are logged in as user "{{account.login}}". </span>
+        </div>
+        <div class="card card-inverse card-danger mb-3 text-center" *ngSwitchCase="false">
+            <div class="card-block">
+                <blockquote class="card-blockquote">
+                    <span jhiTranslate="global.messages.info.register.noaccount">You don't have an account yet?</span>
+                    <a class="alert-link" routerLink="register" jhiTranslate="global.messages.info.register.link">Register a new account</a>
+                </blockquote>
+            </div>
+        </div>
+    </div>
+    <div class="col-sm-12">
+        <div class="card-columns">
+            <div class="card">
+                <img class="card-img-top img-fluid" src="" alt="Card image cap">
+                <div class="card-block">
+                    <h4 class="card-title">Card title that wraps to a new line</h4>
+                    <p class="card-text">This is a longer card with supporting text below as a natural lead-in to additional content. This content
+                        is a little bit longer.</p>
+                </div>
+            </div>
+            <div class="card">
+                <img class="card-img-top img-fluid" src="" alt="Card image cap">
+                <div class="card-block">
+                    <h4 class="card-title">Card title that wraps to a new line</h4>
+                    <p class="card-text">This is a longer card with supporting text below as a natural lead-in to additional content. This content
+                        is a little bit longer.This is a longer card with supporting text below as a natural lead-in to additional
+                        content. This content is a little bit longer.This is a longer card with supporting text below as
+                        a natural lead-in to additional content. This content is a little bit longer.This is a longer card
+                        with supporting text below as a natural lead-in to additional content. This content is a little bit
+                        longer.This is a longer card with supporting text below as a natural lead-in to additional content.
+                        This content is a little bit longer.</p>
+                </div>
+            </div>
+            <div class="card">
+                <img class="card-img-top img-fluid" src="" alt="Card image cap">
+                <div class="card-block">
+                    <h4 class="card-title">Card title that wraps to a new line</h4>
+                    <p class="card-text">This is a longer card with supporting text below as a natural lead-in to additional content. This content
+                        is a little bit longer.</p>
+                </div>
+            </div>
+            <div class="card">
+                <img class="card-img-top img-fluid" src="" alt="Card image cap">
+                <div class="card-block">
+                    <h4 class="card-title">Card title that wraps to a new line</h4>
+                    <p class="card-text">This is a longer card with supporting text below as a natural lead-in to additional content. This content
+                        is a little bit longer.</p>
+                </div>
+            </div>
+            <div class="card">
+                <img class="card-img-top img-fluid" src="" alt="Card image cap">
+                <div class="card-block">
+                    <h4 class="card-title">Card title that wraps to a new line</h4>
+                    <p class="card-text">This is a longer card with supporting text below as a natural lead-in to additional content. This content
+                        is a little bit longer.</p>
+                </div>
+            </div>
+            <div class="card">
+                <img class="card-img-top img-fluid" src="" alt="Card image cap">
+                <div class="card-block">
+                    <h4 class="card-title">Card title that wraps to a new line</h4>
+                    <p class="card-text">This is a longer card with supporting text below as a natural lead-in to additional content. This content
+                        is a little bit longer.</p>
+                </div>
+            </div>
+            <div class="card">
+                <img class="card-img-top img-fluid" src="" alt="Card image cap">
+                <div class="card-block">
+                    <h4 class="card-title">Card title that wraps to a new line</h4>
+                    <p class="card-text">This is a longer card with supporting text below as a natural lead-in to additional content. This content
+                        is a little bit longer.</p>
+                </div>
+            </div>
+            <div class="card">
+                <img class="card-img-top img-fluid" src="" alt="Card image cap">
+                <div class="card-block">
+                    <h4 class="card-title">Card title that wraps to a new line</h4>
+                    <p class="card-text">This is a longer card with supporting text below as a natural lead-in to additional content. This content
+                        is a little bit longer.</p>
+                </div>
+            </div>
+            <div class="card">
+                <img class="card-img-top img-fluid" src="" alt="Card image cap">
+                <div class="card-block">
+                    <h4 class="card-title">Card title that wraps to a new line</h4>
+                    <p class="card-text">This is a longer card with supporting text below as a natural lead-in to additional content. This content
+                        is a little bit longer.</p>
+                </div>
+            </div>
+            <div class="card">
+                <img class="card-img-top img-fluid" src="" alt="Card image cap">
+                <div class="card-block">
+                    <h4 class="card-title">Card title that wraps to a new line</h4>
+                    <p class="card-text">This is a longer card with supporting text below as a natural lead-in to additional content. This content
+                        is a little bit longer.</p>
+                </div>
+            </div>
+            <div class="card">
+                <img class="card-img-top img-fluid" src="" alt="Card image cap">
+                <div class="card-block">
+                    <h4 class="card-title">Card title that wraps to a new line</h4>
+                    <p class="card-text">This is a longer card with supporting text below as a natural lead-in to additional content. This content
+                        is a little bit longer.</p>
+                </div>
+            </div>
+            <div class="card">
+                <img class="card-img-top img-fluid" src="" alt="Card image cap">
+                <div class="card-block">
+                    <h4 class="card-title">Card title that wraps to a new line</h4>
+                    <p class="card-text">This is a longer card with supporting text below as a natural lead-in to additional content. This content
+                        is a little bit longer.</p>
+                </div>
+            </div>
+
+
+        </div>
+    </div>
+</div>

@@ -1,0 +1,33 @@
+{
+    "mylastpornApp": {
+        "historia" : {
+            "home": {
+                "title": "Historias",
+                "createLabel": "Genera un nuovo Historia",
+                "createOrEditLabel": "Genera o modifica un Historia",
+                "search": "Cerca Historia"
+            },
+            "created": "&Egrave; stato generato un nuovo Historia con identificatore {{ param }}",
+            "updated": "&Egrave; stato aggiornato Historia identificato da {{ param }}",
+            "deleted": "&Egrave; stato eliminato Historia con identificatore {{ param }}",
+            "delete": {
+                "question": "Sei sicuro di volere eliminare Historia {{ id }}?"
+            },
+            "detail": {
+                "title": "Historia"
+            },
+            "titulo": "Titulo",
+            "descricao": "Descricao",
+            "gay": "Gay",
+            "imagem": "Imagem",
+            "status": "Status",
+            "visitado": "Visitado",
+            "datacriado": "Datacriado",
+            "user": "User",
+            "visibilidade": "Visibilidade",
+            "tipo": "Tipo",
+            "tags": "Tags",
+            "pagina": "Pagina"
+        }
+    }
+}

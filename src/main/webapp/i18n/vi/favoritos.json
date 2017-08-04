@@ -1,0 +1,26 @@
+{
+    "mylastpornApp": {
+        "favoritos" : {
+            "home": {
+                "title": "Favoritos",
+                "createLabel": "Thêm mới một Favoritos",
+                "createOrEditLabel": "Thêm mới hoặc cập nhật Favoritos",
+                "search": "Tìm Favoritos"
+            },
+            "created": "Một Favoritos mới được tạo với định danh {{ param }}",
+            "updated": "Một Favoritos cập nhật với định danh {{ param }}",
+            "deleted": "Một Favoritos đã xóa với định danh {{ param }}",
+            "delete": {
+                "question": "Bạn có chắc là muốn xóa Favoritos {{ id }}?"
+            },
+            "detail": {
+                "title": "Favoritos"
+            },
+            "idconteudo": "Idconteudo",
+            "datacriado": "Datacriado",
+            "user": "User",
+            "visibilidade": "Visibilidade",
+            "modulos": "Modulos"
+        }
+    }
+}

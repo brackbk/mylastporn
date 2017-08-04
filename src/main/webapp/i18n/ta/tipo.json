@@ -1,0 +1,25 @@
+{
+    "mylastpornApp": {
+        "tipo" : {
+            "home": {
+                "title": "Tipos",
+                "createLabel": "Tipo-ஐ உருவாக்கு",
+                "createOrEditLabel": "Tipo -ஐ மாற்று (அ) உருவாக்கு",
+                "search": "Search for Tipo"
+            },
+            "created": "Tipo புதிதாக உருவாக்கப்பட்டது, அடையாளம் {{ param }}",
+            "updated": "Tipo மாற்றப்பட்டது, அடையாளம்  {{ param }}",
+            "deleted": "A Tipo நீக்கப்பட்டது, அடையாளம {{ param }}",
+            "delete": {
+                "question": "நீக்குவதற்கு உறுதி செய் Tipo {{ id }}?"
+            },
+            "detail": {
+                "title": "Tipo"
+            },
+            "nome": "Nome",
+            "status": "Status",
+            "datacriado": "Datacriado",
+            "modulos": "Modulos"
+        }
+    }
+}

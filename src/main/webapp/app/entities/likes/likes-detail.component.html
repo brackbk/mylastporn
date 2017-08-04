@@ -1,0 +1,47 @@
+
+<div *ngIf="likes">
+    <h2><span jhiTranslate="mylastpornApp.likes.detail.title">Likes</span> {{likes.id}}</h2>
+    <hr>
+    <jhi-alert-error></jhi-alert-error>
+    <dl class="row-md jh-entity-details">
+        <dt><span jhiTranslate="mylastpornApp.likes.idconteudo">Idconteudo</span></dt>
+        <dd>
+            <span>{{likes.idconteudo}}</span>
+        </dd>
+        <dt><span jhiTranslate="mylastpornApp.likes.like">Like</span></dt>
+        <dd>
+            <span>{{likes.like}}</span>
+        </dd>
+        <dt><span jhiTranslate="mylastpornApp.likes.dislike">Dislike</span></dt>
+        <dd>
+            <span>{{likes.dislike}}</span>
+        </dd>
+        <dt><span jhiTranslate="mylastpornApp.likes.datacriado">Datacriado</span></dt>
+        <dd>
+            <span>{{likes.datacriado | date:'medium'}}</span>
+        </dd>
+        <dt><span jhiTranslate="mylastpornApp.likes.user">User</span></dt>
+        <dd>
+            {{likes.userId}}
+        </dd>
+        <dt><span jhiTranslate="mylastpornApp.likes.modulos">Modulos</span></dt>
+        <dd>
+            <div *ngIf="likes.modulosId">
+                <a [routerLink]="['/modulos', likes.modulosId]">{{likes.modulosNome}}</a>
+            </div>
+        </dd>
+    </dl>
+
+    <button type="submit"
+            (click)="previousState()"
+            class="btn btn-info">
+        <span class="fa fa-arrow-left"></span>&nbsp;<span jhiTranslate="entity.action.back"> Back</span>
+    </button>
+
+    <button type="button"
+            [routerLink]="['/', { outlets: { popup: 'likes/'+ likes.id + '/edit'} }]"
+            replaceUrl="true"
+            class="btn btn-primary">
+        <span class="fa fa-pencil"></span>&nbsp;<span jhiTranslate="entity.action.edit"> Edit</span>
+    </button>
+</div>

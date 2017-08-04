@@ -1,0 +1,27 @@
+{
+    "mylastpornApp": {
+        "likes" : {
+            "home": {
+                "title": "Likes",
+                "createLabel": "Thêm mới một Likes",
+                "createOrEditLabel": "Thêm mới hoặc cập nhật Likes",
+                "search": "Tìm Likes"
+            },
+            "created": "Một Likes mới được tạo với định danh {{ param }}",
+            "updated": "Một Likes cập nhật với định danh {{ param }}",
+            "deleted": "Một Likes đã xóa với định danh {{ param }}",
+            "delete": {
+                "question": "Bạn có chắc là muốn xóa Likes {{ id }}?"
+            },
+            "detail": {
+                "title": "Likes"
+            },
+            "idconteudo": "Idconteudo",
+            "like": "Like",
+            "dislike": "Dislike",
+            "datacriado": "Datacriado",
+            "user": "User",
+            "modulos": "Modulos"
+        }
+    }
+}

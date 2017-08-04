@@ -1,0 +1,29 @@
+{
+    "mylastpornApp": {
+        "denuncias" : {
+            "home": {
+                "title": "Denuncias",
+                "createLabel": "Creeare o nouă entitate Denuncias",
+                "createOrEditLabel": "Creeare sau editare Denuncias",
+                "search": "Căutare după Denuncias"
+            },
+            "created": "A fost creată o nouă entitate Denuncias cu identificatorul {{ param }}",
+            "updated": "Denuncias cu identificatorul {{ param }} a fost actualizată",
+            "deleted": "Denuncias cu identificatorul {{ param }} a fost ștearsă",
+            "delete": {
+                "question": "Sunteți sigur că doriți să ștergeți Denuncias {{ id }}?"
+            },
+            "detail": {
+                "title": "Denuncias"
+            },
+            "idconteudo": "Idconteudo",
+            "titulo": "Titulo",
+            "descricao": "Descricao",
+            "status": "Status",
+            "email": "Email",
+            "user": "User",
+            "tipoDenuncia": "Tipo Denuncia",
+            "modulos": "Modulos"
+        }
+    }
+}

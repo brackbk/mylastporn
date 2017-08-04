@@ -1,0 +1,26 @@
+{
+    "mylastpornApp": {
+        "favoritos" : {
+            "home": {
+                "title": "Favoritos",
+                "createLabel": "建立一筆新的 Favoritos",
+                "createOrEditLabel": "建立或編輯 Favoritos",
+                "search": "搜尋 Favoritos"
+            },
+            "created": "新的 Favoritos 建立成功，識別碼為 {{ param }}",
+            "updated": "識別碼為 {{ param }} 的 Favoritos 更新成功",
+            "deleted": "識別碼為 {{ param }} 的 Favoritos 刪除成功",
+            "delete": {
+                "question": "您確定要刪除 Favoritos {{ id }} 嗎?"
+            },
+            "detail": {
+                "title": "Favoritos"
+            },
+            "idconteudo": "Idconteudo",
+            "datacriado": "Datacriado",
+            "user": "User",
+            "visibilidade": "Visibilidade",
+            "modulos": "Modulos"
+        }
+    }
+}

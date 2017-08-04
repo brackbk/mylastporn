@@ -1,0 +1,33 @@
+{
+    "mylastpornApp": {
+        "pagina" : {
+            "home": {
+                "title": "Paginas",
+                "createLabel": "नया Pagina बनाएँ",
+                "createOrEditLabel": "Pagina बनाएँ या संपादित करें",
+                "search": "Pagina खोजें"
+            },
+            "created": "एक नया Pagina [identifier: {{ param }}] तैयार है",
+            "updated": "एक Pagina [identifier: {{ param }}] का अद्यतन हुआ है",
+            "deleted": "Pagina [identifier: {{ param }}] हटा दिया है",
+            "delete": {
+                "question": "Pagina [id: {{ id }}] हटाने की पुष्टि करें"
+            },
+            "detail": {
+                "title": "Pagina"
+            },
+            "titulo": "Titulo",
+            "descricao": "Descricao",
+            "gay": "Gay",
+            "capa": "Capa",
+            "status": "Status",
+            "official": "Official",
+            "visitado": "Visitado",
+            "datacriado": "Datacriado",
+            "user": "User",
+            "visibilidade": "Visibilidade",
+            "tipo": "Tipo",
+            "tags": "Tags"
+        }
+    }
+}

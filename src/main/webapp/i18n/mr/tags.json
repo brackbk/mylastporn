@@ -1,0 +1,26 @@
+{
+    "mylastpornApp": {
+        "tags" : {
+            "home": {
+                "title": "Tags",
+                "createLabel": "नवीन Tags तयार करा",
+                "createOrEditLabel": "Tags तयार किंवा संपादित करा",
+                "search": "Tags शोधा"
+            },
+            "created": "Tags [identifier: {{ param }}] तयार आहे",
+            "updated": "Tags [identifier: {{ param }}] सुधारित केले आहे",
+            "deleted": "Tags [identifier: {{ param }}] हटविले आहे",
+            "delete": {
+                "question": "Tags [id: {{ id }}] काढून टाकण्याबाबत पुष्टी?"
+            },
+            "detail": {
+                "title": "Tags"
+            },
+            "nome": "Nome",
+            "imagem": "Imagem",
+            "status": "Status",
+            "visitado": "Visitado",
+            "datacriado": "Datacriado"
+        }
+    }
+}

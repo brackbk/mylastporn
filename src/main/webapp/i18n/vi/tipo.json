@@ -1,0 +1,25 @@
+{
+    "mylastpornApp": {
+        "tipo" : {
+            "home": {
+                "title": "Tipos",
+                "createLabel": "Thêm mới một Tipo",
+                "createOrEditLabel": "Thêm mới hoặc cập nhật Tipo",
+                "search": "Tìm Tipo"
+            },
+            "created": "Một Tipo mới được tạo với định danh {{ param }}",
+            "updated": "Một Tipo cập nhật với định danh {{ param }}",
+            "deleted": "Một Tipo đã xóa với định danh {{ param }}",
+            "delete": {
+                "question": "Bạn có chắc là muốn xóa Tipo {{ id }}?"
+            },
+            "detail": {
+                "title": "Tipo"
+            },
+            "nome": "Nome",
+            "status": "Status",
+            "datacriado": "Datacriado",
+            "modulos": "Modulos"
+        }
+    }
+}

@@ -1,0 +1,22 @@
+{
+    "mylastpornApp": {
+        "tipoDenuncia" : {
+            "home": {
+                "title": "Tipo Denuncias",
+                "createLabel": "Creeare o nouă entitate Tipo Denuncia",
+                "createOrEditLabel": "Creeare sau editare Tipo Denuncia",
+                "search": "Căutare după Tipo Denuncia"
+            },
+            "created": "A fost creată o nouă entitate Tipo Denuncia cu identificatorul {{ param }}",
+            "updated": "Tipo Denuncia cu identificatorul {{ param }} a fost actualizată",
+            "deleted": "Tipo Denuncia cu identificatorul {{ param }} a fost ștearsă",
+            "delete": {
+                "question": "Sunteți sigur că doriți să ștergeți Tipo Denuncia {{ id }}?"
+            },
+            "detail": {
+                "title": "Tipo Denuncia"
+            },
+            "tipo": "Tipo"
+        }
+    }
+}

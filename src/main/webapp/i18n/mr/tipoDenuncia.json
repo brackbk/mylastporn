@@ -1,0 +1,22 @@
+{
+    "mylastpornApp": {
+        "tipoDenuncia" : {
+            "home": {
+                "title": "Tipo Denuncias",
+                "createLabel": "नवीन Tipo Denuncia तयार करा",
+                "createOrEditLabel": "Tipo Denuncia तयार किंवा संपादित करा",
+                "search": "Tipo Denuncia शोधा"
+            },
+            "created": "Tipo Denuncia [identifier: {{ param }}] तयार आहे",
+            "updated": "Tipo Denuncia [identifier: {{ param }}] सुधारित केले आहे",
+            "deleted": "Tipo Denuncia [identifier: {{ param }}] हटविले आहे",
+            "delete": {
+                "question": "Tipo Denuncia [id: {{ id }}] काढून टाकण्याबाबत पुष्टी?"
+            },
+            "detail": {
+                "title": "Tipo Denuncia"
+            },
+            "tipo": "Tipo"
+        }
+    }
+}

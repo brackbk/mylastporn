@@ -1,0 +1,25 @@
+{
+    "mylastpornApp": {
+        "modulos" : {
+            "home": {
+                "title": "Modulos",
+                "createLabel": "Creeare o nouă entitate Modulos",
+                "createOrEditLabel": "Creeare sau editare Modulos",
+                "search": "Căutare după Modulos"
+            },
+            "created": "A fost creată o nouă entitate Modulos cu identificatorul {{ param }}",
+            "updated": "Modulos cu identificatorul {{ param }} a fost actualizată",
+            "deleted": "Modulos cu identificatorul {{ param }} a fost ștearsă",
+            "delete": {
+                "question": "Sunteți sigur că doriți să ștergeți Modulos {{ id }}?"
+            },
+            "detail": {
+                "title": "Modulos"
+            },
+            "nome": "Nome",
+            "caminho": "Caminho",
+            "status": "Status",
+            "datacriado": "Datacriado"
+        }
+    }
+}

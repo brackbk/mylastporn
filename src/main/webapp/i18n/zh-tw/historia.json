@@ -1,0 +1,33 @@
+{
+    "mylastpornApp": {
+        "historia" : {
+            "home": {
+                "title": "Historias",
+                "createLabel": "建立一筆新的 Historia",
+                "createOrEditLabel": "建立或編輯 Historia",
+                "search": "搜尋 Historia"
+            },
+            "created": "新的 Historia 建立成功，識別碼為 {{ param }}",
+            "updated": "識別碼為 {{ param }} 的 Historia 更新成功",
+            "deleted": "識別碼為 {{ param }} 的 Historia 刪除成功",
+            "delete": {
+                "question": "您確定要刪除 Historia {{ id }} 嗎?"
+            },
+            "detail": {
+                "title": "Historia"
+            },
+            "titulo": "Titulo",
+            "descricao": "Descricao",
+            "gay": "Gay",
+            "imagem": "Imagem",
+            "status": "Status",
+            "visitado": "Visitado",
+            "datacriado": "Datacriado",
+            "user": "User",
+            "visibilidade": "Visibilidade",
+            "tipo": "Tipo",
+            "tags": "Tags",
+            "pagina": "Pagina"
+        }
+    }
+}

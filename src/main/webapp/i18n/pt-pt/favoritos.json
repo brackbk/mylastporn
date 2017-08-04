@@ -1,0 +1,26 @@
+{
+    "mylastpornApp": {
+        "favoritos" : {
+            "home": {
+                "title": "Favoritos",
+                "createLabel": "Criar um(a) novo(a) Favoritos",
+                "createOrEditLabel": "Criar ou editar um(a) Favoritos",
+                "search": "Search for Favoritos"
+            },
+            "created": "A new Favoritos is created with identifier {{ param }}",
+            "updated": "A Favoritos is updated with identifier {{ param }}",
+            "deleted": "A Favoritos is deleted with identifier {{ param }}",
+            "delete": {
+                "question": "Tem a certeza que pretende eliminar o(a) Favoritos {{ id }}?"
+            },
+            "detail": {
+                "title": "Favoritos"
+            },
+            "idconteudo": "Idconteudo",
+            "datacriado": "Datacriado",
+            "user": "User",
+            "visibilidade": "Visibilidade",
+            "modulos": "Modulos"
+        }
+    }
+}

@@ -1,0 +1,23 @@
+{
+    "mylastpornApp": {
+        "amigos" : {
+            "home": {
+                "title": "Amigos",
+                "createLabel": "Criar novo Amigos",
+                "createOrEditLabel": "Criar ou editar Amigos",
+                "search": "Pesquisar por Amigos"
+            },
+            "created": "Um novo Amigos foi criado com o identificador {{ param }}",
+            "updated": "Um Amigos foi atualizado com o identificador {{ param }}",
+            "deleted": "Um Amigos foi deletado com o identificador {{ param }}",
+            "delete": {
+                "question": "Tem certeza de que deseja excluir Amigos {{ id }}?"
+            },
+            "detail": {
+                "title": "Amigos"
+            },
+            "status": "Status",
+            "user": "User"
+        }
+    }
+}

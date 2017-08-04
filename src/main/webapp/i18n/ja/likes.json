@@ -1,0 +1,27 @@
+{
+    "mylastpornApp": {
+        "likes" : {
+            "home": {
+                "title": "Likes",
+                "createLabel": "Likes を追加",
+                "createOrEditLabel": "Likesを追加または編集",
+                "search": "Search for Likes"
+            },
+            "created": "A new Likes is created with identifier {{ param }}",
+            "updated": "A Likes is updated with identifier {{ param }}",
+            "deleted": "A Likes is deleted with identifier {{ param }}",
+            "delete": {
+                "question": "Likes {{ id }}を削除してもよろしいですか？"
+            },
+            "detail": {
+                "title": "Likes"
+            },
+            "idconteudo": "Idconteudo",
+            "like": "Like",
+            "dislike": "Dislike",
+            "datacriado": "Datacriado",
+            "user": "User",
+            "modulos": "Modulos"
+        }
+    }
+}

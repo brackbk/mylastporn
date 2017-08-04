@@ -1,0 +1,33 @@
+{
+    "mylastpornApp": {
+        "pagina" : {
+            "home": {
+                "title": "Paginas",
+                "createLabel": "Pridať Pagina",
+                "createOrEditLabel": "Pridať alebo upraviť Pagina",
+                "search": "Vyhľadať Pagina"
+            },
+            "created": "Bol vytvorený potomok entity Pagina s identifikátorom {{ param }}",
+            "updated": "Potomok entity Pagina s identifikátorom {{ param }} bol upravený.",
+            "deleted": "Potomok entity Pagina s identifikátorom {{ param }} bol vymazaný.",
+            "delete": {
+                "question": "Ste si istý, že chcete vymazať Pagina {{ id }}?"
+            },
+            "detail": {
+                "title": "Pagina"
+            },
+            "titulo": "Titulo",
+            "descricao": "Descricao",
+            "gay": "Gay",
+            "capa": "Capa",
+            "status": "Status",
+            "official": "Official",
+            "visitado": "Visitado",
+            "datacriado": "Datacriado",
+            "user": "User",
+            "visibilidade": "Visibilidade",
+            "tipo": "Tipo",
+            "tags": "Tags"
+        }
+    }
+}

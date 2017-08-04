@@ -1,0 +1,25 @@
+{
+    "mylastpornApp": {
+        "tipo" : {
+            "home": {
+                "title": "Tipos",
+                "createLabel": "Lisa uus Tipo",
+                "createOrEditLabel": "Lisa või muuda Tipo",
+                "search": "Otsi Tipo"
+            },
+            "created": "Uus Tipo on loodud identifikaatoriga {{ param }}",
+            "updated": "Tipo identifikaatoriga {{ param }} on muudetud",
+            "deleted": "Tipo identifikaatoriga {{ param }} on kustutatud",
+            "delete": {
+                "question": "Kas olete kindel, et soovite kustutada Tipo {{ id }}?"
+            },
+            "detail": {
+                "title": "Tipo"
+            },
+            "nome": "Nome",
+            "status": "Status",
+            "datacriado": "Datacriado",
+            "modulos": "Modulos"
+        }
+    }
+}

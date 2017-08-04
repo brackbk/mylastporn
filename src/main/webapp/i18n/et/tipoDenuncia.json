@@ -1,0 +1,22 @@
+{
+    "mylastpornApp": {
+        "tipoDenuncia" : {
+            "home": {
+                "title": "Tipo Denuncias",
+                "createLabel": "Lisa uus Tipo Denuncia",
+                "createOrEditLabel": "Lisa või muuda Tipo Denuncia",
+                "search": "Otsi Tipo Denuncia"
+            },
+            "created": "Uus Tipo Denuncia on loodud identifikaatoriga {{ param }}",
+            "updated": "Tipo Denuncia identifikaatoriga {{ param }} on muudetud",
+            "deleted": "Tipo Denuncia identifikaatoriga {{ param }} on kustutatud",
+            "delete": {
+                "question": "Kas olete kindel, et soovite kustutada Tipo Denuncia {{ id }}?"
+            },
+            "detail": {
+                "title": "Tipo Denuncia"
+            },
+            "tipo": "Tipo"
+        }
+    }
+}

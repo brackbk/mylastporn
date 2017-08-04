@@ -1,0 +1,27 @@
+{
+    "mylastpornApp": {
+        "likes" : {
+            "home": {
+                "title": "Likes",
+                "createLabel": "नवीन Likes तयार करा",
+                "createOrEditLabel": "Likes तयार किंवा संपादित करा",
+                "search": "Likes शोधा"
+            },
+            "created": "Likes [identifier: {{ param }}] तयार आहे",
+            "updated": "Likes [identifier: {{ param }}] सुधारित केले आहे",
+            "deleted": "Likes [identifier: {{ param }}] हटविले आहे",
+            "delete": {
+                "question": "Likes [id: {{ id }}] काढून टाकण्याबाबत पुष्टी?"
+            },
+            "detail": {
+                "title": "Likes"
+            },
+            "idconteudo": "Idconteudo",
+            "like": "Like",
+            "dislike": "Dislike",
+            "datacriado": "Datacriado",
+            "user": "User",
+            "modulos": "Modulos"
+        }
+    }
+}

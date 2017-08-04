@@ -1,0 +1,24 @@
+{
+    "mylastpornApp": {
+        "seguidoresPagina" : {
+            "home": {
+                "title": "Seguidores Paginas",
+                "createLabel": "Vytvořit Seguidores Pagina",
+                "createOrEditLabel": "Vytvořit nebo upravit Seguidores Pagina",
+                "search": "Vyhledat Seguidores Pagina"
+            },
+            "created": "Byl vytvořen potomek entity Seguidores Pagina s identifikátorem {{ param }}",
+            "updated": "Potomek entity Seguidores Pagina s identifikátorem {{ param }} byl upravený.",
+            "deleted": "Potomek entity Seguidores Pagina s identifikátorem {{ param }} bol smazaný.",
+            "delete": {
+                "question": "Jste si jisti, že chcete smazat Seguidores Pagina {{ id }}?"
+            },
+            "detail": {
+                "title": "Seguidores Pagina"
+            },
+            "status": "Status",
+            "pagina": "Pagina",
+            "user": "User"
+        }
+    }
+}

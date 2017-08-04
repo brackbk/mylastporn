@@ -1,0 +1,105 @@
+<div>
+    <h2>
+        <span jhiTranslate="mylastpornApp.historia.home.title">Historias</span>
+        <button class="btn btn-primary float-right create-historia" [routerLink]="['/', { outlets: { popup: ['historia-new'] } }]">
+            <span class="fa fa-plus"></span>
+            <span class="hidden-sm-down"  jhiTranslate="mylastpornApp.historia.home.createLabel">
+            Create new Historia
+            </span>
+        </button>
+    </h2>
+    <jhi-alert></jhi-alert>
+    <div class="row">
+        <div class="col-sm-12">
+            <form name="searchForm" class="form-inline">
+                <div class="input-group w-100 mt-3">
+                    <input type="text" class="form-control" [(ngModel)]="currentSearch" id="currentSearch" name="currentSearch" placeholder="{{ 'mylastpornApp.historia.home.search' | translate }}">
+                    <button class="input-group-addon btn btn-info" (click)="search(currentSearch)">
+                        <span class="fa fa-search"></span>
+                    </button>
+                    <button class="input-group-addon btn btn-danger" (click)="clear()" *ngIf="currentSearch">
+                        <span class="fa fa-trash-o"></span>
+                    </button>
+                </div>
+            </form>
+        </div>
+    </div>
+    <br/>
+    <div class="table-responsive" *ngIf="historias">
+        <table class="table table-striped">
+            <thead>
+            <tr jhiSort [(predicate)]="predicate" [(ascending)]="reverse" [callback]="transition.bind(this)">
+            <th jhiSortBy="id"><span jhiTranslate="global.field.id">ID</span> <span class="fa fa-sort"></span></th>
+            <th jhiSortBy="titulo"><span jhiTranslate="mylastpornApp.historia.titulo">Titulo</span> <span class="fa fa-sort"></span></th>
+            <th jhiSortBy="descricao"><span jhiTranslate="mylastpornApp.historia.descricao">Descricao</span> <span class="fa fa-sort"></span></th>
+            <th jhiSortBy="gay"><span jhiTranslate="mylastpornApp.historia.gay">Gay</span> <span class="fa fa-sort"></span></th>
+            <th jhiSortBy="imagem"><span jhiTranslate="mylastpornApp.historia.imagem">Imagem</span> <span class="fa fa-sort"></span></th>
+            <th jhiSortBy="status"><span jhiTranslate="mylastpornApp.historia.status">Status</span> <span class="fa fa-sort"></span></th>
+            <th jhiSortBy="visitado"><span jhiTranslate="mylastpornApp.historia.visitado">Visitado</span> <span class="fa fa-sort"></span></th>
+            <th jhiSortBy="datacriado"><span jhiTranslate="mylastpornApp.historia.datacriado">Datacriado</span> <span class="fa fa-sort"></span></th>
+            <th jhiSortBy="userId"><span jhiTranslate="mylastpornApp.historia.user">User</span> <span class="fa fa-sort"></span></th>
+            <th jhiSortBy="visibilidadeId"><span jhiTranslate="mylastpornApp.historia.visibilidade">Visibilidade</span> <span class="fa fa-sort"></span></th>
+            <th jhiSortBy="tipoNome"><span jhiTranslate="mylastpornApp.historia.tipo">Tipo</span> <span class="fa fa-sort"></span></th>
+            <th></th>
+            </tr>
+            </thead>
+            <tbody>
+            <tr *ngFor="let historia of historias ;trackBy: trackId">
+                <td><a [routerLink]="['../historia', historia.id ]">{{historia.id}}</a></td>
+                <td>{{historia.titulo}}</td>
+                <td>{{historia.descricao}}</td>
+                <td>{{historia.gay}}</td>
+                <td>{{historia.imagem}}</td>
+                <td jhiTranslate="{{'mylastpornApp.Status.' + historia.status}}">{{historia.status}}</td>
+                <td>{{historia.visitado}}</td>
+                <td>{{historia.datacriado | date:'medium'}}</td>
+                <td>
+                    {{historia.userId}}
+                </td>
+                <td>
+                    <div *ngIf="historia.visibilidadeId">
+                        <a [routerLink]="['../visibilidade', historia.visibilidadeId  ]" >{{historia.visibilidadeId}}</a>
+                    </div>
+                </td>
+                <td>
+                    <div *ngIf="historia.tipoId">
+                        <a [routerLink]="['../tipo', historia.tipoId  ]" >{{historia.tipoNome}}</a>
+                    </div>
+                </td>
+                <td class="text-right">
+                    <div class="btn-group flex-btn-group-container">
+                        <button type="submit"
+                                [routerLink]="['../historia', historia.id ]"
+                                class="btn btn-info btn-sm">
+                            <span class="fa fa-eye"></span>
+                            <span class="hidden-md-down" jhiTranslate="entity.action.view">View</span>
+                        </button>
+                        <button type="submit"
+                                [routerLink]="['/', { outlets: { popup: 'historia/'+ historia.id + '/edit'} }]"
+                                replaceUrl="true"
+                                class="btn btn-primary btn-sm">
+                            <span class="fa fa-pencil"></span>
+                            <span class="hidden-md-down" jhiTranslate="entity.action.edit">Edit</span>
+                        </button>
+                        <button type="submit"
+                                [routerLink]="['/', { outlets: { popup: 'historia/'+ historia.id + '/delete'} }]"
+                                replaceUrl="true"
+                                class="btn btn-danger btn-sm">
+                            <span class="fa fa-remove"></span>
+                            <span class="hidden-md-down" jhiTranslate="entity.action.delete">Delete</span>
+                        </button>
+                    </div>
+                </td>
+            </tr>
+            </tbody>
+        </table>
+    </div>
+        <div *ngIf="historias && historias.length">
+            <div class="row justify-content-center">
+                <jhi-item-count [page]="page" [total]="queryCount" [itemsPerPage]="itemsPerPage"></jhi-item-count>
+            </div>
+            <div class="row justify-content-center">
+                <ngb-pagination [collectionSize]="totalItems" [(page)]="page" (pageChange)="loadPage(page)"></ngb-pagination>
+            </div>
+        </div>
+</div>

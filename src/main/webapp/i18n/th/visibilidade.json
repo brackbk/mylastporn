@@ -1,0 +1,22 @@
+{
+    "mylastpornApp": {
+        "visibilidade" : {
+            "home": {
+                "title": "Visibilidades",
+                "createLabel": "สร้าง Visibilidade",
+                "createOrEditLabel": "สร้างหรือแก้ไข Visibilidade",
+                "search": "ค้นหา Visibilidade"
+            },
+            "created": "Visibilidade ถูกสร้างด้วย {{ param }}",
+            "updated": "Visibilidade ถูกแก้ไขด้วย {{ param }}",
+            "deleted": "Visibilidade ถูกลบด้วย {{ param }}",
+            "delete": {
+                "question": "คุณต้องการที่จะลบ Visibilidade {{ id }}?"
+            },
+            "detail": {
+                "title": "Visibilidade"
+            },
+            "nome": "Nome"
+        }
+    }
+}

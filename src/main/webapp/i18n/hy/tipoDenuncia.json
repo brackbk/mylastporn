@@ -1,0 +1,22 @@
+{
+    "mylastpornApp": {
+        "tipoDenuncia" : {
+            "home": {
+                "title": "Tipo Denuncias",
+                "createLabel": "Ստեղծել նոր Tipo Denuncia",
+                "createOrEditLabel": "Ստեղծել կամ փոփոխել Tipo Denuncia",
+                "search": "Գտնել Tipo Denuncia"
+            },
+            "created": "Նոր Tipo Denuncia ստեղծված է {{ param }} նունացուցիչով",
+            "updated": "Tipo Denuncia թարմացվաց է {{ param }} նունացուցիչով",
+            "deleted": "Tipo Denuncia հեռացված է {{ param }}  նունացուցիչով",
+            "delete": {
+                "question": "Դուք վստահ ե՞ք, որ ցանկանում եք հեռացնել Tipo Denuncia {{ id }}?"
+            },
+            "detail": {
+                "title": "Tipo Denuncia"
+            },
+            "tipo": "Tipo"
+        }
+    }
+}

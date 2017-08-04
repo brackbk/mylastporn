@@ -1,0 +1,25 @@
+{
+    "mylastpornApp": {
+        "modulos" : {
+            "home": {
+                "title": "Modulos",
+                "createLabel": "नया Modulos बनाएँ",
+                "createOrEditLabel": "Modulos बनाएँ या संपादित करें",
+                "search": "Modulos खोजें"
+            },
+            "created": "एक नया Modulos [identifier: {{ param }}] तैयार है",
+            "updated": "एक Modulos [identifier: {{ param }}] का अद्यतन हुआ है",
+            "deleted": "Modulos [identifier: {{ param }}] हटा दिया है",
+            "delete": {
+                "question": "Modulos [id: {{ id }}] हटाने की पुष्टि करें"
+            },
+            "detail": {
+                "title": "Modulos"
+            },
+            "nome": "Nome",
+            "caminho": "Caminho",
+            "status": "Status",
+            "datacriado": "Datacriado"
+        }
+    }
+}

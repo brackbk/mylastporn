@@ -1,0 +1,27 @@
+{
+    "mylastpornApp": {
+        "likes" : {
+            "home": {
+                "title": "Likes",
+                "createLabel": "สร้าง Likes",
+                "createOrEditLabel": "สร้างหรือแก้ไข Likes",
+                "search": "ค้นหา Likes"
+            },
+            "created": "Likes ถูกสร้างด้วย {{ param }}",
+            "updated": "Likes ถูกแก้ไขด้วย {{ param }}",
+            "deleted": "Likes ถูกลบด้วย {{ param }}",
+            "delete": {
+                "question": "คุณต้องการที่จะลบ Likes {{ id }}?"
+            },
+            "detail": {
+                "title": "Likes"
+            },
+            "idconteudo": "Idconteudo",
+            "like": "Like",
+            "dislike": "Dislike",
+            "datacriado": "Datacriado",
+            "user": "User",
+            "modulos": "Modulos"
+        }
+    }
+}

@@ -1,0 +1,26 @@
+{
+    "mylastpornApp": {
+        "favoritos" : {
+            "home": {
+                "title": "Favoritos",
+                "createLabel": "नया Favoritos बनाएँ",
+                "createOrEditLabel": "Favoritos बनाएँ या संपादित करें",
+                "search": "Favoritos खोजें"
+            },
+            "created": "एक नया Favoritos [identifier: {{ param }}] तैयार है",
+            "updated": "एक Favoritos [identifier: {{ param }}] का अद्यतन हुआ है",
+            "deleted": "Favoritos [identifier: {{ param }}] हटा दिया है",
+            "delete": {
+                "question": "Favoritos [id: {{ id }}] हटाने की पुष्टि करें"
+            },
+            "detail": {
+                "title": "Favoritos"
+            },
+            "idconteudo": "Idconteudo",
+            "datacriado": "Datacriado",
+            "user": "User",
+            "visibilidade": "Visibilidade",
+            "modulos": "Modulos"
+        }
+    }
+}

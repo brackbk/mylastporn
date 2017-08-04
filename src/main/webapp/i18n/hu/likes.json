@@ -1,0 +1,27 @@
+{
+    "mylastpornApp": {
+        "likes" : {
+            "home": {
+                "title": "Likes",
+                "createLabel": "Egy új Likes létrehozása",
+                "createOrEditLabel": "Hozzon létre, vagy módosítson Likest",
+                "search": "Likes keresése"
+            },
+            "created": "Egy új Likes lett létrehozva {{ param }} azonosítóval",
+            "updated": "A Likes módosítva lett {{ param }} azonosítóval",
+            "deleted": "A Likes törölve lett {{ param }} azonosítóval",
+            "delete": {
+                "question": "Biztos benne, hogy törölni szeretné az Likest {{ id }} azonosítóval?"
+            },
+            "detail": {
+                "title": "Likes"
+            },
+            "idconteudo": "Idconteudo",
+            "like": "Like",
+            "dislike": "Dislike",
+            "datacriado": "Datacriado",
+            "user": "User",
+            "modulos": "Modulos"
+        }
+    }
+}

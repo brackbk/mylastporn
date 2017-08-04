@@ -1,0 +1,23 @@
+{
+    "mylastpornApp": {
+        "amigos" : {
+            "home": {
+                "title": "Amigos",
+                "createLabel": "建立一筆新的 Amigos",
+                "createOrEditLabel": "建立或編輯 Amigos",
+                "search": "搜尋 Amigos"
+            },
+            "created": "新的 Amigos 建立成功，識別碼為 {{ param }}",
+            "updated": "識別碼為 {{ param }} 的 Amigos 更新成功",
+            "deleted": "識別碼為 {{ param }} 的 Amigos 刪除成功",
+            "delete": {
+                "question": "您確定要刪除 Amigos {{ id }} 嗎?"
+            },
+            "detail": {
+                "title": "Amigos"
+            },
+            "status": "Status",
+            "user": "User"
+        }
+    }
+}

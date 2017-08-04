@@ -1,0 +1,33 @@
+{
+    "mylastpornApp": {
+        "foto" : {
+            "home": {
+                "title": "Fotos",
+                "createLabel": "Foto を追加",
+                "createOrEditLabel": "Fotoを追加または編集",
+                "search": "Search for Foto"
+            },
+            "created": "A new Foto is created with identifier {{ param }}",
+            "updated": "A Foto is updated with identifier {{ param }}",
+            "deleted": "A Foto is deleted with identifier {{ param }}",
+            "delete": {
+                "question": "Foto {{ id }}を削除してもよろしいですか？"
+            },
+            "detail": {
+                "title": "Foto"
+            },
+            "titulo": "Titulo",
+            "descricao": "Descricao",
+            "gay": "Gay",
+            "imagem": "Imagem",
+            "status": "Status",
+            "visitado": "Visitado",
+            "datacriado": "Datacriado",
+            "user": "User",
+            "tipo": "Tipo",
+            "visibilidade": "Visibilidade",
+            "tags": "Tags",
+            "pagina": "Pagina"
+        }
+    }
+}

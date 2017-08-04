@@ -1,0 +1,29 @@
+{
+    "mylastpornApp": {
+        "comentarios" : {
+            "home": {
+                "title": "Comentarios",
+                "createLabel": "Vytvořit Comentarios",
+                "createOrEditLabel": "Vytvořit nebo upravit Comentarios",
+                "search": "Vyhledat Comentarios"
+            },
+            "created": "Byl vytvořen potomek entity Comentarios s identifikátorem {{ param }}",
+            "updated": "Potomek entity Comentarios s identifikátorem {{ param }} byl upravený.",
+            "deleted": "Potomek entity Comentarios s identifikátorem {{ param }} bol smazaný.",
+            "delete": {
+                "question": "Jste si jisti, že chcete smazat Comentarios {{ id }}?"
+            },
+            "detail": {
+                "title": "Comentarios"
+            },
+            "idconteudo": "Idconteudo",
+            "titulo": "Titulo",
+            "comentario": "Comentario",
+            "datacriado": "Datacriado",
+            "status": "Status",
+            "user": "User",
+            "visibilidade": "Visibilidade",
+            "modulos": "Modulos"
+        }
+    }
+}

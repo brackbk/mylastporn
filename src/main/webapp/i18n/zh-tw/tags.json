@@ -1,0 +1,26 @@
+{
+    "mylastpornApp": {
+        "tags" : {
+            "home": {
+                "title": "Tags",
+                "createLabel": "建立一筆新的 Tags",
+                "createOrEditLabel": "建立或編輯 Tags",
+                "search": "搜尋 Tags"
+            },
+            "created": "新的 Tags 建立成功，識別碼為 {{ param }}",
+            "updated": "識別碼為 {{ param }} 的 Tags 更新成功",
+            "deleted": "識別碼為 {{ param }} 的 Tags 刪除成功",
+            "delete": {
+                "question": "您確定要刪除 Tags {{ id }} 嗎?"
+            },
+            "detail": {
+                "title": "Tags"
+            },
+            "nome": "Nome",
+            "imagem": "Imagem",
+            "status": "Status",
+            "visitado": "Visitado",
+            "datacriado": "Datacriado"
+        }
+    }
+}

@@ -1,0 +1,26 @@
+{
+    "mylastpornApp": {
+        "favoritos" : {
+            "home": {
+                "title": "Favoritos",
+                "createLabel": "Ստեղծել նոր Favoritos",
+                "createOrEditLabel": "Ստեղծել կամ փոփոխել Favoritos",
+                "search": "Գտնել Favoritos"
+            },
+            "created": "Նոր Favoritos ստեղծված է {{ param }} նունացուցիչով",
+            "updated": "Favoritos թարմացվաց է {{ param }} նունացուցիչով",
+            "deleted": "Favoritos հեռացված է {{ param }}  նունացուցիչով",
+            "delete": {
+                "question": "Դուք վստահ ե՞ք, որ ցանկանում եք հեռացնել Favoritos {{ id }}?"
+            },
+            "detail": {
+                "title": "Favoritos"
+            },
+            "idconteudo": "Idconteudo",
+            "datacriado": "Datacriado",
+            "user": "User",
+            "visibilidade": "Visibilidade",
+            "modulos": "Modulos"
+        }
+    }
+}

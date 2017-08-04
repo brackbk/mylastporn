@@ -1,0 +1,25 @@
+{
+    "mylastpornApp": {
+        "modulos" : {
+            "home": {
+                "title": "Modulos",
+                "createLabel": "Modulos-ஐ உருவாக்கு",
+                "createOrEditLabel": "Modulos -ஐ மாற்று (அ) உருவாக்கு",
+                "search": "Search for Modulos"
+            },
+            "created": "Modulos புதிதாக உருவாக்கப்பட்டது, அடையாளம் {{ param }}",
+            "updated": "Modulos மாற்றப்பட்டது, அடையாளம்  {{ param }}",
+            "deleted": "A Modulos நீக்கப்பட்டது, அடையாளம {{ param }}",
+            "delete": {
+                "question": "நீக்குவதற்கு உறுதி செய் Modulos {{ id }}?"
+            },
+            "detail": {
+                "title": "Modulos"
+            },
+            "nome": "Nome",
+            "caminho": "Caminho",
+            "status": "Status",
+            "datacriado": "Datacriado"
+        }
+    }
+}

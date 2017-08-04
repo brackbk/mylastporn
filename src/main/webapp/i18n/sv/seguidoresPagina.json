@@ -1,0 +1,24 @@
+{
+    "mylastpornApp": {
+        "seguidoresPagina" : {
+            "home": {
+                "title": "Seguidores Paginas",
+                "createLabel": "Skapa en ny Seguidores Pagina",
+                "createOrEditLabel": "Skapa eller ändra en Seguidores Pagina",
+                "search": "Sök efter Seguidores Pagina"
+            },
+            "created": "En ny Seguidores Pagina är skapad med id {{ param }}",
+            "updated": "En Seguidores Pagina är uppdaterad med id  {{ param }}",
+            "deleted": "En Seguidores Pagina är borttagen med id  {{ param }}",
+            "delete": {
+                "question": "Är du säker på att du vill ta bort Seguidores Pagina {{ id }}?"
+            },
+            "detail": {
+                "title": "Seguidores Pagina"
+            },
+            "status": "Status",
+            "pagina": "Pagina",
+            "user": "User"
+        }
+    }
+}

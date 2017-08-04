@@ -1,0 +1,10 @@
+{
+    "mylastpornApp": {
+        "Status" : {
+            "null": "",
+            "ACTIVE": "ACTIVE",
+            "INATIVE": "INATIVE",
+            "WHAIT": "WHAIT"
+        }
+    }
+}

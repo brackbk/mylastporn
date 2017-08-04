@@ -1,0 +1,26 @@
+{
+    "mylastpornApp": {
+        "favoritos" : {
+            "home": {
+                "title": "Favoritos",
+                "createLabel": "Lisa uus Favoritos",
+                "createOrEditLabel": "Lisa või muuda Favoritos",
+                "search": "Otsi Favoritos"
+            },
+            "created": "Uus Favoritos on loodud identifikaatoriga {{ param }}",
+            "updated": "Favoritos identifikaatoriga {{ param }} on muudetud",
+            "deleted": "Favoritos identifikaatoriga {{ param }} on kustutatud",
+            "delete": {
+                "question": "Kas olete kindel, et soovite kustutada Favoritos {{ id }}?"
+            },
+            "detail": {
+                "title": "Favoritos"
+            },
+            "idconteudo": "Idconteudo",
+            "datacriado": "Datacriado",
+            "user": "User",
+            "visibilidade": "Visibilidade",
+            "modulos": "Modulos"
+        }
+    }
+}

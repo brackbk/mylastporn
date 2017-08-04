@@ -1,0 +1,24 @@
+{
+    "mylastpornApp": {
+        "seguidoresPagina" : {
+            "home": {
+                "title": "Seguidores Paginas",
+                "createLabel": "Kreiraj novi Seguidores Pagina",
+                "createOrEditLabel": "Kreirajte ili izmenite Seguidores Pagina",
+                "search": "Potražite Seguidores Pagina"
+            },
+            "created": "Kreiran je novi Seguidores Pagina pod nazivom {{ param }}",
+            "updated": "Seguidores Pagina pod nazivom {{ param }} je ažuriran",
+            "deleted": "Seguidores Pagina pod nazivom {{ param }} je obrisan",
+            "delete": {
+                "question": "Da li ste sigurni da želite da obrišete Seguidores Pagina pod nazivom {{ id }}?"
+            },
+            "detail": {
+                "title": "Seguidores Pagina"
+            },
+            "status": "Status",
+            "pagina": "Pagina",
+            "user": "User"
+        }
+    }
+}

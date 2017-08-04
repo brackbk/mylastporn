@@ -1,0 +1,23 @@
+{
+    "mylastpornApp": {
+        "amigos" : {
+            "home": {
+                "title": "Amigos",
+                "createLabel": "Vytvořit Amigos",
+                "createOrEditLabel": "Vytvořit nebo upravit Amigos",
+                "search": "Vyhledat Amigos"
+            },
+            "created": "Byl vytvořen potomek entity Amigos s identifikátorem {{ param }}",
+            "updated": "Potomek entity Amigos s identifikátorem {{ param }} byl upravený.",
+            "deleted": "Potomek entity Amigos s identifikátorem {{ param }} bol smazaný.",
+            "delete": {
+                "question": "Jste si jisti, že chcete smazat Amigos {{ id }}?"
+            },
+            "detail": {
+                "title": "Amigos"
+            },
+            "status": "Status",
+            "user": "User"
+        }
+    }
+}

@@ -1,0 +1,22 @@
+{
+    "mylastpornApp": {
+        "tipoDenuncia" : {
+            "home": {
+                "title": "TipoDenuncias",
+                "createLabel": "Egy új Tipo Denuncia létrehozása",
+                "createOrEditLabel": "Hozzon létre, vagy módosítson Tipo Denunciat",
+                "search": "Tipo Denuncia keresése"
+            },
+            "created": "Egy új Tipo Denuncia lett létrehozva {{ param }} azonosítóval",
+            "updated": "A Tipo Denuncia módosítva lett {{ param }} azonosítóval",
+            "deleted": "A Tipo Denuncia törölve lett {{ param }} azonosítóval",
+            "delete": {
+                "question": "Biztos benne, hogy törölni szeretné az Tipo Denunciat {{ id }} azonosítóval?"
+            },
+            "detail": {
+                "title": "Tipo Denuncia"
+            },
+            "tipo": "Tipo"
+        }
+    }
+}

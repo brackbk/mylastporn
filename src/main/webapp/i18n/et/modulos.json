@@ -1,0 +1,25 @@
+{
+    "mylastpornApp": {
+        "modulos" : {
+            "home": {
+                "title": "Modulos",
+                "createLabel": "Lisa uus Modulos",
+                "createOrEditLabel": "Lisa või muuda Modulos",
+                "search": "Otsi Modulos"
+            },
+            "created": "Uus Modulos on loodud identifikaatoriga {{ param }}",
+            "updated": "Modulos identifikaatoriga {{ param }} on muudetud",
+            "deleted": "Modulos identifikaatoriga {{ param }} on kustutatud",
+            "delete": {
+                "question": "Kas olete kindel, et soovite kustutada Modulos {{ id }}?"
+            },
+            "detail": {
+                "title": "Modulos"
+            },
+            "nome": "Nome",
+            "caminho": "Caminho",
+            "status": "Status",
+            "datacriado": "Datacriado"
+        }
+    }
+}

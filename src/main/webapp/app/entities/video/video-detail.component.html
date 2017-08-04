@@ -1,0 +1,81 @@
+
+<div *ngIf="video">
+    <h2><span jhiTranslate="mylastpornApp.video.detail.title">Video</span> {{video.id}}</h2>
+    <hr>
+    <jhi-alert-error></jhi-alert-error>
+    <dl class="row-md jh-entity-details">
+        <dt><span jhiTranslate="mylastpornApp.video.titulo">Titulo</span></dt>
+        <dd>
+            <span>{{video.titulo}}</span>
+        </dd>
+        <dt><span jhiTranslate="mylastpornApp.video.descricao">Descricao</span></dt>
+        <dd>
+            <span>{{video.descricao}}</span>
+        </dd>
+        <dt><span jhiTranslate="mylastpornApp.video.gay">Gay</span></dt>
+        <dd>
+            <span>{{video.gay}}</span>
+        </dd>
+        <dt><span jhiTranslate="mylastpornApp.video.video">Video</span></dt>
+        <dd>
+            <span>{{video.video}}</span>
+        </dd>
+        <dt><span jhiTranslate="mylastpornApp.video.imagem">Imagem</span></dt>
+        <dd>
+            <span>{{video.imagem}}</span>
+        </dd>
+        <dt><span jhiTranslate="mylastpornApp.video.status">Status</span></dt>
+        <dd>
+            <span jhiTranslate="{{'mylastpornApp.Status.' + video.status}}">{{video.status}}</span>
+        </dd>
+        <dt><span jhiTranslate="mylastpornApp.video.visitado">Visitado</span></dt>
+        <dd>
+            <span>{{video.visitado}}</span>
+        </dd>
+        <dt><span jhiTranslate="mylastpornApp.video.datacriado">Datacriado</span></dt>
+        <dd>
+            <span>{{video.datacriado | date:'medium'}}</span>
+        </dd>
+        <dt><span jhiTranslate="mylastpornApp.video.user">User</span></dt>
+        <dd>
+            {{video.userId}}
+        </dd>
+        <dt><span jhiTranslate="mylastpornApp.video.tipo">Tipo</span></dt>
+        <dd>
+            <div *ngIf="video.tipoId">
+                <a [routerLink]="['/tipo', video.tipoId]">{{video.tipoNome}}</a>
+            </div>
+        </dd>
+        <dt><span jhiTranslate="mylastpornApp.video.visibilidade">Visibilidade</span></dt>
+        <dd>
+            <div *ngIf="video.visibilidadeId">
+                <a [routerLink]="['/visibilidade', video.visibilidadeId]">{{video.visibilidadeId}}</a>
+            </div>
+        </dd>
+        <dt><span jhiTranslate="mylastpornApp.video.tags">Tags</span></dt>
+        <dd>
+            <span *ngFor="let tags of video.tags; let last = last">
+                <a [routerLink]="['/tags', tags?.id ]">{{tags.nome}}</a>{{last ? '' : ', '}}
+            </span>
+        </dd>
+        <dt><span jhiTranslate="mylastpornApp.video.pagina">Pagina</span></dt>
+        <dd>
+            <span *ngFor="let pagina of video.paginas; let last = last">
+                <a [routerLink]="['/pagina', pagina?.id ]">{{pagina.id}}</a>{{last ? '' : ', '}}
+            </span>
+        </dd>
+    </dl>
+
+    <button type="submit"
+            (click)="previousState()"
+            class="btn btn-info">
+        <span class="fa fa-arrow-left"></span>&nbsp;<span jhiTranslate="entity.action.back"> Back</span>
+    </button>
+
+    <button type="button"
+            [routerLink]="['/', { outlets: { popup: 'video/'+ video.id + '/edit'} }]"
+            replaceUrl="true"
+            class="btn btn-primary">
+        <span class="fa fa-pencil"></span>&nbsp;<span jhiTranslate="entity.action.edit"> Edit</span>
+    </button>
+</div>

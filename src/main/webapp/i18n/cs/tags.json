@@ -1,0 +1,26 @@
+{
+    "mylastpornApp": {
+        "tags" : {
+            "home": {
+                "title": "Tags",
+                "createLabel": "Vytvořit Tags",
+                "createOrEditLabel": "Vytvořit nebo upravit Tags",
+                "search": "Vyhledat Tags"
+            },
+            "created": "Byl vytvořen potomek entity Tags s identifikátorem {{ param }}",
+            "updated": "Potomek entity Tags s identifikátorem {{ param }} byl upravený.",
+            "deleted": "Potomek entity Tags s identifikátorem {{ param }} bol smazaný.",
+            "delete": {
+                "question": "Jste si jisti, že chcete smazat Tags {{ id }}?"
+            },
+            "detail": {
+                "title": "Tags"
+            },
+            "nome": "Nome",
+            "imagem": "Imagem",
+            "status": "Status",
+            "visitado": "Visitado",
+            "datacriado": "Datacriado"
+        }
+    }
+}

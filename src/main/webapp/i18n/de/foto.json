@@ -1,0 +1,33 @@
+{
+    "mylastpornApp": {
+        "foto" : {
+            "home": {
+                "title": "Fotos",
+                "createLabel": "Foto erstellen",
+                "createOrEditLabel": "Foto erstellen oder bearbeiten",
+                "search": "Suche nach Foto"
+            },
+            "created": "Foto erstellt mit ID {{ param }}",
+            "updated": "Foto aktualisiert mit ID {{ param }}",
+            "deleted": "Foto gelöscht mit ID {{ param }}",
+            "delete": {
+                "question": "Soll Foto {{ id }} wirklich dauerhaft gelöscht werden?"
+            },
+            "detail": {
+                "title": "Foto"
+            },
+            "titulo": "Titulo",
+            "descricao": "Descricao",
+            "gay": "Gay",
+            "imagem": "Imagem",
+            "status": "Status",
+            "visitado": "Visitado",
+            "datacriado": "Datacriado",
+            "user": "User",
+            "tipo": "Tipo",
+            "visibilidade": "Visibilidade",
+            "tags": "Tags",
+            "pagina": "Pagina"
+        }
+    }
+}

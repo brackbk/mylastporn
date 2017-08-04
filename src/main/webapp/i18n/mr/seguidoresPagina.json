@@ -1,0 +1,24 @@
+{
+    "mylastpornApp": {
+        "seguidoresPagina" : {
+            "home": {
+                "title": "Seguidores Paginas",
+                "createLabel": "नवीन Seguidores Pagina तयार करा",
+                "createOrEditLabel": "Seguidores Pagina तयार किंवा संपादित करा",
+                "search": "Seguidores Pagina शोधा"
+            },
+            "created": "Seguidores Pagina [identifier: {{ param }}] तयार आहे",
+            "updated": "Seguidores Pagina [identifier: {{ param }}] सुधारित केले आहे",
+            "deleted": "Seguidores Pagina [identifier: {{ param }}] हटविले आहे",
+            "delete": {
+                "question": "Seguidores Pagina [id: {{ id }}] काढून टाकण्याबाबत पुष्टी?"
+            },
+            "detail": {
+                "title": "Seguidores Pagina"
+            },
+            "status": "Status",
+            "pagina": "Pagina",
+            "user": "User"
+        }
+    }
+}

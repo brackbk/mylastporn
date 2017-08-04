@@ -1,0 +1,26 @@
+{
+    "mylastpornApp": {
+        "tags" : {
+            "home": {
+                "title": "Tags",
+                "createLabel": "Tags を追加",
+                "createOrEditLabel": "Tagsを追加または編集",
+                "search": "Search for Tags"
+            },
+            "created": "A new Tags is created with identifier {{ param }}",
+            "updated": "A Tags is updated with identifier {{ param }}",
+            "deleted": "A Tags is deleted with identifier {{ param }}",
+            "delete": {
+                "question": "Tags {{ id }}を削除してもよろしいですか？"
+            },
+            "detail": {
+                "title": "Tags"
+            },
+            "nome": "Nome",
+            "imagem": "Imagem",
+            "status": "Status",
+            "visitado": "Visitado",
+            "datacriado": "Datacriado"
+        }
+    }
+}

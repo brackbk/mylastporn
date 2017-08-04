@@ -1,0 +1,22 @@
+{
+    "mylastpornApp": {
+        "visibilidade" : {
+            "home": {
+                "title": "Visibilidades",
+                "createLabel": "Lisa uus Visibilidade",
+                "createOrEditLabel": "Lisa või muuda Visibilidade",
+                "search": "Otsi Visibilidade"
+            },
+            "created": "Uus Visibilidade on loodud identifikaatoriga {{ param }}",
+            "updated": "Visibilidade identifikaatoriga {{ param }} on muudetud",
+            "deleted": "Visibilidade identifikaatoriga {{ param }} on kustutatud",
+            "delete": {
+                "question": "Kas olete kindel, et soovite kustutada Visibilidade {{ id }}?"
+            },
+            "detail": {
+                "title": "Visibilidade"
+            },
+            "nome": "Nome"
+        }
+    }
+}

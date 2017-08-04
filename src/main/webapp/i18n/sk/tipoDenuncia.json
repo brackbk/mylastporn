@@ -1,0 +1,22 @@
+{
+    "mylastpornApp": {
+        "tipoDenuncia" : {
+            "home": {
+                "title": "Tipo Denuncias",
+                "createLabel": "Pridať Tipo Denuncia",
+                "createOrEditLabel": "Pridať alebo upraviť Tipo Denuncia",
+                "search": "Vyhľadať Tipo Denuncia"
+            },
+            "created": "Bol vytvorený potomok entity Tipo Denuncia s identifikátorom {{ param }}",
+            "updated": "Potomok entity Tipo Denuncia s identifikátorom {{ param }} bol upravený.",
+            "deleted": "Potomok entity Tipo Denuncia s identifikátorom {{ param }} bol vymazaný.",
+            "delete": {
+                "question": "Ste si istý, že chcete vymazať Tipo Denuncia {{ id }}?"
+            },
+            "detail": {
+                "title": "Tipo Denuncia"
+            },
+            "tipo": "Tipo"
+        }
+    }
+}

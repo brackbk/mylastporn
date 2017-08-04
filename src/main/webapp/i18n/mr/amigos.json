@@ -1,0 +1,23 @@
+{
+    "mylastpornApp": {
+        "amigos" : {
+            "home": {
+                "title": "Amigos",
+                "createLabel": "नवीन Amigos तयार करा",
+                "createOrEditLabel": "Amigos तयार किंवा संपादित करा",
+                "search": "Amigos शोधा"
+            },
+            "created": "Amigos [identifier: {{ param }}] तयार आहे",
+            "updated": "Amigos [identifier: {{ param }}] सुधारित केले आहे",
+            "deleted": "Amigos [identifier: {{ param }}] हटविले आहे",
+            "delete": {
+                "question": "Amigos [id: {{ id }}] काढून टाकण्याबाबत पुष्टी?"
+            },
+            "detail": {
+                "title": "Amigos"
+            },
+            "status": "Status",
+            "user": "User"
+        }
+    }
+}

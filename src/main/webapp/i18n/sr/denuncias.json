@@ -1,0 +1,29 @@
+{
+    "mylastpornApp": {
+        "denuncias" : {
+            "home": {
+                "title": "Denuncias",
+                "createLabel": "Kreiraj novi Denuncias",
+                "createOrEditLabel": "Kreirajte ili izmenite Denuncias",
+                "search": "Potražite Denuncias"
+            },
+            "created": "Kreiran je novi Denuncias pod nazivom {{ param }}",
+            "updated": "Denuncias pod nazivom {{ param }} je ažuriran",
+            "deleted": "Denuncias pod nazivom {{ param }} je obrisan",
+            "delete": {
+                "question": "Da li ste sigurni da želite da obrišete Denuncias pod nazivom {{ id }}?"
+            },
+            "detail": {
+                "title": "Denuncias"
+            },
+            "idconteudo": "Idconteudo",
+            "titulo": "Titulo",
+            "descricao": "Descricao",
+            "status": "Status",
+            "email": "Email",
+            "user": "User",
+            "tipoDenuncia": "Tipo Denuncia",
+            "modulos": "Modulos"
+        }
+    }
+}

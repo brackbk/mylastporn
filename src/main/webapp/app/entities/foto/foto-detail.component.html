@@ -1,0 +1,77 @@
+
+<div *ngIf="foto">
+    <h2><span jhiTranslate="mylastpornApp.foto.detail.title">Foto</span> {{foto.id}}</h2>
+    <hr>
+    <jhi-alert-error></jhi-alert-error>
+    <dl class="row-md jh-entity-details">
+        <dt><span jhiTranslate="mylastpornApp.foto.titulo">Titulo</span></dt>
+        <dd>
+            <span>{{foto.titulo}}</span>
+        </dd>
+        <dt><span jhiTranslate="mylastpornApp.foto.descricao">Descricao</span></dt>
+        <dd>
+            <span>{{foto.descricao}}</span>
+        </dd>
+        <dt><span jhiTranslate="mylastpornApp.foto.gay">Gay</span></dt>
+        <dd>
+            <span>{{foto.gay}}</span>
+        </dd>
+        <dt><span jhiTranslate="mylastpornApp.foto.imagem">Imagem</span></dt>
+        <dd>
+            <span>{{foto.imagem}}</span>
+        </dd>
+        <dt><span jhiTranslate="mylastpornApp.foto.status">Status</span></dt>
+        <dd>
+            <span jhiTranslate="{{'mylastpornApp.Status.' + foto.status}}">{{foto.status}}</span>
+        </dd>
+        <dt><span jhiTranslate="mylastpornApp.foto.visitado">Visitado</span></dt>
+        <dd>
+            <span>{{foto.visitado}}</span>
+        </dd>
+        <dt><span jhiTranslate="mylastpornApp.foto.datacriado">Datacriado</span></dt>
+        <dd>
+            <span>{{foto.datacriado | date:'medium'}}</span>
+        </dd>
+        <dt><span jhiTranslate="mylastpornApp.foto.user">User</span></dt>
+        <dd>
+            {{foto.userId}}
+        </dd>
+        <dt><span jhiTranslate="mylastpornApp.foto.tipo">Tipo</span></dt>
+        <dd>
+            <div *ngIf="foto.tipoId">
+                <a [routerLink]="['/tipo', foto.tipoId]">{{foto.tipoNome}}</a>
+            </div>
+        </dd>
+        <dt><span jhiTranslate="mylastpornApp.foto.visibilidade">Visibilidade</span></dt>
+        <dd>
+            <div *ngIf="foto.visibilidadeId">
+                <a [routerLink]="['/visibilidade', foto.visibilidadeId]">{{foto.visibilidadeId}}</a>
+            </div>
+        </dd>
+        <dt><span jhiTranslate="mylastpornApp.foto.tags">Tags</span></dt>
+        <dd>
+            <span *ngFor="let tags of foto.tags; let last = last">
+                <a [routerLink]="['/tags', tags?.id ]">{{tags.nome}}</a>{{last ? '' : ', '}}
+            </span>
+        </dd>
+        <dt><span jhiTranslate="mylastpornApp.foto.pagina">Pagina</span></dt>
+        <dd>
+            <span *ngFor="let pagina of foto.paginas; let last = last">
+                <a [routerLink]="['/pagina', pagina?.id ]">{{pagina.id}}</a>{{last ? '' : ', '}}
+            </span>
+        </dd>
+    </dl>
+
+    <button type="submit"
+            (click)="previousState()"
+            class="btn btn-info">
+        <span class="fa fa-arrow-left"></span>&nbsp;<span jhiTranslate="entity.action.back"> Back</span>
+    </button>
+
+    <button type="button"
+            [routerLink]="['/', { outlets: { popup: 'foto/'+ foto.id + '/edit'} }]"
+            replaceUrl="true"
+            class="btn btn-primary">
+        <span class="fa fa-pencil"></span>&nbsp;<span jhiTranslate="entity.action.edit"> Edit</span>
+    </button>
+</div>

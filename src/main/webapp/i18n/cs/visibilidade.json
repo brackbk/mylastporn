@@ -1,0 +1,22 @@
+{
+    "mylastpornApp": {
+        "visibilidade" : {
+            "home": {
+                "title": "Visibilidades",
+                "createLabel": "Vytvořit Visibilidade",
+                "createOrEditLabel": "Vytvořit nebo upravit Visibilidade",
+                "search": "Vyhledat Visibilidade"
+            },
+            "created": "Byl vytvořen potomek entity Visibilidade s identifikátorem {{ param }}",
+            "updated": "Potomek entity Visibilidade s identifikátorem {{ param }} byl upravený.",
+            "deleted": "Potomek entity Visibilidade s identifikátorem {{ param }} bol smazaný.",
+            "delete": {
+                "question": "Jste si jisti, že chcete smazat Visibilidade {{ id }}?"
+            },
+            "detail": {
+                "title": "Visibilidade"
+            },
+            "nome": "Nome"
+        }
+    }
+}

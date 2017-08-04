@@ -1,0 +1,26 @@
+{
+    "mylastpornApp": {
+        "tags" : {
+            "home": {
+                "title": "Tags",
+                "createLabel": "Tags erstellen",
+                "createOrEditLabel": "Tags erstellen oder bearbeiten",
+                "search": "Suche nach Tags"
+            },
+            "created": "Tags erstellt mit ID {{ param }}",
+            "updated": "Tags aktualisiert mit ID {{ param }}",
+            "deleted": "Tags gelöscht mit ID {{ param }}",
+            "delete": {
+                "question": "Soll Tags {{ id }} wirklich dauerhaft gelöscht werden?"
+            },
+            "detail": {
+                "title": "Tags"
+            },
+            "nome": "Nome",
+            "imagem": "Imagem",
+            "status": "Status",
+            "visitado": "Visitado",
+            "datacriado": "Datacriado"
+        }
+    }
+}

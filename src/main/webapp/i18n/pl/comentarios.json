@@ -1,0 +1,29 @@
+{
+    "mylastpornApp": {
+        "comentarios" : {
+            "home": {
+                "title": "Comentarios",
+                "createLabel": "Dodaj Comentarios",
+                "createOrEditLabel": "Dodaj lub edytuj: Comentarios",
+                "search": "Szukaj Comentarios"
+            },
+            "created": "Utworzono nowy Comentarios z identyfikatorem {{ param }}",
+            "updated": "Uaktualniono Comentarios z identyfikatorem {{ param }}",
+            "deleted": "Usunięto Comentarios z identyfikatorem {{ param }}",
+            "delete": {
+                "question": "Czy na pewno chcesz usunąć Comentarios {{ id }}?"
+            },
+            "detail": {
+                "title": "Comentarios"
+            },
+            "idconteudo": "Idconteudo",
+            "titulo": "Titulo",
+            "comentario": "Comentario",
+            "datacriado": "Datacriado",
+            "status": "Status",
+            "user": "User",
+            "visibilidade": "Visibilidade",
+            "modulos": "Modulos"
+        }
+    }
+}

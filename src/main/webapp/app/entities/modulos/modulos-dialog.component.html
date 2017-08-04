@@ -1,0 +1,72 @@
+<form name="editForm" role="form" novalidate (ngSubmit)="save()" #editForm="ngForm">
+
+    <div class="modal-header">
+        <h4 class="modal-title" id="myModulosLabel" jhiTranslate="mylastpornApp.modulos.home.createOrEditLabel">Create or edit a Modulos</h4>
+        <button type="button" class="close" data-dismiss="modal" aria-hidden="true"
+                (click)="clear()">&times;</button>
+    </div>
+    <div class="modal-body">
+        <jhi-alert-error></jhi-alert-error>
+        <div class="form-group" [hidden]="!modulos.id">
+            <label for="id" jhiTranslate="global.field.id">ID</label>
+            <input type="text" class="form-control" id="id" name="id"
+                   [(ngModel)]="modulos.id" readonly />
+        </div>
+        <div class="form-group">
+            <label class="form-control-label" jhiTranslate="mylastpornApp.modulos.nome" for="field_nome">Nome</label>
+            <input type="text" class="form-control" name="nome" id="field_nome"
+                [(ngModel)]="modulos.nome" required />
+            <div [hidden]="!(editForm.controls.nome?.dirty && editForm.controls.nome?.invalid)">
+                <small class="form-text text-danger"
+                   [hidden]="!editForm.controls.nome?.errors?.required" jhiTranslate="entity.validation.required">
+                   This field is required.
+                </small>
+            </div>
+        </div>
+        <div class="form-group">
+            <label class="form-control-label" jhiTranslate="mylastpornApp.modulos.caminho" for="field_caminho">Caminho</label>
+            <input type="text" class="form-control" name="caminho" id="field_caminho"
+                [(ngModel)]="modulos.caminho" required />
+            <div [hidden]="!(editForm.controls.caminho?.dirty && editForm.controls.caminho?.invalid)">
+                <small class="form-text text-danger"
+                   [hidden]="!editForm.controls.caminho?.errors?.required" jhiTranslate="entity.validation.required">
+                   This field is required.
+                </small>
+            </div>
+        </div>
+        <div class="form-group">
+            <label class="form-control-label" jhiTranslate="mylastpornApp.modulos.status" for="field_status">Status</label>
+            <select class="form-control" name="status" [(ngModel)]="modulos.status" id="field_status" >
+                <option value="ACTIVE" jhiTranslate="mylastpornApp.Status.ACTIVE">ACTIVE</option>
+                <option value="INATIVE" jhiTranslate="mylastpornApp.Status.INATIVE">INATIVE</option>
+                <option value="WHAIT" jhiTranslate="mylastpornApp.Status.WHAIT">WHAIT</option>
+            </select>
+        </div>
+        <div class="form-group">
+            <label class="form-control-label" jhiTranslate="mylastpornApp.modulos.datacriado" for="field_datacriado">Datacriado</label>
+            <div class="d-flex">
+                <input id="field_datacriado" type="datetime-local" class="form-control" name="datacriado" [(ngModel)]="modulos.datacriado"
+                required  />
+            </div>
+            <div [hidden]="!(editForm.controls.datacriado?.dirty && editForm.controls.datacriado?.invalid)">
+                <small class="form-text text-danger"
+                   [hidden]="!editForm.controls.datacriado?.errors?.required" jhiTranslate="entity.validation.required">
+                   This field is required.
+                </small>
+                <small class="form-text text-danger"
+                    [hidden]="!editForm.controls.datacriado?.errors?.ZonedDateTimelocal" jhiTranslate="entity.validation.ZonedDateTimelocal">
+                    This field should be a date and time.
+                </small>
+            </div>
+        </div>
+
+    </div>
+    <div class="modal-footer">
+        <button type="button" class="btn btn-default" data-dismiss="modal" (click)="clear()">
+            <span class="fa fa-ban"></span>&nbsp;<span jhiTranslate="entity.action.cancel">Cancel</span>
+        </button>
+        <button type="submit" [disabled]="editForm.form.invalid || isSaving" class="btn btn-primary">
+            <span class="fa fa-save"></span>&nbsp;<span jhiTranslate="entity.action.save">Save</span>
+        </button>
+    </div>
+</form>

@@ -1,0 +1,22 @@
+{
+    "mylastpornApp": {
+        "tipoDenuncia" : {
+            "home": {
+                "title": "TipoDenuncias",
+                "createLabel": "Tipo Denuncia を追加",
+                "createOrEditLabel": "Tipo Denunciaを追加または編集",
+                "search": "Search for Tipo Denuncia"
+            },
+            "created": "A new Tipo Denuncia is created with identifier {{ param }}",
+            "updated": "A Tipo Denuncia is updated with identifier {{ param }}",
+            "deleted": "A Tipo Denuncia is deleted with identifier {{ param }}",
+            "delete": {
+                "question": "Tipo Denuncia {{ id }}を削除してもよろしいですか？"
+            },
+            "detail": {
+                "title": "Tipo Denuncia"
+            },
+            "tipo": "Tipo"
+        }
+    }
+}

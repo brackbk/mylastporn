@@ -1,0 +1,29 @@
+{
+    "mylastpornApp": {
+        "denuncias" : {
+            "home": {
+                "title": "Denuncias",
+                "createLabel": "नवीन Denuncias तयार करा",
+                "createOrEditLabel": "Denuncias तयार किंवा संपादित करा",
+                "search": "Denuncias शोधा"
+            },
+            "created": "Denuncias [identifier: {{ param }}] तयार आहे",
+            "updated": "Denuncias [identifier: {{ param }}] सुधारित केले आहे",
+            "deleted": "Denuncias [identifier: {{ param }}] हटविले आहे",
+            "delete": {
+                "question": "Denuncias [id: {{ id }}] काढून टाकण्याबाबत पुष्टी?"
+            },
+            "detail": {
+                "title": "Denuncias"
+            },
+            "idconteudo": "Idconteudo",
+            "titulo": "Titulo",
+            "descricao": "Descricao",
+            "status": "Status",
+            "email": "Email",
+            "user": "User",
+            "tipoDenuncia": "Tipo Denuncia",
+            "modulos": "Modulos"
+        }
+    }
+}

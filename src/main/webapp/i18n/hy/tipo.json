@@ -1,0 +1,25 @@
+{
+    "mylastpornApp": {
+        "tipo" : {
+            "home": {
+                "title": "Tipos",
+                "createLabel": "Ստեղծել նոր Tipo",
+                "createOrEditLabel": "Ստեղծել կամ փոփոխել Tipo",
+                "search": "Գտնել Tipo"
+            },
+            "created": "Նոր Tipo ստեղծված է {{ param }} նունացուցիչով",
+            "updated": "Tipo թարմացվաց է {{ param }} նունացուցիչով",
+            "deleted": "Tipo հեռացված է {{ param }}  նունացուցիչով",
+            "delete": {
+                "question": "Դուք վստահ ե՞ք, որ ցանկանում եք հեռացնել Tipo {{ id }}?"
+            },
+            "detail": {
+                "title": "Tipo"
+            },
+            "nome": "Nome",
+            "status": "Status",
+            "datacriado": "Datacriado",
+            "modulos": "Modulos"
+        }
+    }
+}
